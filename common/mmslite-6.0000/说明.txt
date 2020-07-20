@@ -1,0 +1,9 @@
+mmslite库支持win32、centos64、redhat64、debian32，编译工程在：
+  win32 :mmslite-6.0000\cmd\win32           生成的库文件目录:mmslite-6.0000\win32lib
+  centos:mmslite-6.0000\cmd\gnu_centos      生成的库文件目录:mmslite-6.0000\lib_centos
+  redhat:mmslite-6.0000\cmd\gnu_redhat      生成的库文件目录:mmslite-6.0000\lib_redhat
+  debian:mmslite-6.0000\cmd\gnu_debian      生成的库文件目录:mmslite-6.0000\lib_debian
+
+mmslite-6.0000\lib 为可变目录，编译linux程序时可创建软链指向实际的平台库目录，如：
+redhat: ln -s mmslite-6.0000\lib_redhat mmslite-6.0000\lib
+centos: ln -s mmslite-6.0000\lib_centos mmslite-6.0000\lib

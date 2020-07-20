@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ssnmp.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libsnmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\address.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\asn1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\auth_priv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\collect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\config_snmp_pp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\counter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\ctr64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\eventlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\eventlistholder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\gauge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\idea.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\integer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\IPv6Utility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\mp_v3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\msec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\msgqueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\notifyqueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\octet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\oid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\oid_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\pdu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\reentrant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\sha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\smi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\smival.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\snmp_pp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\snmperrs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\snmpmsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\target.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\timetick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\usm_v3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\uxsnmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\v3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\snmp_pp\vb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SSnmpClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\address.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\asn1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\auth_priv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\counter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ctr64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eventlist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eventlistholder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gauge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\idea.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\integer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IPv6Utility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\md5c.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mp_v3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\msec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\msgqueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\notifyqueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\octet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reentrant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sha.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\snmpmsg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\target.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timetick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\usm_v3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uxsnmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\v3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SSnmpClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ssnmp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

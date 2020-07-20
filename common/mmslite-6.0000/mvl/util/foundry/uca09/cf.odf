@@ -1,0 +1,66 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+
+#############################################################
+#The following is from Section 6.7 of GOMSFE 0.7
+#############################################################
+
+
+#
+#%%What is the type of MXLOC                        m/o
+":T","ACF",
+   "{
+    (s)                     <FLT32>,                #o
+    (o)                     <FLT32>,                #o
+    (u)                     <ENUM16>,               #o
+    (db)                    <INT16U>,               #o
+    (min)                   <FLT32>,                #o
+    (max)                   <FLT32>,                #o
+    (Incr)                  <FLT32>,                #o
+    (MxTyp)                 <ENUM8>,                #o
+    (MxRef)                 <ENUM8>,                #o
+    (MxLoc)                 <ENUM8>,                #o
+    (SmpRate)               <INT16U>,               #o
+    (NumSmp)                <INT16U>,               #o
+    (pp)                    <BOOL>                 #o
+    }","AnalogConfiguration"
+
+
+#                                                   m/o
+":T","CCF",
+   "{
+    (OnDur)                 <INT32U>,               #o
+    (OffDur)                <INT32U>               #o
+    }","ControlConfiguration"
+
+
+#                                                   m/o
+":T","AcsBLOB",
+   "{
+    (BLOB)                  <VSTR64>,                 #m
+    (State)                 <BOOL>,                 #o
+    (TimOut)                <INT32U>,               #o
+    (Fmt)                   <ENUM8>                #o
+    }","AcsBLOBDataObjectClass"
+
+
+#
+":T","SBOCF",
+   "{
+    (SBOState)              <BOOL>,                 #o
+    (TimOut)                <INT32U>,               #o
+    (SBOClass)              <ENUM8>                 #o
+    }","SBOConfiguration"
+
+
+#
+":T","RATIO",
+   "{
+    (Prif)                  <FLT32>,                #o
+    (Secf)                  <FLT32>,                #o
+    (Ratiof)                <FLT32>                #o
+    }","RatioConfiguration"

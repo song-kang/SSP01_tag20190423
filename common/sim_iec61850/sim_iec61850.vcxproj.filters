@@ -1,0 +1,1018 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{aba57ffd-f693-45f0-bea0-f7f9082cdf2c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ffba2fab-f7ca-483b-908a-6f0d47d13b45}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_iec61850.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sim_iec61850.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sim_iec61850.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_sim_iec61850.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view_home.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_view_home.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_view_home.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="view_sclimport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_view_sclimport.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_view_sclimport.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="view_scl_edit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_view_scl_edit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_view_scl_edit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_sim_root.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_sim_root.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_sim_root.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_new_net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_new_net.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_new_net.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_new_smvout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_new_smvout.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_new_smvout.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MUSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_new_gseout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_new_gseout.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_new_gseout.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GooseSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view_visual_ap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_view_visual_ap.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_view_visual_ap.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GuiApplication.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GuiApplication.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PcapFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msgreplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_msgreplay.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_msgreplay.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_sim_mmssvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_sim_mmssvr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_sim_mmssvr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SimMmsServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_sim_param_set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_sim_param_set.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_sim_param_set.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_set_voltage_current.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_set_voltage_current.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_set_voltage_current.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_mmsserver_add_ied.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_mmsserver_add_ied.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_mmsserver_add_ied.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_sim_modify_dataset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_sim_modify_dataset.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_sim_modify_dataset.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_ntp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_ntp_client.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_ntp_client.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SICMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_sim_icmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_sim_icmp.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_sim_icmp.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_sim_tcp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_sim_tcp_client.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_sim_tcp_client.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_sim_tcp_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_sim_tcp_server.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_sim_tcp_server.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ArpManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_sim_arp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_sim_arp.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_sim_arp.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_sim_tcp_recv_handle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_sim_tcp_recv_handle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_sim_tcp_recv_handle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_sim_udp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_sim_udp.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_sim_udp.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_sim_net_storm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panel_sim_net_storm.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panel_sim_net_storm.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SScriptParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="highlighter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_highlighter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_highlighter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_fcda_filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dlg_fcda_filter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dlg_fcda_filter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigFileMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="sim_iec61850.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sim_iec61850.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sim_iec61850.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sim_config.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="view_home.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="view_home.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="view_sclimport.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="view_sclimport.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="view_scl_edit.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="view_scl_edit.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_root.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_root.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_new_net.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_new_net.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_new_smvout.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_new_smvout.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_new_gseout.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_new_gseout.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="view_visual_ap.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="view_visual_ap.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GuiApplication.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="msgreplay.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="msgreplay.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SimMmsServer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_mmssvr.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_mmssvr.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_para_set.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_param_set.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_set_voltage_current.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_set_voltage_current.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_add_info_common.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_mmsserver_add_ied.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_modify_dataset.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_ntp_client.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_ntp_client.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_icmp.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_icmp.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_tcp_client.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_tcp_client.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_tcp_server.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_tcp_server.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_arp.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_arp.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_udp.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_tcp_recv_sock.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_tcp_recv_handle.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_udp.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_storm.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panel_sim_net_storm.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="highlighter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_fcda_filter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dlg_fcda_filter.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_sim_iec61850.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_view_home.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_view_sclimport.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_view_scl_edit.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panel_sim_root.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlg_new_net.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlg_new_smvout.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MUSimulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sim_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlg_new_gseout.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GooseSimulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_view_visual_ap.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PcapFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_msgreplay.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panel_sim_mmssvr.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panel_sim_para_set.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlg_set_voltage_current.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlg_add_info_common.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panel_sim_ntp_client.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SICMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panel_sim_icmp.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panel_sim_tcp_client.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panel_sim_tcp_server.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArpManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panel_sim_arp.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panel_sim_udp.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panel_sim_tcp_recv_sock.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_panel_sim_storm.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SScriptParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dlg_fcda_filter.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigFileMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimComm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20070402165924420.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165925152.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165925169.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165925182.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165925590.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165926456.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165927162.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165927574.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165928977.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165929236.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165931180.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165933688.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165933835.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\20070402165933865.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\about.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\about_uk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\about_wiscom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\adinfo.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\bag.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\BINOCULR.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\BOOK02.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\bottom.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\button_sel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\casic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\casic_32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\casic_64.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\cfg.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\chart.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\chn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\clock.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CLOCK02.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CLOCK03.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CLOCK04.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CLSDFOLD.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\del.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\device.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\down.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DRIVE.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\earth.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\export.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\export2.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\fault.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\fault.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\FONT02.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\fullscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\gray_status.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\green_status.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\HAMMER.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\help.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\home.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\hujiaozhuanyi.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\INFO.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\jianping.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\KEY04.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\light.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\load.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\load_one.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\logo.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\MAC03.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\menu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\menu_body.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\menu_bottom.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\menu_l1_close.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\menu_l1_open.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\menu_l2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\menu_l2_act.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\menu_top.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\MONITR01.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\more.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\MSGBOX01.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\MSGBOX02.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\MSGBOX03.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\MSGBOX04.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\MYCOMP.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\NET01.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\NET08.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\NOTE06.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\NOTE13.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\open_16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\OPENFOLD.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\pause.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\pc.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\PENCIL01.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\PENCIL05.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\pic.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\POINT02.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\POINT03.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\POINT04.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\POINT05.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\preview.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\preview.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\print.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\print.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\print_range.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\red_status.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\run.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\save.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\search.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SECUR08.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\setup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SINEWAVE.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\switch.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\timer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\TIMER01.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\top.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\top_full.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\top_nomenu.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\top_nomenu_uk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\top_nomenu_wiscom.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\top_right.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\top_uk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\top_wiscom.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\TRASH01.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\TRASH02A.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\TRASH02B.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\uklogo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\uklogo2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\uklogo_cfg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\up.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\user1.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\user2.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\view_angle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\view_angle_diff.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\view_harm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\view_inst.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\view_point.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\view_power.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\view_pri_rms.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\view_rms.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\view_vector.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\W95MBX01.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\WATCH01.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\y_axis_max.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\y_axis_more_rating.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\y_axis_rating.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\zoom.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\zoom_xfull.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\zoom_xin.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\zoom_xout.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\zoom_yin.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\zoom_yout.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sim_iec61850.rc" />
+  </ItemGroup>
+</Project>

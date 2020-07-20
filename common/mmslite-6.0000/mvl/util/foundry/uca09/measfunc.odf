@@ -1,0 +1,130 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+":CI", "mx.odf"
+":CI", "st.odf"
+":CI", "sp.odf"
+":CI", "co.odf"
+":CI", "cf.odf"
+":CI", "cb.odf"
+":CI", "ax.odf"
+":CI", "dc.odf"
+
+#############################################################
+#The following is from Section 7.4 of GOMSFE 0.7
+#############################################################
+
+
+
+
+#
+":T","MMXU",
+   "{
+    (MX) {
+         (V)                <WYE>,                  #o
+         (PPV)              <DELTA>,                #o
+         (A)                <WYE>,                  #o
+         (W)                <WYE>,                  #o
+         (TotW)             <AI>,                   #o
+         (VAr)              <WYE>,                  #o
+         (TotVAr)           <AI>,                   #o
+         (VA)               <WYE>,                  #o
+         (TotVA)            <AI>,                   #o
+         (PF)               <WYE>,                  #o
+         (AvgPF)            <AI>,                   #o
+         (Ang)              <WYE>,                  #o
+         (Hz)               <AI>,                   #o
+         (FltMagA)          <WYE>                  #o
+         },
+    (CF) {
+         (V)                <ACF>,                  #o
+         (PPV)              <ACF>,                #o
+         (A)                <ACF>,                  #o
+         (W)                <ACF>,                  #o
+         (TotW)             <ACF>,                   #o
+         (VAr)              <ACF>,                  #o
+         (TotVAr)           <ACF>,                   #o
+         (VA)               <ACF>,                  #o
+         (TotVA)            <ACF>,                   #o
+         (PF)               <ACF>,                  #o
+         (AvgPF)            <ACF>,                   #o
+         (Ang)              <ACF>,                  #o
+         (Hz)               <ACF>,                   #o
+         (FltMagA)          <ACF>                  #o
+         },
+    (DC) {
+         (V)                <d>,                  #o
+         (PPV)              <d>,                #o
+         (A)                <d>,                  #o
+         (W)                <d>,                  #o
+         (TotW)             <d>,                   #o
+         (VAr)              <d>,                  #o
+         (TotVAr)           <d>,                   #o
+         (VA)               <d>,                  #o
+         (TotVA)            <d>,                   #o
+         (PF)               <d>,                  #o
+         (AvgPF)            <d>,                   #o
+         (Ang)              <d>,                  #o
+         (Hz)               <d>,                   #o
+         (FltMagA)          <d>                  #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>               #m
+         },
+#    (AS) {
+#         (LogDev<n>)        <TBD>,                  #o
+#         },
+    }","PolyphaseMeasurementUnit"
+
+
+#
+":T","MMTR",
+   "{
+    (MX) {
+         (WHr)              <WYE>,                  #o
+         (TotWHr)           <AI>,                   #o
+         (VArHr)            <WYE>,                  #o
+         (TotVArHr)         <AI>                   #o
+         },
+    (CF) {
+         (WHr)              <ACF>,                  #o
+         (TotWHr)           <ACF>,                   #o
+         (VArHr)            <ACF>,                  #o
+         (TotVArHr)         <ACF>                   #o
+         },
+    (DC) {
+         (WHr)              <d>,                  #o
+         (TotWHr)           <d>,                   #o
+         (VArHr)            <d>,                  #o
+         (TotVArHr)         <d>                   #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>,               #o
+         },
+#    (AS) {
+#         (LogDev<n>)        <TBD>,                  #o
+#         },
+    }","PolyphaseMeterUnit"
+
+#
+":T","TEMP",
+   "{
+    (MX) {
+         (T)                <AI>,                   #o
+         (PolyT)            <WYE>                  #o
+         },
+    (CF) {
+         (T)                <ACF>,                   #o
+         (PolyT)            <ACF>                  #o
+         },
+    (DC) {
+         (T)                <d>,                   #o
+         (PolyT)            <d>                  #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>,               #m
+         },
+    }","TemeratureMeasurementUnit"

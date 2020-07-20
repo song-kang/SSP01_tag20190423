@@ -1,0 +1,4 @@
+1）本目录中.lib文件为VC2010静态库
+2）linux目录.a文件为Debian6下的静态库
+3）linux-arm为ARM处理器下LINUX平台的静态库
+4）linux-centos为CentOS-64位系统下的64位静态库

@@ -1,0 +1,36 @@
+CC = g++
+
+CC_INCLUDES = -I./ -I/usr/include -I/usr/include/mysql -I/usr/local/include -I../../sbase/include  -I../../sbase/include/comm  -I../../sbase/include/db
+CC_PLUS      =  
+CC_PLUS2       = 
+CC_FLAGS    = $(CC_INCLUDES) -pipe -w -O3 -pipe $(CC_PLUS)
+CC_FLAGS_D  = $(CC_INCLUDES) -pipe -Wall -O2 -g -pipe $(CC_PLUS)
+CC_COMPLIE  = $(CC_INCLUDES) $(CC_FLAGS) $<
+CC_COMPLIE_D= $(CC_INCLUDES) $(CC_FLAGS_D) $<
+CC_LINK     = -L/usr/lib/ -L/usr/local/lib/ -L/mnt/hgfs/skt/src/Software_Platform/trunk/sbase/lib/linux/ -lpthread -lm -lrt -ldl -lpthread -lsbased
+
+CC_TARGET   = sys_unit_agent
+INSTALL_PATH= ../../bin
+
+RM = rm -rf
+LN = ln
+CP = cp -f
+
+SRCS =  *.cpp ../sp_common/sp_config_mgr.cpp ../sp_common/sp_log_config.cpp ../sp_common/sp_mcast_founder.cpp ../sp_common/sp_unit_checkself.cpp ../sp_common/sp_unit_config.cpp
+OBJS =  *.o
+
+all:
+		$(CC) -c $(SRCS) $(CC_COMPLIE)
+		$(CC) -o $(CC_TARGET) -g $(OBJS) $(CC_LINK)
+
+debug:
+		$(CC) -c $(SRCS) $(CC_COMPLIE_D)
+		$(CC) -o $(CC_TARGET) -g $(OBJS) $(CC_LINK)
+
+clean:
+		$(RM) *.o
+		$(RM) *.d
+		$(RM) $(CC_TARGET)
+
+install:
+		$(CP) $(CC_TARGET) $(INSTALL_PATH)/$(CC_TARGET)

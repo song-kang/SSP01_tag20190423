@@ -1,0 +1,30 @@
+#############################################################
+#Copyright 1998-2003, Systems Integration Specialists Company, Inc.
+#		All Rights Reserved
+#############################################################
+# 03/05/08  JRB  Add RTYP_OBJREF for IEC 61850 ObjectReference (129 char)
+# 12/17/03  JRB  For 61850-8-1 FDIS, chg RTYP_BVSTR9 to RTYP_BVSTR10,
+#		 add RTYP_BSTR9 for client.
+# 10/09/03  JRB  Add RTYP_INT32U for IntgPd.
+# 03/13/03  JRB  Overhaul. Use RTYP_ prefix for all RPT related types.
+
+#NOTE: These types are used directly in reporting code, and also in
+#      other ODF files to define Report Control Blocks (RCBs).
+#      It is CRITICAL that the same type is used in both places.
+":TKU",	"RTYP_BOOL",	"<BOOL>",	"UCAreporttypes"
+":TKU",	"RTYP_BTIME6",	"<BTIME6>",	"UCAreporttypes"
+":TKU",	"RTYP_BSTR6",	"Bstring6",	"UCAreporttypes"
+":TKU",	"RTYP_BSTR8",	"Bstring8",	"UCAreporttypes"
+":TKU",	"RTYP_BSTR9",	"Bstring9",	"Client needs for writing OptFlds"
+":TKU",	"RTYP_BVSTR6",	"Bvstring6",	"UCAreporttypes"
+":TKU",	"RTYP_BVSTR8",	"Bvstring8",	"UCAreporttypes"
+":TKU",	"RTYP_BVSTR10",	"Bvstring10",	"UCAreporttypes"
+":TKU",	"RTYP_INT8U",	"<INT8U>",	"UCAreporttypes"
+":TKU",	"RTYP_INT16U",	"<INT16U>",	"UCAreporttypes"
+":TKU",	"RTYP_OSTR8",	"Ostring8",	"UCAreporttypes"
+":TKU",	"RTYP_VSTR32",	"<VSTR32>",	"UCAreporttypes"
+":TKU",	"RTYP_VSTR65",	"<VSTR65>",	"UCAreporttypes"
+":TKU",	"RTYP_OBJREF",	"Vstring129",	"UCAreporttypes"
+
+#NOTE: Client needs this for IntgPd.
+":TKU",	"RTYP_INT32U",	"<INT32U>",	"UCAreporttypes"

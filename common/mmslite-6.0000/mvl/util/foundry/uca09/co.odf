@@ -1,0 +1,37 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+
+#############################################################
+#The following is from Section 5.6 of GOMSFE
+#############################################################
+
+
+#                                                   m/o
+":TB","BO",
+   "{
+    (b1)                  <BSTR1>,                #m
+    (SBO)                   <IDENT>                #o
+    }","BinaryOutput"
+
+
+#                                                   m/o
+":TB","DCO",
+   "{
+    (OperDev)               <B2>,                   #o
+    (SBO)                   <IDENT>                #o
+    }","DoubleControlOutput"
+
+
+#                                                   m/o
+":TB","PDCO",
+   "{
+    (OperDev)               <B2>,                   #o
+    (numPls)		    <INT16U>,		   #o
+    (OnDur)		    <INT16U>,		   #o
+    (OffDur)		    <INT16U>,		   #o
+    (SBO)                   <IDENT>                #o
+    }","PulsedDoubleControlOutput"

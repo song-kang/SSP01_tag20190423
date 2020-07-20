@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>view_common</class>
+ <widget class="QWidget" name="view_common">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>484</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>view_common</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>5</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>5</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>新增(&amp;A)</string>
+          </property>
+          <property name="icon">
+           <iconset resource="ssp_gui.qrc">
+            <normaloff>:/ssp_gui/Resources/20070402165925169.gif</normaloff>:/ssp_gui/Resources/20070402165925169.gif</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="text">
+           <string>删除(&amp;D)</string>
+          </property>
+          <property name="icon">
+           <iconset resource="ssp_gui.qrc">
+            <normaloff>:/ssp_gui/Resources/del.gif</normaloff>:/ssp_gui/Resources/del.gif</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="text">
+           <string>保存(&amp;S)</string>
+          </property>
+          <property name="icon">
+           <iconset resource="ssp_gui.qrc">
+            <normaloff>:/ssp_gui/Resources/save.gif</normaloff>:/ssp_gui/Resources/save.gif</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="text">
+           <string>打印(&amp;P)</string>
+          </property>
+          <property name="icon">
+           <iconset resource="ssp_gui.qrc">
+            <normaloff>:/ssp_gui/Resources/print.gif</normaloff>:/ssp_gui/Resources/print.gif</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="text">
+           <string>导出(&amp;O)</string>
+          </property>
+          <property name="icon">
+           <iconset resource="ssp_gui.qrc">
+            <normaloff>:/ssp_gui/Resources/export2.gif</normaloff>:/ssp_gui/Resources/export2.gif</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>116</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="mTableWidget" name="tableWidget"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>mTableWidget</class>
+   <extends>QTableWidget</extends>
+   <header>mtablewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="ssp_gui.qrc"/>
+ </resources>
+ <connections/>
+</ui>

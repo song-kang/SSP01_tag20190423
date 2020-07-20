@@ -1,0 +1,435 @@
+# REVISIONS
+# 03/27/08  JRB  Del unneeded path "../../../mvl/util/foundry/uca09"
+# 07/22/05  JRB  Add phv_type, phsx_type used by cli_goose.c
+# 08/10/04  EJV  Chg "UTF8VSTRING13" from ":T" to ":TK".
+# 11/24/03  JRB  Add ":CF", ":TV" to avoid unnecessary type definitions.
+# 10/09/03  JRB  Add types for dealing with IEC/UCA Reports. Add "client.h".
+##########################################################################
+# MMS OBJECT CONFIGURATION FILE
+# This file is used as input to the 'foundry' utility application.
+# It is used to create the following objects for use with MMS-LITE:
+#	Types
+#	Domains
+#	Named Variables
+#	Named Variable Lists
+#
+# Note: All objects except for the types can also be created 
+#       by user code at initialization time. The creation of the
+#	Domains, Variables, and Variable Lists via this utility
+#	is for convenience only.
+#
+# Lines beginning with pound-signs are comments and are ignored.
+# The general format of object definitions in this file is described 
+# below. All object definition information is supplied in quotes, and
+# can span multiple lines if desired. A object definition string is of 
+# the form :
+#
+#   "{objectType}","Object Specific String1", "String2", ...
+#
+# Where the objectType field is used to specify the object and some of 
+# it's optional attributes. The format of the 'objectType' field is as 
+# follows -
+#
+# 	":X{flags}"
+#
+# Where X is one of the set {I,T,D,V,L}, and the set of valid flag
+# characters depends on the object type.
+#
+# 	C == Control string
+# 	  Flags  
+# 	    C : Config, next string is alignment file to use
+# 	    P : Path, next string is include path for ODF files
+# 	    F : Flags, next string contains flags to set defaults
+#		":VD"
+#		":VP"
+#		":TU"
+#		":TT"
+#		":TV"
+#		"-notypedefs"
+#		"-nosuffix"
+# 	    U : UCA control, next string contains UCA control info
+#		"MVL_UCA"
+#		"MVLU_USE_REF"
+#
+# 	I == User specified include file, for user object definitions
+# 	  Flags  
+#           None
+#
+# 	T == Type
+# 	  Flags  
+# 	    U : Unique, do not 'twin' this type
+# 	    T : Transient type, do not keep
+# 	    V : Keep only if referenced by a variable
+# 	    K : Keep this type unconditionally
+#
+# 	D == Domain
+# 	  Flags  
+#           None
+#
+# 	V == Named Variable
+# 	  Flags  
+#           D : Use 3rd string to set data pointer
+#           P : Use 4th (3rd for no D) string to set processing fun
+#           U : Use 5th (4rd for no D, 3rd for no P) string to set usr_info
+#
+# 	L == Named Variable List
+# 	  Flags  
+#           U : Use 5th (4rd for no D, 3rd for no P) string to set usr_info
+#          String ":S" : End of list of variables
+#
+# 	N == UCA Model Name Generation 
+# 	  Flags  
+#           None
+#
+##########################################################################
+# EXECUTION CONTROL
+#
+# Include path, used to locate included ODF files
+":CP", "../../mvl/util/foundry/uca09"
+
+# Set type handling default flags for all following types
+":CF", ":TV"		# Delete Runtime types not used by variables
+
+# Include SISCO UCA Object Definition Files
+":FS","gentypes.odf"
+#############################################################
+#Copyright 1998-2003, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+# 11/08/06  JRB  Fix USERST len.
+# 08/23/04  JRB  Fix BOOLEAN definition.
+# 05/13/04  JRB  Fix INT16U definition.
+# 10/08/03  RKR  Added types from chapter 8
+                 61850-8-1_CDV_R1-06_To-IEC-CO_2002-11-22.doc
+# 03/13/03  JRB  Reverse last chg. Use new types in "rpt.odf" instead.
+# 12/16/02  JRB  Chg types needed for Rpts to ":TK". Add "VBSTR5", "OSTR8".
+
+# IEC-61850-8-1: section 8.1.1 Basic data attribute types
+
+":T","BOOLEAN"		"Bool",		"0 or 1"
+":T","INT8"		"Byte",		"-128 to 127"
+":T","INT16"		"Short",	"-32,768 to 32,767"
+":T","INT32"		"Long",		"-2,147,483,648 to 2,147,483,647"
+":T","INT128"		"Long",		"-2**127 to (2**127)-1 Good luck"
+":T","INT8U"		"Ubyte",   	"0 to 255"
+":T","INT16U"		"Ushort",   	"0 to 65,535"
+":T","INT32U"		"Ulong",   	"0 to 4,294,967,295"
+":T","FLOAT32"		"Float",   	"Range of values IEEE 754 single"
+":T","FLOAT64"		"Double",   	"Range of values IEEE 754 double"
+":T","ENUMERATED8",     "Byte",         "signed enumeration8-bits"
+":T","ENUMERATED16",    "Short",        "signed enumeration16-bits"
+":T","OCTET_STRING8",   "OVstring8",    "Maximum 8 Octets"
+":T","OCTET_STRING64",  "OVstring64",   "Maximum 64 Octets"
+":T","VISIBLE_STRING255","Vstring255",	"Maximum 255 characters"
+":T","VISIBLE_STRING64","Vstring64", 	"Maximum 64 characters"
+":T","VISIBLE_STRING97","Vstring97", 	"Maximum 97 characters"
+":T","UTC_TM",		"Utctime",     	"Used by TimeStamp"
+":T","CODED_ENUM2", 	"Bstring2",    	"2 bits - 4 values"
+":T","UNICODE_STRING255","UTF8Vstring255","Maximum 255 Unicode"
+
+":T", "TimeStamp"	"<UTC_TM>",  	"UTC Time"
+":T", "EntryTime"	"Btime6",  	" 8.1 Section 8.1.3.7"
+":T", "Quality"		"BVstring13",	"Quality"
+
+
+#general types for clause 4.2.1 of GOMSFE
+":T","IDENT",       "Vstring65",    ""
+":T","BOOL",        "Bool",         "generalboolean"
+":T","B2",          "Bstring2",     "GeneralDoubleBit"
+":T","D",           "VString32",    "generaldescriptioncomponent"
+":T","DB",          "UShort",       "Deadband"
+":T","F",           "Float",        "Generalizedfloatingpoint"
+":T","FF",          "Float",        "FrozenFloatingPointvalue"
+":T","HL",          "Short",        "HighLimit"
+":T","HHL",         "Short",        "HighHighLimit"
+":T","LL",          "Short",        "lowlimit"
+":T","LLL",         "Short",        "lowlowlimit"
+":T","I",           "Short",        "Generalizedicomponenttype"
+":T","FI",          "Short",        "frozenicomponenttype"
+":T","O",           "Float",        "Offset"
+":T","Q",           "Bvstring16",   "Generalizedqualitybitstringtype"
+":T","R",           "ULong",        "runningcount"
+":T","FR",          "ULong",        "frozenrunningcount"
+":T","S",           "Float",        "scale"
+":T","T",           "Btime6",       "GeneralizedTimeStamp"
+":T","FT",          "Btime6",       "frozentimestamp"
+":T","PP",          "Bool",         "PseudoPoint"
+":T","U",           "Short",        "Enumeratevalue"
+":T","VSTR8",       "Vstring8",     "VisibleString8-variablelength"
+":T","VSTR16",      "Vstring16",    "VisibleString16-variablelength"
+":T","VSTR32",      "Vstring32",    "VisbleString32-variablelength"
+":T","VSTR64",      "Vstring64",    "VisibleString64-variablelength"
+":T","VSTR65",      "Vstring65",    "VisibleString65-variablelength"
+":T","VSTR128",     "Vstring128",   "VisibleString128-variablelength"
+
+#From Clause 4.2.2 of GOMSFE
+
+":T","BSTR1",       "Bstring1",     "Twobitbistring"
+":T","BSTR2",       "Bstring2",     "Twobitbistring"
+":T","BSTR8",       "Bstring8",     "Bitstring-8"
+":T","BSTR16",      "Bstring16",    "Bitstring-16"
+":T","BSTR32",      "Bstring32",    "Bitstring-32"
+":T","VBSTR8",      "Bvstring8",    "VariablelengthBitstring-8"
+":T","VBSTR16",     "Bvstring16",   "VariablelengthBitstring-16"
+":T","VBSTR32",     "Bvstring32",   "VariablelengthBitstring-32"
+#INT8U, INT16U, & INT32U already defined in IEC-61850 section above
+":T","INT8S",       "Byte",         "SignedInteger-8"
+":T","INT16S",      "Short",        "SignedInteger-16"
+":T","INT32S",      "Long",         "SignedInteger-32"
+":T","FLT32",       "Float",        "32bitfloatingpoint"
+":T","FLT64",       "Double",       "64bitfloatingpoint"
+":T","BTIME4",      "Btime4",       "Binarytimeofday"
+":T","BTIME6",      "Btime6",       "Binarytimeofdaytomsec"
+":T","ENUM8",       "Byte",         "signed enumeration8-bits"
+":T","ENUM16",      "Short",        "signed enumeration16-bits"
+
+#missing from GOMSFE
+":T","MAG",         "<INT32S>",     "Magnitude"
+":T","ANG",         "<INT32S>",     "Angle"
+
+
+":T","ACCRPTENA",   "<BOOL>",       "AccumulatorReportEnable"
+":T","ACCRS",       "<BOOL>",       "AccumulatorReset"
+":T","ACCSET",      "<VSTR16>",     "AccumulatorSetting"
+":T","ACTTAGARR",   "<BSTR8>",      "Accumulatortagarray"
+":T","ANCESTRY",    "<VSTR32>",     "Ancestry"
+":T","ANFMT",       "Vstring6",     "AnalogFormat"
+":T","BUFTIM",      "<INT32U>",     "Buffertime"
+":T","CID",         "<INT32S>",     "CanonicalID"
+":T","CKTID",       "<VSTR32>",     "CircuitID"
+":T","CKTPHS",      "<ENUM8>",      "CircuitPhases"
+":T","CLASS",       "<VSTR32>",     "Classidentifier"
+":T","COMMADR",     "<VSTR16>",     "Communicationaddress"
+":T","COMMREV",     "<VSTR8>",      "Communicationrevision"
+":T","CONTCURRTG",  "<VSTR16>",     "Continuouscurrentrating"
+":T","COUNT",       "<INT16U>",     "count"
+":T","CRIRPT",      "<BOOL>",       "criticalreport"
+":T","DATSETNAM",   "<VSTR16>",     "Datasetname"
+":T","DESTAE",      "<VSTR32>",     "destinationAEname"
+":T","DEVFCT",      "<INT16U>",     "devicefunction"
+":T","DEVMDLS",     "<VSTR128>",    "devicemodelname"
+":T","DOW",         "<ENUM8>",      "Dayoftheweek"
+":T","DOWSCHED",    "[6:<BTIME4>]", "Dayoftheweekschedule"
+":T","ENABLE",      "<BOOL>",       "enable"
+":T","ENCOPT",      "<BSTR8>",      "encodingoptions"
+":T","ENROLL",      "<VSTR32>",     "enrollname"
+":T","EORBDESC",    "<VSTR64>",     ""
+":T","EVACON",      "<VSTR32>",     "evaluationconditionname"
+":T","EVACNS",      "<VSTR32>",     "evaluationconditionname"
+":T","EVACRI",      "<VSTR32>",     "evaluationcriterianame"
+":T","EVAFCT",      "<VSTR32>",     "evaluationfunctionname"
+":T","EVAPAR",      "<VSTR32>",     "evaluationparametersname"
+":T","EVTENA",      "<BOOL>",       "eventenable"
+":T","FLTCURDUR",   "<INT16U>",     "Faultcurrentduration"
+":T","FLTCURRTG",   "<INT16S>",     "Placeholder"
+":T","FRZENA",      "<BOOL>",       "freezeenable"
+":T","FRZPD",       "<INT32U>",     "freezeperiod"
+":T","FWDPWRHA",    "[31:<FLT32>]", "ForwardPowerharmonics"
+":T","HWREV",       "<VSTR8>",      "HardwareRevision"
+":T","HZRTG",       "<VSTR32>",     "Hertzrating"
+":T","INDAT",       "<IDENT>",      "InputDataName"
+":T","INTGPD",      "<INT32U>",     "IntegrityPeriod"
+":T","LINLENM",     "<INT16U>",     "Linelengthinmeters"
+":T","LOC",         "<VSTR128>",    "Location"
+":T","LOGENA",      "<BOOL>",       "Logenable"
+":T","LOGENR",      "<VSTR32>",     "Logenroll"
+":T","LOGNAM",      "<VSTR32>",     "Logname"
+":T","LOGSIZE",     "<INT16U>",     "Logsize"
+":T","LOGWRP",      "<BOOL>",       "LogWrapped"
+":T","MAC",         "<INT8U>",      "MediumAccessControl"
+":T","MDL",         "<VSTR32>",     "Modelname"
+":T","MED",         "<ENUM8>",      "mediatype"
+":T","MXREF",       "<ENUM8>",      "Measurementreference"
+":T","MXTYP",       "<ENUM8>",      "MeasurementType"
+":T","NAME",        "<VSTR32>",     "ownername"
+":T","NEWTIM",      "<BTIME6>",     "newesttime"
+":T","NUMBITS",     "<INT16U>",     "numberofbits"
+":T","NUMPLS",      "<INT16U>",     "numberofpulses"
+":T","NUMSMP",      "<INT16U>",     "numberofsamples"
+":T","NUMUNIT",     "<VSTR32>",     "numberofunits"
+":T","OFFDUR",      "<INT32U>",     "Offduration"
+":T","OLDTIM",      "<BTIME6>",     "Oldesttime"
+":T","ONDUR",       "<INT32U>",     "Onduration"
+":T","OPERDEV",     "<B2>",         "Operatedevice"
+":T","OPTFLDS",     "<VBSTR8>",     "Optionalfields"
+":T","OUTDAT",      "<IDENT>",      "outputdatasetname"
+":T","OVRST",       "<BOOL>",       "Overflowstatus"
+":T","OWN",         "<VSTR32>",     "Owner"
+":T","PRO",         "<ENUM8>",      "enumeratedprotocolid"
+":T","PWRHA",       "[31:<FLT32>]", "powerharmonics"
+":T","QURPTENA",    "<BOOL>",       "qualityreportenable"
+":T","RBEPD",       "<INT32U>",     "reportperiod"
+":T","RPTENA",      "<BOOL>",       "Reportenable"
+":T","RPTID",       "<VSTR32>",     "ReportID"
+":T","RVSPWRHA",    "[31:<FLT32>]", "reversepowerharmonics"
+":T","SBOENA",      "<BOOL>",       "SBOenable"
+":T","SETTIMOUT",   "<INT8U>",      "SBOSelectTimeout"
+":T","SEQNUM",      "<INT32U>",     "Sequencenumber"
+":T","SERNUM",      "<VSTR32>",     "Serialnumber"
+":T","SFTREV",      "<VSTR8>",      "SoftwareRevisionNumber"
+":T","SMPRATE",     "<INT16U>",     "samplerate"
+":T","TAGD",        "<VSTR128>",    "tagdescription"
+":T","TAGID",       "<INT8U>",      "tagID"
+":T","TAGOWN",      "<VSTR32>",     "tagowner"
+":T","TAGTYP",      "<BSTR8>",      "tagtypepermitted"
+":T","TEMPRAT",     "<VSTR16>",     "temperaturerating"
+":T","TEMPRTG",     "<VSTR16>",     "temperaturerating"
+":T","TIMOFFRZ",    "<BTIME6>",     "timeoffreeze"
+":T","TIMRPTENA",   "<BOOL>",       "Timestampreportenable"
+":T","TRGOPS",      "<BSTR8>",      "Triggeroptions"
+":T","TRGS",        "<INT16U>",     "numberoftriggers"
+":T","UNITVARRTG",  "<VSTR32>",     "Unitvarrating"
+":T","UNKPWRHA",    "[31:<FLT32>]", "Unkownharmonicdirection"
+":T","USEST",       "<BOOL>",       "utilizationstatus"
+":T","VARRTG",      "<VSTR16>",     "Varsrating"
+":T","VARTG",       "<VSTR16>",     "VARsrating"
+":T","VND",         "<VSTR32>",     "VendorID"
+":T","VRTG",        "<VSTR16>",     "voltagerating"
+":T","WRNLEV",      "<INT16U>",     "logwarninglevel"
+":T","WRNST",       "<BOOL>",       "warningstatus"
+
+":T","PHSTAR",      "<ENUM8>",      "PhaseTarget"
+":T","SBO",         "<VSTR65>",     ""
+
+#Additional types added from other sections
+#to support GOOSE and PACT
+":T","STNUM",       "<INT32U>",     ""
+":T","HOLDTIM",     "<INT32U>",     ""
+":T","BACKTIM",     "<INT32U>",     ""
+":T","PHSID",       "<INT16U>",     ""
+":T","DNA",         "Bstring64",    ""
+":T","USERST",      "BVstring256",  ""
+
+":FE","gentypes.odf"
+":FS","rpt.odf"
+#############################################################
+#Copyright 1998-2003, Systems Integration Specialists Company, Inc.
+#		All Rights Reserved
+#############################################################
+# 03/05/08  JRB  Add RTYP_OBJREF for IEC 61850 ObjectReference (129 char)
+# 12/17/03  JRB  For 61850-8-1 FDIS, chg RTYP_BVSTR9 to RTYP_BVSTR10,
+#		 add RTYP_BSTR9 for client.
+# 10/09/03  JRB  Add RTYP_INT32U for IntgPd.
+# 03/13/03  JRB  Overhaul. Use RTYP_ prefix for all RPT related types.
+
+#NOTE: These types are used directly in reporting code, and also in
+#      other ODF files to define Report Control Blocks (RCBs).
+#      It is CRITICAL that the same type is used in both places.
+":TKU",	"RTYP_BOOL",	"<BOOL>",	"UCAreporttypes"
+":TKU",	"RTYP_BTIME6",	"<BTIME6>",	"UCAreporttypes"
+":TKU",	"RTYP_BSTR6",	"Bstring6",	"UCAreporttypes"
+":TKU",	"RTYP_BSTR8",	"Bstring8",	"UCAreporttypes"
+":TKU",	"RTYP_BSTR9",	"Bstring9",	"Client needs for writing OptFlds"
+":TKU",	"RTYP_BVSTR6",	"Bvstring6",	"UCAreporttypes"
+":TKU",	"RTYP_BVSTR8",	"Bvstring8",	"UCAreporttypes"
+":TKU",	"RTYP_BVSTR10",	"Bvstring10",	"UCAreporttypes"
+":TKU",	"RTYP_INT8U",	"<INT8U>",	"UCAreporttypes"
+":TKU",	"RTYP_INT16U",	"<INT16U>",	"UCAreporttypes"
+":TKU",	"RTYP_OSTR8",	"Ostring8",	"UCAreporttypes"
+":TKU",	"RTYP_VSTR32",	"<VSTR32>",	"UCAreporttypes"
+":TKU",	"RTYP_VSTR65",	"<VSTR65>",	"UCAreporttypes"
+":TKU",	"RTYP_OBJREF",	"Vstring129",	"UCAreporttypes"
+
+#NOTE: Client needs this for IntgPd.
+":TKU",	"RTYP_INT32U",	"<INT32U>",	"UCAreporttypes"
+":FE","rpt.odf"
+
+##########################################################################
+# INCLUDE FILE DEFINITION SECTION
+# This section is used to specify user include files that are to be
+# included in the output 'C' file. This may be necessary when creating
+# variables with data or processing initialzation strings.
+#   Example - Include the user header file 'umvlinit.h'
+#      ":I", "server.h"
+#
+
+":I", "client.h"
+
+##########################################################################
+# TYPE CREATION SECTION
+# This section is used to specify MMS-LITE types. There are three
+# required parameters per type (plus flags) - 
+#  1. Type Select Define : The define created to reference the type
+#  2. TDL : The SISCO type definition language string
+#  3. Comment: Used only in the output 'C' file
+# 
+#  Optional flags are - 
+#    U : Do not 'twin' this type
+#    T : Transient type, do not write; use only as base type
+#    K : Keep this type unconditionally
+
+":T", "ANALOG","[32:Ushort]","Array Of 32 16-bit unsigned integers"
+":T", "U16","Ushort","Single 16-bit unsigned integer"
+":TK", "I16","Short","Single 16-bit signed integer"
+":TK", "UTF8VSTRING13","UTF8Vstring13","variable len Unicode UTF8 string"
+
+# These types (phv_type, phsx_type) used by cli_goose.c
+":TK", "phv_type",
+"{(phsA){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+(phsB){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+(phsC){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+(neut){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+(net){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+(res){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+}",
+""
+":TK", "phsx_type",
+"{(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,}",
+""
+
+##########################################################################
+# DOMAIN CREATION SECTION
+# This section is used to create MMS-LITE domains. The single parameter 
+# is the domain name, which must be a legal MMS domain name.
+#   Example - Create a domain named mvlLiteDomain
+#      ":D", "mvlLiteDomain"
+#
+##########################################################################
+# VARIABLE ASSOCIATION CREATION SECTION
+# This section is used to specify MMS-LITE named variables. There are two
+# required parameters per variable, and three optional parameters (plus 
+# flags) - 
+#  1. Variable Name (must be valid MMS variable name). Note that the 
+#     name can be of the form "domainName:VariableName" for domain vars.
+#  2. Type ID : This Type ID must have been created previously
+#  3. Data (optional): Used to initialize the va->data element.
+#  4. Proc (optional): Used to initialize the va->proc element.
+#  5. User (optional): Used to initialize the va->usr_info element.
+# 
+#  Optional flags are - 
+#    D : Use 3rd string to set va->data
+#    P : Use 4th (3rd for no D) string to set va->proc
+#    U : Use 5th (4th, 3rd for no D, no P) string to set va->usr_info
+# 
+# Note that it may ne necessary to specify an include file to be used
+# to resolve the 'data' and 'proc' initialization code.
+# 
+#   Example - Create a VMD variable named 'Temperature'
+#     ":VDP", "Temperature", "I16", "&Temperature", "&varProcFuns"
+#
+##########################################################################
+# NAMED VARIABLE LIST CREATION SECTION
+# This section is used to specify MMS-LITE named variable lists. 
+# There are two required parameters per variable list, and a list of
+# variables to be included in the list (plus flags) - 
+#  1. Variable list Name (must be valid MMS variable name). Note that the 
+#     name can be of the form "domainName:VariableListName" for domain vars.
+#  2. List of variables to be part of the named variable list.
+#  3. End of variables marker. This is a string of form ":S",
+# 
+#   Example - Create a VMD Variable List named 'nvl1' with 'Temperature',
+#             and 'arr1' as members.
+#       ":L", "nvl1", "arr1", "Temperature", ":S"
+#
+##########################################################################
+# UCA MODEL NAME GENERATION SECTION
+# This section is used to generate UCA variable names from a selected
+# structure type. The first parameter is the name base to be used. The
+# second parameter is the type to use in extracting the names, and will
+# generally be a high level UCA object type.
+# Note: These objects are used only when the '-v' or '-n' command line
+#       parameters is used. 
+#   Example - Extract the names for the 
+#			"Automatic Switch Controller Device Model"
+#":N","ASWC","ASWC"
+#

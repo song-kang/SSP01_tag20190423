@@ -1,0 +1,49 @@
+include ../mmslite-server.mk
+
+CC_TARGET    = libSMmsServer.a
+CC_TARGET_D  = libSMmsServerd.a
+INSTALL_PATH = ../../lib/linux
+FIS_MMSCLT_PATH = /root/UK9001/src/fis_mmsclt
+
+RM = rm -rf
+LN = ln
+CP = cp -f
+MV = mv
+
+SRCS =  ../mvl/usr/reject.c ../mvl/usr/event.c \
+	../mvl/usr/log_cfg.c \
+	../mvl/usr/logcfgx.c \
+	../src/mmsdtext.c \
+	../src/mmslvar.c \
+	../src/mmsop_en.c \
+	../mvl/src/acse/mvl_acse.c \
+	../mvl/src/mvlop_en.c \
+ \
+	../src/slogipc.c \
+	*.cpp
+
+OBJS =  *.o 
+
+all:
+		$(RM) debug
+		$(CC) -c $(SRCS) $(CC_INCLUDES) $(CC_COMPLIE)
+		$(RM) $(CC_TARGET)
+		$(AR) $(CC_TARGET) $(OBJS)
+		$(RM) *.o
+		$(CP) $(CC_TARGET) $(INSTALL_PATH)/
+
+debug:
+		$(RM) debug
+		$(CC) -c $(SRCS) $(CC_INCLUDES) $(CC_COMPLIE_D)
+		$(RM) $(CC_TARGET_D)
+		$(AR) $(CC_TARGET_D) $(OBJS)
+		$(RM) *.o
+		$(CP) $(CC_TARGET_D) $(INSTALL_PATH)/
+
+clean:
+		$(RM) *.o
+		$(RM) *.d
+
+install:
+		$(CP) $(CC_TARGET) $(INSTALL_PATH)/$(CC_TARGET)
+		$(CP) $(CC_TARGET_D) $(INSTALL_PATH)/$(CC_TARGET_D)

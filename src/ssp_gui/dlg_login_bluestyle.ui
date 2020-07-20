@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlg_login_blueStyle</class>
+ <widget class="QDialog" name="dlg_login_blueStyle">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>290</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>420</width>
+    <height>290</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>420</width>
+    <height>290</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>dlg_login_blueStyle</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#dlg_login_blueStyle{border-image: url(:/resource/Resource/login_bg.png);}</string>
+  </property>
+  <widget class="QToolButton" name="toolButtonOK">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>200</y>
+     <width>84</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton#toolButtonOK{border-image: url(:/resource/Resource/login_btn.png);}
+QToolButton#toolButtonOK:hover{border-image: url(:/resource/Resource/login_btn_hover.png);}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>46</x>
+     <y>76</y>
+     <width>60</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/resource/Resource/username.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditPwd">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>116</y>
+     <width>240</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText</set>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelError">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>157</y>
+     <width>240</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/resource/Resource/tips.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>46</x>
+     <y>122</y>
+     <width>60</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/resource/Resource/password.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButtonCancel">
+   <property name="geometry">
+    <rect>
+     <x>222</x>
+     <y>200</y>
+     <width>84</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton#toolButtonCancel{border-image: url(:/resource/Resource/cancle_btn.png);}
+QToolButton#toolButtonCancel:hover{border-image: url(:/resource/Resource/cancle_btn_hover.png);}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditName">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>70</y>
+     <width>240</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>lineEditName</tabstop>
+  <tabstop>lineEditPwd</tabstop>
+  <tabstop>toolButtonOK</tabstop>
+  <tabstop>toolButtonCancel</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="sys_mdb">
+</Property><Property Name="解决方案文件" Value="Z:\C\skt\src\Software_Platform\trunk\common\sys_mdb\sys_mdb.sln">
+</Property><Property Name="用户选项文件" Value="Z:\C\skt\src\Software_Platform\trunk\common\sys_mdb\sys_mdb.suo">
+</Property><Property Name="Date" Value="2015年6月17日">
+</Property><Property Name="Time" Value="15:59">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="sys_mdb.sln" Description="文件已成功备份为 Z:\C\skt\src\Software_Platform\trunk\common\sys_mdb\sys_mdb.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="sys_mdb.suo" Description="文件已成功备份为 Z:\C\skt\src\Software_Platform\trunk\common\sys_mdb\sys_mdb.suo.old">
+</Event><Event ErrorLevel="0" Project="sys_mdb" Source="sys_mdb.vcproj" Description="Converting project file 'Z:\C\skt\src\Software_Platform\trunk\common\sys_mdb\sys_mdb.vcproj'.">
+</Event><Event ErrorLevel="1" Project="sys_mdb" Source="sys_mdb.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="sys_mdb" Source="sys_mdb.vcproj" Description="Done converting to new project file 'Z:\C\skt\src\Software_Platform\trunk\common\sys_mdb\sys_mdb.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="sys_mdb" Source="sys_mdb.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="sbase" Source="..\..\sbase\sbase.vcproj" Description="Converting project file 'Z:\C\skt\src\Software_Platform\trunk\sbase\sbase.vcproj'.">
+</Event><Event ErrorLevel="2" Project="sbase" Source="..\..\sbase\sbase.vcproj" Description="File 'Z:\C\skt\src\Software_Platform\trunk\sbase\sbase.vcproj' was not found.">
+</Event><Event ErrorLevel="2" Project="sbase" Source="..\..\sbase\sbase.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="sbase" Source="..\..\sbase\sbase.vcproj" Description="未转换">
+</Event><Event ErrorLevel="0" Project="sbase_raw" Source="..\..\sbase\sbase_raw.vcproj" Description="Converting project file 'Z:\C\skt\src\Software_Platform\trunk\sbase\sbase_raw.vcproj'.">
+</Event><Event ErrorLevel="2" Project="sbase_raw" Source="..\..\sbase\sbase_raw.vcproj" Description="File 'Z:\C\skt\src\Software_Platform\trunk\sbase\sbase_raw.vcproj' was not found.">
+</Event><Event ErrorLevel="2" Project="sbase_raw" Source="..\..\sbase\sbase_raw.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="sbase_raw" Source="..\..\sbase\sbase_raw.vcproj" Description="未转换">
+</Event><Event ErrorLevel="0" Project="" Source="sys_mdb.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="sys_mdb.sln" Description="Converted">
+</Event></UpgradeLog>

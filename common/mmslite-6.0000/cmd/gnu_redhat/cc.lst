@@ -1,0 +1,578 @@
+STARTING MAKE OF meml_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF meml_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF meml_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF meml_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mem_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mem_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mem_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mem_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF smem_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF smem_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF smem_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF smem_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF slog_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF slog_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF slog_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF slog_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF asn1l_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF asn1l_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF asn1l_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF asn1l_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mmsl_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mmsl_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mmsl_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mmsl_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mmsle_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mmsle_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mmsle_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mmsle_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF ositcps_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF ositcps_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF ositcps_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF ositcps_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF ositpxs_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF ositpxs_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF ositpxs_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF ositpxs_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF gse_mgmt_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF gse_mgmt_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF gse_mgmt_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF gse_mgmt_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF smpval_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF smpval_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF smpval_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF smpval_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mvl_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mvl_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mvl_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mvl_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mvlu_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mvlu_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mvlu_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mvlu_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF util_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF util_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF util_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF util_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mlogl_l.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mlogl_n.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mlogl_ld.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF mlogl_nd.a LIBRARY for LINUX
+Finished clean
+STARTING MAKE OF findalgn_ld EXECUTABLE for LINUX
+Finished clean
+STARTING MAKE OF foundry_ld EXECUTABLE for LINUX
+Finished clean
+STARTING MAKE OF mmslog_ld EXECUTABLE for LINUX
+Finished clean
+STARTING MAKE OF cositcps0_ld EXECUTABLE for LINUX
+Finished clean
+STARTING MAKE OF sositcps0_ld EXECUTABLE for LINUX
+Finished clean
+STARTING MAKE OF scl_srvr_ld EXECUTABLE for LINUX
+Finished clean
+STARTING MAKE OF cositpxs0_ld EXECUTABLE for LINUX
+Finished clean
+STARTING MAKE OF sositpxs0_ld EXECUTABLE for LINUX
+Finished clean
+STARTING MAKE OF scl_tpxs0_ld EXECUTABLE for LINUX
+Finished clean
+STARTING MAKE OF iecgoose_ld EXECUTABLE for LINUX
+Finished clean
+STARTING MAKE OF gse_mgmt_ld EXECUTABLE for LINUX
+Finished clean
+STARTING MAKE OF meml_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/meml_l.a
+FINISHED CREATING ../../lib_redhat/meml_l.a  LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF meml_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/meml_n.a
+FINISHED CREATING ../../lib_redhat/meml_n.a  LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF meml_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/meml_ld.a
+FINISHED CREATING ../../lib_redhat/meml_ld.a  LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF meml_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/meml_nd.a
+FINISHED CREATING ../../lib_redhat/meml_nd.a  LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mem_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mem_l.a
+FINISHED CREATING ../../lib_redhat/mem_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mem_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mem_n.a
+FINISHED CREATING ../../lib_redhat/mem_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mem_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mem_ld.a
+FINISHED CREATING ../../lib_redhat/mem_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mem_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mem_nd.a
+FINISHED CREATING ../../lib_redhat/mem_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smem_l.a LIBRARY for LINUX
+../../src/mem_smem.c: 在函数‘u_smem_get_buf_detail’中:
+../../src/mem_smem.c:1212: 警告：格式‘%5u’需要类型‘unsigned int’，但实参 3 的类型为‘size_t’
+../../src/mem_smem.c:1215: 警告：格式‘%5u’需要类型‘unsigned int’，但实参 3 的类型为‘size_t’
+ar: creating ../../lib_redhat/smem_l.a
+FINISHED CREATING ../../lib_redhat/smem_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smem_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/smem_n.a
+FINISHED CREATING ../../lib_redhat/smem_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smem_ld.a LIBRARY for LINUX
+../../src/mem_smem.c: 在函数‘u_smem_get_buf_detail’中:
+../../src/mem_smem.c:1212: 警告：格式‘%5u’需要类型‘unsigned int’，但实参 3 的类型为‘size_t’
+../../src/mem_smem.c:1215: 警告：格式‘%5u’需要类型‘unsigned int’，但实参 3 的类型为‘size_t’
+ar: creating ../../lib_redhat/smem_ld.a
+FINISHED CREATING ../../lib_redhat/smem_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smem_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/smem_nd.a
+FINISHED CREATING ../../lib_redhat/smem_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF slog_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/slog_l.a
+FINISHED CREATING ../../lib_redhat/slog_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF slog_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/slog_n.a
+FINISHED CREATING ../../lib_redhat/slog_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF slog_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/slog_ld.a
+FINISHED CREATING ../../lib_redhat/slog_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF slog_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/slog_nd.a
+FINISHED CREATING ../../lib_redhat/slog_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF asn1l_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/asn1l_l.a
+FINISHED CREATING ../../lib_redhat/asn1l_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF asn1l_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/asn1l_n.a
+FINISHED CREATING ../../lib_redhat/asn1l_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF asn1l_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/asn1l_ld.a
+FINISHED CREATING ../../lib_redhat/asn1l_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF asn1l_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/asn1l_nd.a
+FINISHED CREATING ../../lib_redhat/asn1l_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsl_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mmsl_l.a
+FINISHED CREATING ../../lib_redhat/mmsl_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsl_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mmsl_n.a
+FINISHED CREATING ../../lib_redhat/mmsl_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsl_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mmsl_ld.a
+FINISHED CREATING ../../lib_redhat/mmsl_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsl_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mmsl_nd.a
+FINISHED CREATING ../../lib_redhat/mmsl_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsle_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mmsle_l.a
+FINISHED CREATING ../../lib_redhat/mmsle_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsle_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mmsle_n.a
+FINISHED CREATING ../../lib_redhat/mmsle_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsle_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mmsle_ld.a
+FINISHED CREATING ../../lib_redhat/mmsle_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsle_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mmsle_nd.a
+FINISHED CREATING ../../lib_redhat/mmsle_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositcps_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/ositcps_l.a
+FINISHED CREATING ../../lib_redhat/ositcps_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositcps_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/ositcps_n.a
+FINISHED CREATING ../../lib_redhat/ositcps_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositcps_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/ositcps_ld.a
+FINISHED CREATING ../../lib_redhat/ositcps_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositcps_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/ositcps_nd.a
+FINISHED CREATING ../../lib_redhat/ositcps_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositpxs_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/ositpxs_l.a
+FINISHED CREATING ../../lib_redhat/ositpxs_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositpxs_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/ositpxs_n.a
+FINISHED CREATING ../../lib_redhat/ositpxs_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositpxs_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/ositpxs_ld.a
+FINISHED CREATING ../../lib_redhat/ositpxs_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositpxs_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/ositpxs_nd.a
+FINISHED CREATING ../../lib_redhat/ositpxs_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF gse_mgmt_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/gse_mgmt_l.a
+FINISHED CREATING ../../lib_redhat/gse_mgmt_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF gse_mgmt_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/gse_mgmt_n.a
+FINISHED CREATING ../../lib_redhat/gse_mgmt_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF gse_mgmt_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/gse_mgmt_ld.a
+FINISHED CREATING ../../lib_redhat/gse_mgmt_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF gse_mgmt_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/gse_mgmt_nd.a
+FINISHED CREATING ../../lib_redhat/gse_mgmt_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smpval_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/smpval_l.a
+FINISHED CREATING ../../lib_redhat/smpval_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smpval_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/smpval_n.a
+FINISHED CREATING ../../lib_redhat/smpval_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smpval_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/smpval_ld.a
+FINISHED CREATING ../../lib_redhat/smpval_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smpval_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/smpval_nd.a
+FINISHED CREATING ../../lib_redhat/smpval_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvl_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mvl_l.a
+FINISHED CREATING ../../lib_redhat/mvl_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvl_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mvl_n.a
+FINISHED CREATING ../../lib_redhat/mvl_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvl_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mvl_ld.a
+FINISHED CREATING ../../lib_redhat/mvl_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvl_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mvl_nd.a
+FINISHED CREATING ../../lib_redhat/mvl_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvlu_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mvlu_l.a
+FINISHED CREATING ../../lib_redhat/mvlu_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvlu_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mvlu_n.a
+FINISHED CREATING ../../lib_redhat/mvlu_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvlu_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mvlu_ld.a
+FINISHED CREATING ../../lib_redhat/mvlu_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvlu_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mvlu_nd.a
+FINISHED CREATING ../../lib_redhat/mvlu_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF util_l.a LIBRARY for LINUX
+../../src/sx_axs4d.c: 在函数‘sxaCheckIntString’中:
+../../src/sx_axs4d.c:1749: 警告：未使用的变量‘i’
+ar: creating ../../lib_redhat/util_l.a
+FINISHED CREATING ../../lib_redhat/util_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF util_n.a LIBRARY for LINUX
+../../src/sx_axs4d.c: 在函数‘sxaCheckIntString’中:
+../../src/sx_axs4d.c:1749: 警告：未使用的变量‘i’
+ar: creating ../../lib_redhat/util_n.a
+FINISHED CREATING ../../lib_redhat/util_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF util_ld.a LIBRARY for LINUX
+../../src/sx_axs4d.c: 在函数‘sxaCheckIntString’中:
+../../src/sx_axs4d.c:1749: 警告：未使用的变量‘i’
+ar: creating ../../lib_redhat/util_ld.a
+FINISHED CREATING ../../lib_redhat/util_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF util_nd.a LIBRARY for LINUX
+../../src/sx_axs4d.c: 在函数‘sxaCheckIntString’中:
+../../src/sx_axs4d.c:1749: 警告：未使用的变量‘i’
+ar: creating ../../lib_redhat/util_nd.a
+FINISHED CREATING ../../lib_redhat/util_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mlogl_l.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mlogl_l.a
+FINISHED CREATING ../../lib_redhat/mlogl_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mlogl_n.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mlogl_n.a
+FINISHED CREATING ../../lib_redhat/mlogl_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mlogl_ld.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mlogl_ld.a
+FINISHED CREATING ../../lib_redhat/mlogl_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mlogl_nd.a LIBRARY for LINUX
+ar: creating ../../lib_redhat/mlogl_nd.a
+FINISHED CREATING ../../lib_redhat/mlogl_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF findalgn_ld EXECUTABLE for LINUX
+FINISHED GENERATING ../../bin/findalgn_ld EXECUTABLE
+-----------------------------------------------------
+STARTING MAKE OF foundry_ld EXECUTABLE for LINUX
+../../mvl/util/foundry/fo_main.c: 在函数‘init_mem’中:
+../../mvl/util/foundry/fo_main.c:486: 警告：从不兼容的指针类型赋值
+../../mvl/util/foundry/fo_main.c:487: 警告：从不兼容的指针类型赋值
+../../mvl/util/foundry/fo_main.c:488: 警告：从不兼容的指针类型赋值
+FINISHED GENERATING ../../bin/foundry_ld EXECUTABLE
+-----------------------------------------------------
+STARTING MAKE OF mmslog_ld EXECUTABLE for LINUX
+../../mvl/util/mmslog/mmslog.c: 在函数‘init_mem’中:
+../../mvl/util/mmslog/mmslog.c:525: 警告：从不兼容的指针类型赋值
+../../mvl/util/mmslog/mmslog.c:526: 警告：从不兼容的指针类型赋值
+../../mvl/util/mmslog/mmslog.c:527: 警告：从不兼容的指针类型赋值
+FINISHED GENERATING ../../bin/mmslog_ld EXECUTABLE
+-----------------------------------------------------
+STARTING MAKE OF cositcps0_ld EXECUTABLE for LINUX
+
+
+                  MMS-EASE Lite Object Foundry
+(c) Copyright Systems Integration Specialists Company, Inc.,
+                  1998 - 2008, All Rights Reserved
+
+Done
+In file included from ../../mvl/usr/client/client.c:171:
+../../mvl/usr/client/mmsop_en.h:35: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+../../mvl/usr/client/client.c: 在函数‘init_mem’中:
+../../mvl/usr/client/client.c:2073: 警告：从不兼容的指针类型赋值
+../../mvl/usr/client/client.c:2074: 警告：从不兼容的指针类型赋值
+../../mvl/usr/client/client.c:2075: 警告：从不兼容的指针类型赋值
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fopen_ind’中:
+../../mvl/usr/client/client.c:2155: 警告：将一个指针转换为大小不同的整数
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fread_ind’中:
+../../mvl/usr/client/client.c:2186: 警告：将一个整数转换为大小不同的指针
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fclose_ind’中:
+../../mvl/usr/client/client.c:2218: 警告：将一个整数转换为大小不同的指针
+In file included from ../../src/mmsop_en.c:89:
+../../mvl/usr/client/mmsop_en.h:35: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+In file included from ../../mvl/src/mvlop_en.c:41:
+../../mvl/usr/client/mmsop_en.h:35: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+../../mvl/src/acse/mvl_acse.c:238: 附注：#pragma message： begin mmsop_en.h in mvl_acse.c
+In file included from ../../mvl/src/acse/mvl_acse.c:239:
+../../mvl/usr/client/mmsop_en.h:35: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+../../mvl/src/acse/mvl_acse.c:240: 附注：#pragma message： after mmsop_en.h in mvl_acse.c
+../../lib_redhat/mvlu_ld.a(mvl_serv.o): In function `u_mvl_reject_ind':
+/home/SoftwarePlatform/SSP01/common/mmslite-6.0000/cmd/gnu_redhat/../../mvl/src/mvl_serv.c:171: multiple definition of `u_mvl_reject_ind'
+obj_cositcps0_ld/reject.o:/home/SoftwarePlatform/SSP01/common/mmslite-6.0000/cmd/gnu_redhat/../../mvl/usr/reject.c:46: first defined here
+collect2: ld 返回 1
+STARTING MAKE OF sositcps0_ld EXECUTABLE for LINUX
+
+
+                  MMS-EASE Lite Object Foundry
+(c) Copyright Systems Integration Specialists Company, Inc.,
+                  1998 - 2008, All Rights Reserved
+
+Done
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fopen_ind’中:
+../../mvl/usr/server/server.c:2095: 警告：将一个指针转换为大小不同的整数
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fread_ind’中:
+../../mvl/usr/server/server.c:2128: 警告：将一个整数转换为大小不同的指针
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fclose_ind’中:
+../../mvl/usr/server/server.c:2163: 警告：将一个整数转换为大小不同的指针
+../../mvl/usr/server/server.c: 在函数‘init_mem’中:
+../../mvl/usr/server/server.c:2636: 警告：从不兼容的指针类型赋值
+../../mvl/usr/server/server.c:2637: 警告：从不兼容的指针类型赋值
+../../mvl/usr/server/server.c:2638: 警告：从不兼容的指针类型赋值
+../../mvl/src/acse/mvl_acse.c:238: 附注：#pragma message： begin mmsop_en.h in mvl_acse.c
+../../mvl/src/acse/mvl_acse.c:240: 附注：#pragma message： after mmsop_en.h in mvl_acse.c
+../../lib_redhat/mvl_ld.a(mvl_serv.o): In function `u_mvl_reject_ind':
+/home/SoftwarePlatform/SSP01/common/mmslite-6.0000/cmd/gnu_redhat/../../mvl/src/mvl_serv.c:171: multiple definition of `u_mvl_reject_ind'
+obj_sositcps0_ld/reject.o:/home/SoftwarePlatform/SSP01/common/mmslite-6.0000/cmd/gnu_redhat/../../mvl/usr/reject.c:46: first defined here
+collect2: ld 返回 1
+STARTING MAKE OF scl_srvr_ld EXECUTABLE for LINUX
+
+
+                  MMS-EASE Lite Object Foundry
+(c) Copyright Systems Integration Specialists Company, Inc.,
+                  1998 - 2008, All Rights Reserved
+
+Done
+../../mvl/usr/scl_srvr/scl_srvr.c:149:17: 错误：vld.h：没有那个文件或目录
+../../mvl/usr/scl_srvr/scl_srvr.c: 在函数‘init_mem’中:
+../../mvl/usr/scl_srvr/scl_srvr.c:1246: 警告：从不兼容的指针类型赋值
+../../mvl/usr/scl_srvr/scl_srvr.c:1247: 警告：从不兼容的指针类型赋值
+../../mvl/usr/scl_srvr/scl_srvr.c:1248: 警告：从不兼容的指针类型赋值
+../../mvl/usr/scl_srvr/scl_srvr.c: 在函数‘u_mvl_fopen_ind’中:
+../../mvl/usr/scl_srvr/scl_srvr.c:1790: 警告：将一个指针转换为大小不同的整数
+../../mvl/usr/scl_srvr/scl_srvr.c: 在函数‘u_mvl_fread_ind’中:
+../../mvl/usr/scl_srvr/scl_srvr.c:1823: 警告：将一个整数转换为大小不同的指针
+../../mvl/usr/scl_srvr/scl_srvr.c: 在函数‘u_mvl_fclose_ind’中:
+../../mvl/usr/scl_srvr/scl_srvr.c:1858: 警告：将一个整数转换为大小不同的指针
+STARTING MAKE OF cositpxs0_ld EXECUTABLE for LINUX
+In file included from ../../mvl/usr/client/client.c:171:
+../../mvl/usr/client/mmsop_en.h:35: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+../../mvl/usr/client/client.c: 在函数‘init_mem’中:
+../../mvl/usr/client/client.c:2073: 警告：从不兼容的指针类型赋值
+../../mvl/usr/client/client.c:2074: 警告：从不兼容的指针类型赋值
+../../mvl/usr/client/client.c:2075: 警告：从不兼容的指针类型赋值
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fopen_ind’中:
+../../mvl/usr/client/client.c:2155: 警告：将一个指针转换为大小不同的整数
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fread_ind’中:
+../../mvl/usr/client/client.c:2186: 警告：将一个整数转换为大小不同的指针
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fclose_ind’中:
+../../mvl/usr/client/client.c:2218: 警告：将一个整数转换为大小不同的指针
+In file included from ../../src/mmsop_en.c:89:
+../../mvl/usr/client/mmsop_en.h:35: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+In file included from ../../mvl/src/mvlop_en.c:41:
+../../mvl/usr/client/mmsop_en.h:35: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+../../mvl/src/acse/mvl_acse.c:238: 附注：#pragma message： begin mmsop_en.h in mvl_acse.c
+In file included from ../../mvl/src/acse/mvl_acse.c:239:
+../../mvl/usr/client/mmsop_en.h:35: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+../../mvl/src/acse/mvl_acse.c:240: 附注：#pragma message： after mmsop_en.h in mvl_acse.c
+../../lib_redhat/mvlu_ld.a(mvl_serv.o): In function `u_mvl_reject_ind':
+/home/SoftwarePlatform/SSP01/common/mmslite-6.0000/cmd/gnu_redhat/../../mvl/src/mvl_serv.c:171: multiple definition of `u_mvl_reject_ind'
+obj_cositpxs0_ld/reject.o:/home/SoftwarePlatform/SSP01/common/mmslite-6.0000/cmd/gnu_redhat/../../mvl/usr/reject.c:46: first defined here
+collect2: ld 返回 1
+STARTING MAKE OF sositpxs0_ld EXECUTABLE for LINUX
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fopen_ind’中:
+../../mvl/usr/server/server.c:2095: 警告：将一个指针转换为大小不同的整数
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fread_ind’中:
+../../mvl/usr/server/server.c:2128: 警告：将一个整数转换为大小不同的指针
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fclose_ind’中:
+../../mvl/usr/server/server.c:2163: 警告：将一个整数转换为大小不同的指针
+../../mvl/usr/server/server.c: 在函数‘init_mem’中:
+../../mvl/usr/server/server.c:2636: 警告：从不兼容的指针类型赋值
+../../mvl/usr/server/server.c:2637: 警告：从不兼容的指针类型赋值
+../../mvl/usr/server/server.c:2638: 警告：从不兼容的指针类型赋值
+../../mvl/src/acse/mvl_acse.c:238: 附注：#pragma message： begin mmsop_en.h in mvl_acse.c
+../../mvl/src/acse/mvl_acse.c:240: 附注：#pragma message： after mmsop_en.h in mvl_acse.c
+../../lib_redhat/mvl_ld.a(mvl_serv.o): In function `u_mvl_reject_ind':
+/home/SoftwarePlatform/SSP01/common/mmslite-6.0000/cmd/gnu_redhat/../../mvl/src/mvl_serv.c:171: multiple definition of `u_mvl_reject_ind'
+obj_sositpxs0_ld/reject.o:/home/SoftwarePlatform/SSP01/common/mmslite-6.0000/cmd/gnu_redhat/../../mvl/usr/reject.c:46: first defined here
+collect2: ld 返回 1
+STARTING MAKE OF scl_tpxs0_ld EXECUTABLE for LINUX
+../../mvl/usr/scl_srvr/scl_srvr.c:149:17: 错误：vld.h：没有那个文件或目录
+../../mvl/usr/scl_srvr/scl_srvr.c: 在函数‘init_mem’中:
+../../mvl/usr/scl_srvr/scl_srvr.c:1246: 警告：从不兼容的指针类型赋值
+../../mvl/usr/scl_srvr/scl_srvr.c:1247: 警告：从不兼容的指针类型赋值
+../../mvl/usr/scl_srvr/scl_srvr.c:1248: 警告：从不兼容的指针类型赋值
+../../mvl/usr/scl_srvr/scl_srvr.c: 在函数‘u_mvl_fopen_ind’中:
+../../mvl/usr/scl_srvr/scl_srvr.c:1790: 警告：将一个指针转换为大小不同的整数
+../../mvl/usr/scl_srvr/scl_srvr.c: 在函数‘u_mvl_fread_ind’中:
+../../mvl/usr/scl_srvr/scl_srvr.c:1823: 警告：将一个整数转换为大小不同的指针
+../../mvl/usr/scl_srvr/scl_srvr.c: 在函数‘u_mvl_fclose_ind’中:
+../../mvl/usr/scl_srvr/scl_srvr.c:1858: 警告：将一个整数转换为大小不同的指针
+STARTING MAKE OF iecgoose_ld EXECUTABLE for LINUX
+
+
+                  MMS-EASE Lite Object Foundry
+(c) Copyright Systems Integration Specialists Company, Inc.,
+                  1998 - 2008, All Rights Reserved
+Error, cannot open input file '../../mvl/usr/iecgoose/uca_obj.odf'
+
+
+Usage:  foundry [-o] [-ccfgFile] [-ttemplateFile] infile[.ext] [outfile]
+
+ Valid Arguments :
+	-?   	: List Valid Arguments
+	-c   	: Alignment control file
+	-t   	: UCA Template Function File
+	-o   	: Overwrite target
+	-d   	: Debug mode
+	-v   	: Create UCA Variable Names & Associations
+	-n   	: Extract UCA Variable Names
+	-p   	: Print line numbers being processed
+	-r   	: Use code to initialize Runtime Type
+	-l   	: List all types
+	-i   	: Include path
+	-x   	: No MMS-Lite Required
+	*    	: Object Definition File NameSTARTING MAKE OF gse_mgmt_ld EXECUTABLE for LINUX
+
+
+                  MMS-EASE Lite Object Foundry
+(c) Copyright Systems Integration Specialists Company, Inc.,
+                  1998 - 2008, All Rights Reserved
+
+Done
+../../mvl/usr/gse_mgmt/gse_mgmt.c: 在函数‘init_mem’中:
+../../mvl/usr/gse_mgmt/gse_mgmt.c:870: 警告：从不兼容的指针类型赋值
+../../mvl/usr/gse_mgmt/gse_mgmt.c:871: 警告：从不兼容的指针类型赋值
+../../mvl/usr/gse_mgmt/gse_mgmt.c:872: 警告：从不兼容的指针类型赋值

@@ -1,0 +1,404 @@
+#include "view_xml2ssaxex.h"
+
+CViewXml2SSaxEx::CViewXml2SSaxEx(QWidget *parent)
+	: CBaseView(parent)
+{
+	ui.setupUi(this);
+	connect(ui.pushButtonBrowse,SIGNAL(clicked()),this,SLOT(OnBrowser()));
+	connect(ui.pushButtonConvert,SIGNAL(clicked()),this,SLOT(OnConvert()));
+	connect(ui.pushButtonCopyH,SIGNAL(clicked()),this,SLOT(OnCopyH()));
+	connect(ui.pushButtonCopyCpp,SIGNAL(clicked()),this,SLOT(OnCopyCpp()));
+
+}
+
+CViewXml2SSaxEx::~CViewXml2SSaxEx()
+{
+
+}
+
+void CViewXml2SSaxEx::PrepareNodeName(SBaseConfig *p)
+{
+	if(p == NULL)
+		return;
+	int i,j,cnt = p->GetChildPtr()->count();
+	SBaseConfig *pSub,*pBase;
+	SString str;
+	for(i=0;i<cnt;i++)
+	{
+		pSub = p->GetChildPtr()->at(i);
+		if(pSub->GetNodeName().find(":") >= 0)
+			pSub->SetNodeName(pSub->GetNodeName().mid(pSub->GetNodeName().find(":")+1));
+		for(j=0;j<pSub->GetAttributeCount();j++)
+		{
+			str = pSub->GetAttributePtr()->at(j)->m_sName;
+			if(str.find(":") >= 0)
+				pSub->GetAttributePtr()->at(j)->m_sName = str.mid(str.find(":")+1);
+		}
+		PrepareNodeName(pSub);
+	}
+}
+
+void CViewXml2SSaxEx::RemoveMoreNode(SBaseConfig *p)
+{
+	if(p == NULL)
+		return;
+	int i,j,cnt = p->GetChildPtr()->count();
+	SBaseConfig *pSub,*pBase;
+	bool bMore;
+//	RemoveMoreNode(p->GetChildPtr()->at(0));
+	for(i=1;i<cnt;i++)
+	{
+		pSub = p->GetChildPtr()->at(i);
+		bMore = false;
+		for(j=0;j<i;j++)
+		{
+			pBase = p->GetChildPtr()->at(j);
+			if(pBase->GetNodeName() == pSub->GetNodeName())
+			{
+				bMore = true;
+				break;
+			}
+		}
+		if(bMore)
+		{
+			//将当前待删除节点的属性复制给基准节点
+			for(j=0;j<pSub->GetAttributeCount();j++)
+			{
+				pBase->SetAttribute(pSub->GetAttributeName(j),pSub->GetAttribute(pSub->GetAttributeName(j)));	
+			}
+			//将当前待删除的子节点移动给基准节点
+			pSub->GetChildPtr()->setAutoDelete(false);
+			pSub->GetChildPtr()->copyto(*pBase->GetChildPtr());
+			pSub->GetChildPtr()->clear();
+
+			p->GetChildPtr()->remove(i);
+			cnt--;
+			i--;
+		}
+	}
+
+	for(i=0;i<cnt;i++)
+	{
+		pSub = p->GetChildPtr()->at(i);
+		RemoveMoreNode(pSub);
+	}
+}
+
+void CViewXml2SSaxEx::GetNodeStructPre(SString &str,SString prix,SString &sListStr,SBaseConfig *p)
+{
+	if(p == NULL)
+		return;
+	int i,j,cnt = p->GetChildPtr()->count();
+	SBaseConfig *pSub;
+	
+	for(i=0;i<cnt;i++)
+	{
+		pSub = p->GetChildPtr()->at(i);
+		
+		str += SString::toFormat("\tstruct stu%s_%s;\r\n",
+			prix.data(),pSub->GetNodeName().data());
+		GetNodeStructPre(str,prix+"_"+pSub->GetNodeName(),sListStr,pSub);
+	}
+}
+
+
+void CViewXml2SSaxEx::GetNodeStruct(SString &str,SString prix,SString &sListStr,SBaseConfig *p)
+{
+	if(p == NULL)
+		return;
+	int i,j,cnt = p->GetChildPtr()->count();
+	SBaseConfig *pSub;
+	SString sSubListStr;
+	SString str1;
+	SString sAutodel,sListDef;
+
+	for(i=0;i<cnt;i++)
+	{
+		pSub = p->GetChildPtr()->at(i);
+		sSubListStr = "";
+// 		sAutodel += SString::toFormat("\t\t\tm_%s.setAutoDelete(true);\r\n",
+// 			pSub->GetNodeName().data());
+		sListDef += SString::toFormat("\t\tSConstPtrList<stu%s_%s> m_%s;\r\n",
+			prix.data(),pSub->GetNodeName().data(),pSub->GetNodeName().data());
+
+		str += SString::toFormat("\tstruct stu%s_%s\r\n\t{\r\n",
+			prix.data(),pSub->GetNodeName().data());
+		for(j=0;j<pSub->GetAttributeCount();j++)
+		{
+			str += SString::toFormat("\t\tconst char* %s;\r\n",pSub->GetAttributeName(j).data());
+		}
+		str1 = "";
+		GetNodeStruct(str1,prix+"_"+pSub->GetNodeName(),sSubListStr,pSub);
+		str += sSubListStr;
+		str += "\t\tconst char* node_value;\r\n";
+		str += SString::toFormat("\t};\r\n");
+		str += str1;
+	}
+	if(sAutodel.length() > 0)
+	{
+		sListStr += SString::toFormat("\t\tstu%s()\r\n\t\t{\r\n",prix.data());
+		sListStr += sAutodel ;
+		sListStr += "\t\t};\r\n";
+	}
+	sListStr += sListDef ;
+}
+
+
+void CViewXml2SSaxEx::GetNodeCallbackDef(SString &str,SString prix,SBaseConfig *p)
+{
+	if(p == NULL)
+		return;
+	int i,j,cnt = p->GetChildPtr()->count();
+	SBaseConfig *pSub;
+	
+	for(i=0;i<cnt;i++)
+	{
+		pSub = p->GetChildPtr()->at(i);
+		//static stuSaxChoice* Scl_CallbackSax_SCL(void* cbParam, SSaxAttribute *pAttribute,int iAttributeCount,char* sNodeValue);
+		str += SString::toFormat("\tstatic stuSaxChoice* CB_%s_%s(void* cbParam, SSaxAttribute *pAttribute,int iAttributeCount,char* sNodeValue);\r\n",
+			prix.data(),pSub->GetNodeName().data());
+		GetNodeCallbackDef(str,prix+"_"+pSub->GetNodeName(),pSub);
+	}
+}
+
+void CViewXml2SSaxEx::GetNodeTempPtr(SString &str,SString prix,SBaseConfig *p)
+{
+	if(p == NULL)
+		return;
+	int i,j,cnt = p->GetChildPtr()->count();
+	SBaseConfig *pSub;
+
+	for(i=0;i<cnt;i++)
+	{
+		pSub = p->GetChildPtr()->at(i);
+		str += SString::toFormat("\tstu%s_%s* m_p_%s_%s;\r\n",
+			prix.data(),pSub->GetNodeName().data(),prix.data(),pSub->GetNodeName().data());
+		GetNodeTempPtr(str,prix+"_"+pSub->GetNodeName(),pSub);
+	}
+}
+
+void CViewXml2SSaxEx::GetNodeCallback(SString &str,SString cls_name,SString prix,SBaseConfig *p)
+{
+	if(p == NULL)
+		return;
+	int i,j,cnt = p->GetChildPtr()->count();
+	SBaseConfig *pSub;
+	SString str1;
+// 	if(prix.find("_")<0)
+// 	{
+// 		//根节点，生成一个总入口回调
+// 	}
+
+	str += SString::toFormat("stuSaxChoice* %s::CB_%s(void* cbParam, SSaxAttribute *pAttribute,int iAttributeCount,char* sNodeValue)\r\n",
+		cls_name.data(),prix.data());
+	str += "{\r\n";
+	str += "\tstatic const stuSaxChoice pChoice[] = \r\n";
+	str += "\t{\r\n";
+	
+	for(i=0;i<cnt;i++)
+	{
+		pSub = p->GetChildPtr()->at(i);
+		//static stuSaxChoice* Scl_CallbackSax_SCL(void* cbParam, SSaxAttribute *pAttribute,int iAttributeCount,char* sNodeValue);
+		SString sFill="";
+		if(pSub->GetNodeName().length() < 30)
+			sFill = SString::toFillString("",30-pSub->GetNodeName().length(),' ');
+		str += SString::toFormat("\t	{ \"%s\",%s CB_%s_%s },\r\n",
+			pSub->GetNodeName().data(),sFill.data(),prix.data(),pSub->GetNodeName().data());
+
+		GetNodeCallback(str1,cls_name,prix+"_"+pSub->GetNodeName(),pSub);
+	}
+	str += "\t	{ NULL,NULL }\r\n";
+	str += "\t};\r\n";
+	str += "\t\r\n";
+	str += SString::toFormat("\t%s *pThis = (%s*)cbParam;\r\n",cls_name.data(),cls_name.data());
+	if(prix.find("_") >= 0)
+	{
+		str += SString::toFormat("\tpThis->m_p_%s = (stu%s*)pThis->m_ConstString.CopyToConstBuffer(g_s%sZero,sizeof(stu%s));\r\n",
+			prix.data(),prix.data(),cls_name.data(),prix.data());
+		cnt = p->GetAttributeCount();
+		if(cnt > 0)
+		{
+			str += "\tfor(int i=0;i<iAttributeCount;i++,pAttribute++)\r\n";
+			str += "\t{\r\n";
+			for(i=0;i<cnt;i++)
+			{
+				str += SString::toFormat("\t\t%sif(SString::equals(pAttribute->m_sAttrName.data(), \"%s\"))\r\n",
+					i==0?"":"else ",p->GetAttributeName(i).data());
+				str += SString::toFormat("\t\t\tpThis->m_p_%s->%s = pThis->m_ConstString.CopyToConstString(pAttribute->m_sAttrValue.data(),pAttribute->m_sAttrValue.length());\r\n",
+					prix.data(),p->GetAttributeName(i).data());
+			}
+			str += "\t}\r\n";
+		}
+		int p1 = prix.findRev("_");
+		SString par = prix;
+		if(p1 >= 0)
+			par = prix.left(p1);
+		str += SString::toFormat("\tpThis->m_p_%s->node_value = pThis->m_ConstString.CopyToConstString(sNodeValue);\r\n",
+			prix.data());
+		if(par.find("_") < 0)
+			str += SString::toFormat("\tpThis->m_%s.append(pThis->m_ConstString,pThis->m_p_%s);\r\n",
+			p->GetNodeName().data(),prix.data());
+		else
+			str += SString::toFormat("\tpThis->m_p_%s->m_%s.append(pThis->m_ConstString,pThis->m_p_%s);\r\n",
+			par.data(),p->GetNodeName().data(),prix.data());
+		cnt = p->GetAttributeCount();
+	}
+
+	str += "\t\r\n";
+	str += "\treturn (stuSaxChoice*)pChoice;\r\n";
+	str += "}\r\n\r\n";
+	str += str1;
+}
+
+void CViewXml2SSaxEx::OnBrowser()
+{
+	QString path=QFileDialog::getOpenFileName(this,"打开XML文件","","*.*",0,0);
+	ui.lineEdit_Src->setText(path);
+}
+
+void CViewXml2SSaxEx::OnConvert()
+{
+	SString cls_name = ui.lineEdit_ClsName->text().toStdString().data();
+	SString xmlfile = ui.lineEdit_Src->text().toStdString().data();
+	SXmlConfig xml;
+	if(xml.ReadConfig(xmlfile) == false)
+	{
+		SQt::ShowErrorBox("提示","无效的XML文件!转换失败!");
+		return ;
+	}
+	SString sH,sCpp;
+	SString sStuDef;
+	SString filename = cls_name;
+	if(filename.left(1) == "C")
+		filename = filename.mid(1);
+	sH.sprintf("/**\r\n"
+		  "*\r\n"
+		  "* 文 件 名 : %s.h\r\n"
+		  "* 创建日期 : %s\r\n"
+		  "* 作    者 : SspAssist(skt001@163.com)\r\n"
+		  "* 修改日期 : $Date: %s$\r\n"
+		  "* 当前版本 : $Revision: 1.0.0$\r\n"
+		  "* 功能描述 : 基于SSaxXmlEx类的XML解释功能封装\r\n"
+		  "* 修改记录 : \r\n"
+		  "*            $Log: $\r\n"
+		  "*\r\n"
+		  "* Ver  Date        Author  Comments\r\n"
+		  "* ---  ----------  ------  -------------------------------------------\r\n"
+		  "* 001  %s        　创建文件\r\n"
+		  "*\r\n"
+		  "**/\r\n"
+		  "\r\n"
+		  "#ifndef __SAXEX_%s_H__\r\n"
+		  "#define __SAXEX_%s_H__\r\n"
+		  "\r\n"
+		  "#include \"SSaxXml.h\"\r\n"
+		  "#include \"SList.h\"\r\n",
+		  filename.data(),
+		  SDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm").data(),
+		  SDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm").data(),
+		  SDateTime::currentDateTime().toString("yyyy-MM-dd").data(),
+		  cls_name.toUpper().data(),
+		  cls_name.toUpper().data()
+		  );
+
+
+	sCpp.sprintf("/**\r\n"
+		  "*\r\n"
+		  "* 文 件 名 : %s.cpp\r\n"
+		  "* 创建日期 : %s\r\n"
+		  "* 作    者 : SspAssist(skt001@163.com)\r\n"
+		  "* 修改日期 : $Date: %s$\r\n"
+		  "* 当前版本 : $Revision: 1.0.0$\r\n"
+		  "* 功能描述 : 基于SSaxXmlEx类的XML解释功能封装\r\n"
+		  "* 修改记录 : \r\n"
+		  "*            $Log: $\r\n"
+		  "*\r\n"
+		  "* Ver  Date        Author  Comments\r\n"
+		  "* ---  ----------  ------  -------------------------------------------\r\n"
+		  "* 001  %s        　创建文件\r\n"
+		  "*\r\n"
+		  "**/\r\n"
+		  "\r\n"
+		  "#include \"%s.h\"\r\n",
+		  filename.data(),
+		  SDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm").data(),
+		  SDateTime::currentDateTime().toString("yyyy-MM-dd").data(),
+		  SDateTime::currentDateTime().toString("yyyy-MM-dd").data(),
+		  filename.data());
+	int a;
+	sH += SString::toFormat("class %s : public SSaxXmlEx\r\n"
+		"{\r\n"
+		"public:\r\n"
+		"//节点结构定义\r\n",
+		cls_name.data());
+	
+	//删除重复节点
+	RemoveMoreNode(&xml);
+	PrepareNodeName(&xml);
+
+	//xml.SaveConfig("d:\sac1.scd");
+	//return;
+	//生成结构定义
+	SString sListStr;
+	GetNodeStructPre(sStuDef,xml.GetNodeName(),sListStr,&xml);
+	GetNodeStruct(sStuDef,xml.GetNodeName(),sListStr,&xml);
+
+	sH += sStuDef;
+	sH += SString::toFormat("\t%s();\r\n",cls_name.data());
+	sH += SString::toFormat("\tvirtual ~%s();\r\n",cls_name.data());
+	sH += SString::toFormat("\tstatic stuSaxChoice* CB_%s(void* cbParam, SSaxAttribute *pAttribute,int iAttributeCount,char* sNodeValue);\r\n",
+		xml.GetNodeName().data());
+	SString scl_autodel = sListStr;
+	SString scl_def = sListStr;
+	if(scl_autodel.find("{\r\n") > 0)
+		scl_autodel  = scl_autodel.mid(scl_autodel.find("{\r\n")+3);
+	if(scl_autodel.find("};\r\n") > 0)
+		scl_autodel  = scl_autodel.left(scl_autodel.find("};\r\n"));
+	if(scl_def.find("};\r\n") > 0)
+		scl_def  = scl_def.mid(scl_def.find("};\r\n")+4);
+	scl_def = scl_def.replace("\t\t","\t");
+	scl_autodel = scl_autodel.replace("\t\t\t","\t");
+	
+	//生成回调函数定义
+	GetNodeCallbackDef(sH,xml.GetNodeName(),&xml);
+	sH += scl_def;
+	SString sFunDef;
+
+	sH += "private:\r\n";
+	GetNodeTempPtr(sH,xml.GetNodeName(),&xml);
+
+	sH += "\r\n};\r\n#endif\r\n";
+
+	sCpp += SString::toFormat("unsigned char g_s%sZero[1024];\r\n",cls_name.data());
+	sCpp += SString::toFormat("%s::%s()\r\n{\r\n",cls_name.data(),cls_name.data());
+	sCpp += SString::toFormat("\tmemset(&g_s%sZero,0,sizeof(g_s%sZero));\r\n",cls_name.data(),cls_name.data());
+	sCpp += scl_autodel;
+	sCpp += SString::toFormat("\r\n\tSetRootNodeName(\"%s\");\r\n",xml.GetNodeName().data());
+	sCpp += SString::toFormat("\tSetRootCallbackFun(CB_%s);\r\n",xml.GetNodeName().data());
+	sCpp += SString::toFormat("}\r\n");
+
+	sCpp += SString::toFormat("%s::~%s()\r\n{\r\n",cls_name.data(),cls_name.data());
+	sCpp += SString::toFormat("}\r\n");
+
+	GetNodeCallback(sCpp,cls_name,xml.GetNodeName(),&xml);
+// 	unsigned long pos=0;
+// 	SBaseConfig *pSub = xml.GetChildPtr()->FetchFirst(pos);
+// 	while(pSub)
+// 	{
+// 		GetNodeCallback(sCpp,cls_name,xml.GetNodeName()+"_"+pSub->GetNodeName(),pSub);
+// 		pSub = xml.GetChildPtr()->FetchNext(pos);
+// 	}
+
+	ui.plainText_h->setPlainText(sH.data());
+	ui.plainText_cpp->setPlainText(sCpp.data());
+}
+
+void CViewXml2SSaxEx::OnCopyH()
+{
+	QApplication::clipboard()->setText(ui.plainText_h->toPlainText());
+}
+
+void CViewXml2SSaxEx::OnCopyCpp()
+{
+	QApplication::clipboard()->setText(ui.plainText_cpp->toPlainText());
+}

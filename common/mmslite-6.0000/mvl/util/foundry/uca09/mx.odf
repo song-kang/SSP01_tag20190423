@@ -1,0 +1,105 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+
+#############################################################
+#The following is from Section 5.3 of GOMSFE
+#############################################################
+
+#The following is from Section 6.3 of GOMSFE 0.7
+
+#                                                   m/o
+":T","AI",
+   "{
+    (i)                     <INT16S>,               #o
+    (f)                     <FLT32>,                #o
+    (q)                     <BSTR16>,               #o
+    (t)                     <BTIME6>                #o
+    }","AIType"
+
+#                                                   m/o
+":T","ACCI",
+   "{
+    (r)                     <INT32U>,               #m
+    (q)                     <BSTR16>,               #m
+    (fr)                    <INT32U>,               #m
+    (ft)                    <BTIME6>,               #m
+    }","AcummulatorInput"
+
+#
+#%%What is class of DC                              m/o
+":T","HI",
+   "{
+    (DC)                    <FLT32>,                #o
+    (PwrHa)                 [31:<FLT32>],           #o
+    (t)                     <BTIME6>                #o
+    }","HarmonicInput"
+
+
+#                                                   m/o
+":T","PFD",
+   "{
+    (FPF)                   <FLT32>,                #o
+    (FPFTim)                <BTIME6>,               #o
+    (RPF)                   <FLT32>,                #o
+    (RPFTIM)                <BTIME6>,               #o
+    (UPF)                   <FLT32>,                #o
+    (UPFTim)                <BTIME6>                #o
+    }","PowerFlowDirectionrmsvalues"
+
+
+#                                                   m/o
+":T","PFD1",
+   "{
+    (FPF)                   <FLT32>,                #o
+    (FPFTim)                <BTIME6>,               #o
+    (RPF)                   <FLT32>,                #o
+    (RPFTIM)                <BTIME6>,               #o
+    (UPF)                   <FLT32>,                #o
+    (UPFTim)                <BTIME6>                #o
+    }","PowerFlowDirectionfundementalfrequencies"
+
+#                                                   m/o
+":T","WYE",
+   "{
+    (PhsAi)                 <INT16S>,               #o
+    (PhsAf)                 <FLT32>,                #o
+    (PhsBi)                 <INT16S>,               #o
+    (PhsBf)                 <FLT32>,                #o
+    (PhsCi)                 <INT16S>,               #o
+    (PhsCf)                 <FLT32>,                #o
+    (Neuti)                 <INT16S>,               #o
+    (Neutf)                 <FLT32>,                #o
+    (q)                     <BSTR16>,               #o
+    (t)                     <BTIME6>               #o
+    }","Wye"
+
+#                                                   m/o
+":T","DELTA",
+   "{
+    (PhsABi)                <INT16S>,               #o
+    (PhsABf)                <FLT32>,                #o
+    (PhsBCi)                <INT16S>,               #o
+    (PhsBCf)                <FLT32>,                #o
+    (PhsCAi)                <INT16S>,               #o
+    (PhsCAf)                <FLT32>,                #o
+    (q)                     <BSTR16>,               #o
+    (t)                     <BTIME6>               #o
+    }","Deltaclassdefinition"
+
+#                                                   m/o
+":T","SEQ",
+   "{
+    (Posii)                 <INT16S>,               #o
+    (Posif)                 <FLT32>,                #o
+    (Negi)                  <INT16S>,               #o
+    (Negf)                  <FLT32>,                #o
+    (Zeroi)                 <INT16S>,               #o
+    (Zerof)                 <FLT32>,                #o
+    (q)                     <BSTR16>,               #o
+    (t)                     <BTIME6>               #o
+    }","Sequence"
+

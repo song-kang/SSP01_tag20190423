@@ -1,0 +1,92 @@
+
+
+***********************************************************
+          LOGGING STARTED Mon Feb 25 19:13:40 2019
+***********************************************************
+
+2019-02-25 19:13:40.845 SLOGALWAYS (fo_main.c 268 ThreadId=0x3C0 (960)) 
+  Executing '..\..\bin\foundry'
+  Input TDL file         : '..\..\mvl\usr\gse_mgmt\uca_obj.odf'
+  Configuration file     : '..\..\mvl\util\foundry\win32\align.cfg'
+  Output 'C' file        : '..\..\mvl\usr\gse_mgmt\uca_obj.c'
+  Output 'H' file        : '..\..\mvl\usr\gse_mgmt\uca_obj.h'
+  Output 'LAP XML' file  : '..\..\mvl\usr\gse_mgmt\lap_out.xml'
+  Output 'Lefttodo' file : '..\..\mvl\usr\gse_mgmt\lefttodo.txt'
+
+2019-02-25 19:13:40.879 SLOGALWAYS (fo_parse.c 157 ThreadId=0x3C0 (960)) 
+  Searching for object definitions: 
+  String 2 = '../../mvl/util/foundry/iec61850'
+  
+    currFile = '..\..\mvl\usr\gse_mgmt\uca_obj.odf'
+  String 2 = '../../mvl/util/foundry/uca09'
+  
+    currFile = '..\..\mvl\usr\gse_mgmt\uca_obj.odf'
+  String 2 = 'MVL_UCA'
+  
+    currFile = '..\..\mvl\usr\gse_mgmt\uca_obj.odf'
+  String 2 = 'MVLU_USE_REF'
+  
+    currFile = '..\..\mvl\usr\gse_mgmt\uca_obj.odf'
+  String 2 = ':TV'
+  Type Unique Flag = 'FALSE'
+  Type Unique Flag = 'FALSE'
+  Type Base Flag = 'FALSE'
+  Type Delete Unused Flag = 'TRUE'
+  Type UCA Flag = 'FALSE'
+  
+    currFile = '..\..\mvl\usr\gse_mgmt\uca_obj.odf'
+
+2019-02-25 19:13:40.879 SLOGALWAYS (fo_opt.c 62 ThreadId=0x3C0 (960)) 
+  Removing transient and unreferenced base types ...
+
+2019-02-25 19:13:40.879 SLOGALWAYS (fo_opt.c 109 ThreadId=0x3C0 (960)) 
+  Eliminating Twins
+
+2019-02-25 19:13:40.879 SLOGALWAYS (fo_write.c 171 ThreadId=0x3C0 (960)) 
+  Writing output files ...
+
+2019-02-25 19:13:40.880 SLOGALWAYS (fo_write.c 923 ThreadId=0x3C0 (960)) 
+  WRITING VARIABLE INITIALIZATION CODE
+
+2019-02-25 19:13:40.881 SLOGALWAYS (fo_write.c 564 ThreadId=0x3C0 (960)) 
+  WRITING DOMAIN INITIALIZATION CODE
+
+2019-02-25 19:13:40.881 SLOGALWAYS (fo_write.c 725 ThreadId=0x3C0 (960)) 
+  WRITING AA INITIALIZATION CODE
+
+2019-02-25 19:13:40.881 SLOGALWAYS (fo_write.c 1025 ThreadId=0x3C0 (960)) 
+  WRITING VARIABLE LIST INITIALIZATION CODE
+
+2019-02-25 19:13:40.881 SLOGALWAYS (fo_write.c 658 ThreadId=0x3C0 (960)) 
+  WRITING DOMAIN INITIALIZATION CODE
+
+2019-02-25 19:13:40.881 SLOGALWAYS (fo_write.c 833 ThreadId=0x3C0 (960)) 
+  WRITING AA VARIABLE LIST INITIALIZATION CODE
+
+2019-02-25 19:13:40.881 SLOGALWAYS (fo_write.c 1370 ThreadId=0x3C0 (960)) 
+  WRITING JOURNAL INITIALIZATION CODE
+
+2019-02-25 19:13:40.881 SLOGALWAYS (fo_write.c 1213 ThreadId=0x3C0 (960)) 
+  WRITING RUNTIME TYPES
+
+2019-02-25 19:13:40.907 MEM_LOG_DUMP (mem_chks.c 1334 ThreadId=0x3C0 (960)) 
+  DYNAMIC MEMORY POINTER TABLE
+----------------------------  
+  Ptr 0x00BBCD5C  Size    23  File : ..\..\mvl\util\foundry\fo_uca.c #1762
+  Ptr 0x00BBCD1C  Size    24  File : ..\..\mvl\util\foundry\fo_uca.c #1750
+  Ptr 0x00BBCCDC  Size    17  File : ..\..\mvl\util\foundry\fo_uca.c #1749
+  Ptr 0x00BBCC8C  Size    36  File : ..\..\mvl\util\foundry\fo_uca.c #1747
+  Ptr 0x00BBCC4C  Size    23  File : ..\..\mvl\util\foundry\fo_uca.c #1762
+  Ptr 0x00BBCC0C  Size    24  File : ..\..\mvl\util\foundry\fo_uca.c #1750
+  Ptr 0x00BBCBCC  Size    17  File : ..\..\mvl\util\foundry\fo_uca.c #1749
+  Ptr 0x00BBCB7C  Size    36  File : ..\..\mvl\util\foundry\fo_uca.c #1747
+  Ptr 0x00BB9A74  Size   200  File : ..\..\mvl\util\foundry\fo_uca.c #1449
+  Ptr 0x00BB20FC  Size   816  File : ..\..\mvl\util\foundry\fo_uca.c #1549
+  Ptr 0x00BB1DA4  Size   816  File : ..\..\mvl\util\foundry\fo_uca.c #1549
+  Ptr 0x00BB1A4C  Size   816  File : ..\..\mvl\util\foundry\fo_uca.c #1549
+  Ptr 0x00BB8714  Size   816  File : ..\..\mvl\util\foundry\fo_uca.c #1549
+  ---- END OF MEMORY POINTER TABLE ----------
+  Total number of allocated pointers:   13
+  Total amount of memory allocated:     3664 bytes 
+  Maximum number of pointers allocated: 14
+  Maximum amount of memory allocated:   253664 bytes

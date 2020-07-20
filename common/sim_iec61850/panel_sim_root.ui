@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>panel_sim_root</class>
+ <widget class="QWidget" name="panel_sim_root">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1035</width>
+    <height>610</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>panel_sim_root</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_Start">
+       <property name="text">
+        <string>启动模拟器(&amp;R)</string>
+       </property>
+       <property name="icon">
+        <iconset resource="sim_iec61850.qrc">
+         <normaloff>:/sim_iec61850/Resources/KEY04.ICO</normaloff>:/sim_iec61850/Resources/KEY04.ICO</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_Stop">
+       <property name="text">
+        <string>停止模拟器(&amp;T)</string>
+       </property>
+       <property name="icon">
+        <iconset resource="sim_iec61850.qrc">
+         <normaloff>:/sim_iec61850/Resources/W95MBX01.ICO</normaloff>:/sim_iec61850/Resources/W95MBX01.ICO</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>基本信息</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>模拟端口实时状态：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QTableWidget" name="tableWidget_Net"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>事件记录：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QTableWidget" name="tableWidget_Event"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab2">
+      <attribute name="title">
+       <string>运行脚本</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QSplitter" name="splitter">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QTreeWidget" name="twScripts">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="baseSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <column>
+           <property name="text">
+            <string>运行脚本</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>运行状态</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QWidget" name="layoutWidget">
+          <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QPushButton" name="btnSave">
+               <property name="text">
+                <string>保存(&amp;S)</string>
+               </property>
+               <property name="icon">
+                <iconset resource="sim_iec61850.qrc">
+                 <normaloff>:/sim_iec61850/Resources/save.gif</normaloff>:/sim_iec61850/Resources/save.gif</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>16</width>
+                 <height>16</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnCheckScript">
+               <property name="text">
+                <string>语法校验(&amp;V)</string>
+               </property>
+               <property name="icon">
+                <iconset resource="sim_iec61850.qrc">
+                 <normaloff>:/sim_iec61850/Resources/MSGBOX02.ICO</normaloff>:/sim_iec61850/Resources/MSGBOX02.ICO</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>16</width>
+                 <height>16</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>运行次数：</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="edtScriptTimes">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>运行间隔(ms)：</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="edtScriptSepMs">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnStartScript">
+               <property name="text">
+                <string>开始运行(&amp;E)</string>
+               </property>
+               <property name="icon">
+                <iconset resource="sim_iec61850.qrc">
+                 <normaloff>:/sim_iec61850/Resources/fault.gif</normaloff>:/sim_iec61850/Resources/fault.gif</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnStopScript">
+               <property name="text">
+                <string>结束运行(&amp;E)</string>
+               </property>
+               <property name="icon">
+                <iconset resource="sim_iec61850.qrc">
+                 <normaloff>:/sim_iec61850/Resources/del.gif</normaloff>:/sim_iec61850/Resources/del.gif</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnSearch">
+               <property name="text">
+                <string>数据节点检索(&amp;N)...</string>
+               </property>
+               <property name="icon">
+                <iconset resource="sim_iec61850.qrc">
+                 <normaloff>:/sim_iec61850/Resources/search.gif</normaloff>:/sim_iec61850/Resources/search.gif</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="labScriptStatus">
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QTextEdit" name="edtScript"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="sim_iec61850.qrc"/>
+ </resources>
+ <connections/>
+</ui>

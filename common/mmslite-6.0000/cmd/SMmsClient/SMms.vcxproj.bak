@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1ED9EDC8-41D3-4495-A926-C22554CFCDA9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SMms</RootNamespace>
+    <ProjectName>SMmsClient</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../../../lib/win32</OutDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../../out</OutDir>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;DEBUG_SISCO;MMS_LITE;ETHERNET;MOSI;LEAN_T;_DEBUG;_WINDOWS;_USRDLL;SMMS_EXPORTS;S_MT_SUPPORT;MVL_UCA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\inc;..\..\mvl\usr\client;</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;odbc32.lib;odbccp32.lib;ws2_32.lib;wpcap.lib;Packet.lib;sbased.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;"Z:\C\skt\src\Software_Platform\trunk\common\mmslite-6.0000\win32lib\asn1_ld.lib";"Z:\C\skt\src\Software_Platform\trunk\common\mmslite-6.0000\win32lib\gse_mgmt_ld.lib";"Z:\C\skt\src\Software_Platform\trunk\common\mmslite-6.0000\win32lib\mem_ld.lib";"Z:\C\skt\src\Software_Platform\trunk\common\mmslite-6.0000\win32lib\mlog_ld.lib";"Z:\C\skt\src\Software_Platform\trunk\common\mmslite-6.0000\win32lib\mmsl_ld.lib";"Z:\C\skt\src\Software_Platform\trunk\common\mmslite-6.0000\win32lib\mmsle_ld.lib";"Z:\C\skt\src\Software_Platform\trunk\common\mmslite-6.0000\win32lib\mvlu_ld.lib";"Z:\C\skt\src\Software_Platform\trunk\common\mmslite-6.0000\win32lib\ositpxs_ld.lib";"Z:\C\skt\src\Software_Platform\trunk\common\mmslite-6.0000\win32lib\slog_ld.lib";"Z:\C\skt\src\Software_Platform\trunk\common\mmslite-6.0000\win32lib\smpval_ld.lib";"Z:\C\skt\src\Software_Platform\trunk\common\mmslite-6.0000\win32lib\utility_ld.lib";%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd;libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)d$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;SMMS_EXPORTS;DEBUG_SISCO;MMS_LITE;ETHERNET;MOSI;LEAN_T;S_MT_SUPPORT;MVL_UCA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\inc;..\..\mvl\usr\client;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sbase.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SMms\client.h" />
+    <ClInclude Include="..\..\SMms\clntobj.h" />
+    <ClInclude Include="..\..\SMms\mmsop_en.h" />
+    <ClInclude Include="..\..\SMms\SMmsClient.h" />
+    <ClInclude Include="..\..\SMms\usermap.h" />
+    <ClInclude Include="..\..\SMms\utf2gb.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\mvl\src\acse\mvl_acse.c" />
+    <ClCompile Include="..\..\SMms\client.c" />
+    <ClCompile Include="..\..\SMms\cli_rpt.c" />
+    <ClCompile Include="..\..\SMms\clntobj.c" />
+    <ClCompile Include="..\..\SMms\event.c" />
+    <ClCompile Include="..\..\SMms\logcfgx.c" />
+    <ClCompile Include="..\..\SMms\mmsop_en.c" />
+    <ClCompile Include="..\..\SMms\mvlop_en.c" />
+    <ClCompile Include="..\..\SMms\reject.c" />
+    <ClCompile Include="..\..\SMms\SMmsClient.cpp" />
+    <ClCompile Include="..\..\SMms\utf2gb.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,310 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+":CI", "mx.odf"
+":CI", "st.odf"
+":CI", "sp.odf"
+":CI", "co.odf"
+":CI", "cf.odf"
+":CI", "cb.odf"
+":CI", "ax.odf"
+":CI", "dc.odf"
+
+#############################################################
+#The following is from Section 7.2 of GOMSFE 0.7
+#############################################################
+
+
+
+
+#
+":T","OILC",
+   "{
+    (MX) {
+         (TopT)             <AI>,                   #m
+         (BotT)             <AI>,                   #m
+         (TkLev)            <AI>,                   #m
+         (ConsvLev)         <AI>                   #o
+         },
+    (CF) {
+         (TopT)             <ACF>,                   #m
+         (BotT)             <ACF>,                   #m
+         (TkLev)            <ACF>,                   #m
+         (ConsvLev)         <ACF>                   #o
+         },
+    (DC) {
+         (TopT)             <d>,                   #m
+         (BotT)             <d>,                   #m
+         (TkLev)            <d>,                   #m
+         (ConsvLev)         <d>                   #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>               #m
+         },
+    }","OilInsulation"
+
+
+#
+":T","IGAS",
+   "{
+    (MX) {
+         (TankPres)         <AI>,                   #o
+         (BtlPres)          <AI>                   #o
+         },
+    (CF) {
+         (TankPres)         <ACF>,                   #o
+         (BtlPres)          <ACF>                   #o
+         },
+    (DC) {
+         (TankPres)         <d>,                   #o
+         (BtlPres)          <d>                   #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>               #m
+         },
+    }","InertGas"
+
+
+#
+":T","VACU",
+   "{
+    (ST) {
+         (VacBtl1)          <SI>,                   #o
+         (VacBtl2)          <SI>,                   #o
+         (VacBtl3)          <SI>                   #o
+         },
+    (DC) {
+         (VacBtl1)          <d>,                   #o
+         (VacBtl2)          <d>,                   #o
+         (VacBtl3)          <d>                   #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>               #m
+         },
+    }","Vacuum"
+
+
+#
+":T","CONC",
+   "{
+    (MX) {
+         (H2)               <AI>                   #o
+         },
+    (CF) {
+         (H2)               <ACF>                   #o
+         },
+    (DC) {
+         (H2)               <d>                   #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>               #m
+         },
+    }","GasConcentration"
+
+
+#
+":T","FIND",
+   "{
+    (MX) {
+         (FitMagA)          <WYE>                  #o
+         },
+    (ST) {
+         (FIA)              <BSTR16>,               #o
+         (FIB)              <BSTR16>,               #o
+         (FIC)              <BSTR16>,               #o
+         (FIN)              <BSTR16>               #o
+         },
+    (SP) {
+         (FlPuThre)         <PUG>,                  #o
+         (FlPuHyst)         <PUG>,                  #o
+         (FllnrushDel)      <PUG>,                  #o
+         (FlZeroThre)       <PUG>,                  #o
+         (FltRsTmr)         <AO>                   #o
+         },
+    (CO) {
+         (FIRs)             <BO>                   #o
+         },
+    (CF) {
+         (FitMagA)          <ACF>,                  #o
+         (FlPuThre)         <ACF>,                  #o
+         (FlPuHyst)         <ACF>,                  #o
+         (FllnrushDel)      <ACF>,                  #o
+         (FlZeroThre)       <ACF>,                  #o
+         (FltRsTmr)         <ACF>,                   #o
+         (FIRs)             <CCF>                   #o
+         },
+    (DC) {
+         (FitMagA)          <d>,                  #o
+         (FIA)              <d>,               #o
+         (FIB)              <d>,               #o
+         (FIC)              <d>,               #o
+         (FIN)              <d>,               #o
+         (FlPuThre)         <d>,                  #o
+         (FlPuHyst)         <d>,                  #o
+         (FllnrushDel)      <d>,                  #o
+         (FlZeroThre)       <d>,                  #o
+         (FltRsTmr)         <d>,                   #o
+         (FIRs)             <d>                   #o
+         },
+    (RP) {
+         (brcbST)           <BASRCB>               #o
+         },
+#    (AS) {
+#         (LogDev<n>)        <TBD>                  #o
+#         },
+    }","FaultIndicator"
+
+
+#
+":T","INSU",
+   "{
+    (MX) {
+         (Pres)             <AI>,                   #o
+         (Den)              <AI>,                   #o
+         (Lev)              <AI>                   #o
+         },
+    (ST) {
+         (PresSt)           <SIT>,                  #o
+         (DEN)              <SIT>,                  #o
+         (LevSt)            <SIT>                  #o
+         },
+    (SP) {
+         (LoPresAlm)        <ACF>,                  #o
+         (LoPresLO)         <ACF>,                  #o
+         (HiPresAlm)        <ACF>,                  #o
+         (LoDenAlm)         <ACF>,                  #o
+         (LoDenLO)          <ACF>,                  #o
+         (HiDenAlm)         <ACF>,                  #o
+         (LoLevAlm)         <ACF>,                  #o
+         (LoLevLO)          <ACF>,                  #o
+         (HiLevAlm)         <ACF>,                  #o
+         (PoleDiscTim)      <ACF>                  #o
+         },
+    (CF) {
+         (Pres)             <ACF>,                   #o
+         (Den)              <ACF>,                   #o
+         (Lev)              <ACF>,                   #o
+         (LoPresAlm)        <ACF>,                  #o
+         (LoPresLO)         <ACF>,                  #o
+         (HiPresAlm)        <ACF>,                  #o
+         (LoDenAlm)         <ACF>,                  #o
+         (LoDenLO)          <ACF>,                  #o
+         (HiDenAlm)         <ACF>,                  #o
+         (LoLevAlm)         <ACF>,                  #o
+         (LoLevLO)          <ACF>,                  #o
+         (HiLevAlm)         <ACF>,                  #o
+         (PoleDiscTim)      <ACF>                  #o
+         },
+    (DC) {
+         (Pres)             <d>,                   #o
+         (Den)              <d>,                   #o
+         (Lev)              <d>,                   #o
+         (PresSt)           <d>,                  #o
+         (DEN)              <d>,                  #o
+         (LevSt)            <d>,                  #o
+         (LoPresAlm)        <d>,                  #o
+         (LoPresLO)         <d>,                  #o
+         (HiPresAlm)        <d>,                  #o
+         (LoDenAlm)         <d>,                  #o
+         (LoDenLO)          <d>,                  #o
+         (HiDenAlm)         <d>,                  #o
+         (LoLevAlm)         <d>,                  #o
+         (LoLevLO)          <d>,                  #o
+         (HiLevAlm)         <d>,                  #o
+         (PoleDiscTim)      <d>                  #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>,               #o
+         (brcbST)           <BASRCB>               #o
+         },
+#    (AS) {
+#         (LogDev<n>)        <TBD>                  #o
+#         },
+    }","Insulation"
+
+
+#
+":T","PSUP",
+   "{
+    (MX) {
+         (Battv)            <AI>                   #o
+         },
+    (ST) {
+         (PwrSupSt)         <SIG>                  #o
+         },
+    (CO) {
+         (StartBatTest)     <BO>                   #o
+         },
+    (CF) {
+         (StartBatTest)      <CCF>                  #o
+         },
+    (DC) {
+         (PwrSupSt)   	     <d>,                    #m
+         (StartBatTest)      <d>                    #m
+         },
+    (RP) {
+         (brcbST)           <BASRCB>               #m
+         },
+#    (AS) {
+#         (LogDev<n>)        <TBD>                  #o
+#         },
+    }","PowerSupply"
+
+
+#
+":T","AUTO",
+   "{
+    (ST) {
+         (AutoManDS)        <SIT>,                  #o
+         (RecIDS)           <SIT>                   #o
+         },
+    (SP) {
+         (NumFltToLO)       <AO>,                   #o
+         (FitTmrRs)         <AO>,                   #o
+         (OpenTimDel)       <AO>,                   #o
+         (CommTimOut)       <ACF>                  #o
+         },
+    (CO) {
+         (ODAutoMan)        <DCO>                  #o
+         },
+    (CF) {
+         (NumFltToLO)       <ACF>,                   #o
+         (FitTmrRs)         <ACF>,                   #o
+         (OpenTimDel)       <ACF>,                   #o
+         (CommTimOut)       <ACF>,                  #o
+         (ODAutoMan)	    <ACF>                  #o
+         },
+    (DC) {
+         (AutoManDS)        <d>,                  #o
+         (RecIDS)           <d>,                   #o
+         (NumFltToLO)       <d>,                   #o
+         (FitTmrRs)         <d>,                   #o
+         (OpenTimDel)       <d>,                   #o
+         (CommTimOut)       <d>,                  #o
+         (ODAutoMan)        <d>                    #o
+         },
+    (RP) {
+         (brcbST)           <BASRCB>               #m
+         },
+    }","AutomaticControlLogic"
+
+
+#
+":T","RATO",
+   "{
+    (CF) {
+         (APhsVRat)         <RATIO>,                #o
+         (BPhsVRat)         <RATIO>,                #o
+         (CPhsVRat)         <RATIO>,                #o
+         (APhsARat)         <RATIO>,                #o
+         (BPhsARat)         <RATIO>,                #o
+         (CPhsARat)         <RATIO>,                #o
+         (NeutARat)         <RATIO>,                #o
+         (ABPhsVRat)        <RATIO>,                #o
+         (BCPhsVRat)        <RATIO>,                #o
+         (CAPhsVRat)        <RATIO>                #o
+         },
+    }","Ratio"

@@ -1,0 +1,195 @@
+# REVISIONS
+# 03/27/08  JRB  Del unneeded path "../../../mvl/util/foundry/uca09"
+# 07/22/05  JRB  Add phv_type, phsx_type used by cli_goose.c
+# 08/10/04  EJV  Chg "UTF8VSTRING13" from ":T" to ":TK".
+# 11/24/03  JRB  Add ":CF", ":TV" to avoid unnecessary type definitions.
+# 10/09/03  JRB  Add types for dealing with IEC/UCA Reports. Add "client.h".
+##########################################################################
+# MMS OBJECT CONFIGURATION FILE
+# This file is used as input to the 'foundry' utility application.
+# It is used to create the following objects for use with MMS-LITE:
+#	Types
+#	Domains
+#	Named Variables
+#	Named Variable Lists
+#
+# Note: All objects except for the types can also be created 
+#       by user code at initialization time. The creation of the
+#	Domains, Variables, and Variable Lists via this utility
+#	is for convenience only.
+#
+# Lines beginning with pound-signs are comments and are ignored.
+# The general format of object definitions in this file is described 
+# below. All object definition information is supplied in quotes, and
+# can span multiple lines if desired. A object definition string is of 
+# the form :
+#
+#   "{objectType}","Object Specific String1", "String2", ...
+#
+# Where the objectType field is used to specify the object and some of 
+# it's optional attributes. The format of the 'objectType' field is as 
+# follows -
+#
+# 	":X{flags}"
+#
+# Where X is one of the set {I,T,D,V,L}, and the set of valid flag
+# characters depends on the object type.
+#
+# 	C == Control string
+# 	  Flags  
+# 	    C : Config, next string is alignment file to use
+# 	    P : Path, next string is include path for ODF files
+# 	    F : Flags, next string contains flags to set defaults
+#		":VD"
+#		":VP"
+#		":TU"
+#		":TT"
+#		":TV"
+#		"-notypedefs"
+#		"-nosuffix"
+# 	    U : UCA control, next string contains UCA control info
+#		"MVL_UCA"
+#		"MVLU_USE_REF"
+#
+# 	I == User specified include file, for user object definitions
+# 	  Flags  
+#           None
+#
+# 	T == Type
+# 	  Flags  
+# 	    U : Unique, do not 'twin' this type
+# 	    T : Transient type, do not keep
+# 	    V : Keep only if referenced by a variable
+# 	    K : Keep this type unconditionally
+#
+# 	D == Domain
+# 	  Flags  
+#           None
+#
+# 	V == Named Variable
+# 	  Flags  
+#           D : Use 3rd string to set data pointer
+#           P : Use 4th (3rd for no D) string to set processing fun
+#           U : Use 5th (4rd for no D, 3rd for no P) string to set usr_info
+#
+# 	L == Named Variable List
+# 	  Flags  
+#           U : Use 5th (4rd for no D, 3rd for no P) string to set usr_info
+#          String ":S" : End of list of variables
+#
+# 	N == UCA Model Name Generation 
+# 	  Flags  
+#           None
+#
+##########################################################################
+# EXECUTION CONTROL
+#
+# Include path, used to locate included ODF files
+":CP", "../../mvl/util/foundry/uca09"
+
+# Set type handling default flags for all following types
+":CF", ":TV"		# Delete Runtime types not used by variables
+
+# Include SISCO UCA Object Definition Files
+":CI", "gentypes.odf"
+":CI", "rpt.odf"
+
+##########################################################################
+# INCLUDE FILE DEFINITION SECTION
+# This section is used to specify user include files that are to be
+# included in the output 'C' file. This may be necessary when creating
+# variables with data or processing initialzation strings.
+#   Example - Include the user header file 'umvlinit.h'
+#      ":I", "server.h"
+#
+
+":I", "client.h"
+
+##########################################################################
+# TYPE CREATION SECTION
+# This section is used to specify MMS-LITE types. There are three
+# required parameters per type (plus flags) - 
+#  1. Type Select Define : The define created to reference the type
+#  2. TDL : The SISCO type definition language string
+#  3. Comment: Used only in the output 'C' file
+# 
+#  Optional flags are - 
+#    U : Do not 'twin' this type
+#    T : Transient type, do not write; use only as base type
+#    K : Keep this type unconditionally
+
+":T", "ANALOG","[32:Ushort]","Array Of 32 16-bit unsigned integers"
+":T", "U16","Ushort","Single 16-bit unsigned integer"
+":TK", "I16","Short","Single 16-bit signed integer"
+":TK", "UTF8VSTRING13","UTF8Vstring13","variable len Unicode UTF8 string"
+
+# These types (phv_type, phsx_type) used by cli_goose.c
+":TK", "phv_type",
+"{(phsA){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+(phsB){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+(phsC){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+(neut){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+(net){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+(res){(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,},
+}",
+""
+":TK", "phsx_type",
+"{(instCVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(cVal){(mag){(i)Long,(f)Float,},(ang){(i)Long,(f)Float,},},(range)Byte,(q)BVstring13,(t)Utctime,}",
+""
+
+##########################################################################
+# DOMAIN CREATION SECTION
+# This section is used to create MMS-LITE domains. The single parameter 
+# is the domain name, which must be a legal MMS domain name.
+#   Example - Create a domain named mvlLiteDomain
+#      ":D", "mvlLiteDomain"
+#
+##########################################################################
+# VARIABLE ASSOCIATION CREATION SECTION
+# This section is used to specify MMS-LITE named variables. There are two
+# required parameters per variable, and three optional parameters (plus 
+# flags) - 
+#  1. Variable Name (must be valid MMS variable name). Note that the 
+#     name can be of the form "domainName:VariableName" for domain vars.
+#  2. Type ID : This Type ID must have been created previously
+#  3. Data (optional): Used to initialize the va->data element.
+#  4. Proc (optional): Used to initialize the va->proc element.
+#  5. User (optional): Used to initialize the va->usr_info element.
+# 
+#  Optional flags are - 
+#    D : Use 3rd string to set va->data
+#    P : Use 4th (3rd for no D) string to set va->proc
+#    U : Use 5th (4th, 3rd for no D, no P) string to set va->usr_info
+# 
+# Note that it may ne necessary to specify an include file to be used
+# to resolve the 'data' and 'proc' initialization code.
+# 
+#   Example - Create a VMD variable named 'Temperature'
+#     ":VDP", "Temperature", "I16", "&Temperature", "&varProcFuns"
+#
+##########################################################################
+# NAMED VARIABLE LIST CREATION SECTION
+# This section is used to specify MMS-LITE named variable lists. 
+# There are two required parameters per variable list, and a list of
+# variables to be included in the list (plus flags) - 
+#  1. Variable list Name (must be valid MMS variable name). Note that the 
+#     name can be of the form "domainName:VariableListName" for domain vars.
+#  2. List of variables to be part of the named variable list.
+#  3. End of variables marker. This is a string of form ":S",
+# 
+#   Example - Create a VMD Variable List named 'nvl1' with 'Temperature',
+#             and 'arr1' as members.
+#       ":L", "nvl1", "arr1", "Temperature", ":S"
+#
+##########################################################################
+# UCA MODEL NAME GENERATION SECTION
+# This section is used to generate UCA variable names from a selected
+# structure type. The first parameter is the name base to be used. The
+# second parameter is the type to use in extracting the names, and will
+# generally be a high level UCA object type.
+# Note: These objects are used only when the '-v' or '-n' command line
+#       parameters is used. 
+#   Example - Extract the names for the 
+#			"Automatic Switch Controller Device Model"
+#":N","ASWC","ASWC"
+#

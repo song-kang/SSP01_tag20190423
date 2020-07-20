@@ -1,0 +1,119 @@
+#############################################################
+#Copyright 1998-2003, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+# 03/13/03  JRB  Include "rpt.odf" & use "RTYP_*" defines from there.
+#		 Must be consistent with defines used by "mvlu_rpt.c".
+# 12/13/02  JRB  Chg OptFlds in BASRCB to BVstring9 for IEC-61850
+
+":CI", "gentypes.odf"
+":CI", "rpt.odf"
+
+#############################################################
+#The following is from Section 6.9, 6.10, 6.11 of GOMSFE 0.7
+#############################################################
+
+
+#The definition for 'D' is found in gentypes.odf
+
+#                                                   m/o
+":T","ECB",
+   "{
+    (EvtEna)                <EVTENA>,               #m
+    (InDat)                 <INDAT>,                #m
+    (OutDat)                <OUTDAT>,               #m
+    (EvaFct)                <EVAFCT>,               #m
+    (EvaCri)                <EVACRI>,               #m
+    (EVAPar)                <EVAPAR>,               #m
+    (EvaCns)                <EVACNS>                #m
+    }","EventControlBlock"
+
+#                                                   m/o
+":T","RCB",
+   "{
+    (RptEna)                <RPTENA>,               #m
+    (RptID)                 <RPTID>,                #m
+    (OptFlds)               <OPTFLDS>,              #m
+    (BufTim)                <BUFTIM>,               #m
+    (Trgs)                  <TRGS>,                 #m
+    (SqNum)                 <INT8U>,               #m
+    (Enroll)                <ENROLL>,               #m
+    (CriRpt)                <CRIRPT>,               #m
+    (DestAE)                <DESTAE>,               #m
+    (EncOpt)                <ENCOPT>                #m
+    }","ReportControlBlock"
+
+#                                                   m/o
+":T","BASRCB",
+   "{
+    (RptEna)                <RTYP_BOOL>,               #m
+    (RptID)                 <RTYP_VSTR32>,                #m
+    (DatSet)                <RTYP_VSTR65>,                #m
+    (OptFlds)               <RTYP_BVSTR8>,              #m
+    (BufTim)                <INT32U>,               #m
+    (Trgs)                  <RTYP_INT16U>,                 #m
+    (SqNum)                 <INT8U>,               #m
+    (TrgOps)                <RTYP_BVSTR8>,                #m
+    (RBEPd)                 <INT32U>,                #m
+    (IntgPd)                <INT32U>                #m
+    }","BasicReportControlBlock"
+
+#                                                   m/o
+":T","ACCFCB",
+   "{
+    (AccSet)                <VSTR32>,               #m
+    (FrzEna)                <FRZENA>,               #m
+    (StartTim)              <BTIME6>,               #m
+    (FrzPd)                 <FRZPD>                 #m
+    }","BasicAccumulatorFreezeControlBlock"
+
+
+#
+":T","PACT",
+   "{
+    (SendingIED)            <IDENT>,
+    (t)                     <BTIME6>,
+    (SqNum)                 <INT32U>,
+    (StNum)                 <STNUM>,
+    (HoldTim)               <HOLDTIM>,
+    (BackTim)               <BACKTIM>,
+    (PhsID)                 <PHSID>,
+    (DNA)                   <DNA>,
+    (UserSt)                <USERST>
+    }","PACT"
+
+#
+#%%Need to find definitions
+":T","XING",
+   "{
+    (Tim)                   <INT16U>,
+    (PhsAngi)               <ENUM8>,
+    (Dir)                   <VSTR32>,
+    (PhsID)                 <PHSID>,
+    (FundVi)                <FLT32>
+    }",""
+#
+#				                    m/o
+":T","LCB",
+   "{
+    (LogEna)                <LOGENA>,               #m
+    (LogNam)		    <IDENT>,		    #m
+    (LogEnr)                <LOGENR>,               #m
+    (Fillvl)		    <INT8U>,		    #m
+    (LogSize)               <INT32U>,               #m
+    (LogWrp)                <BOOL>,                 #m
+    (LogSt)                 Bstring5,		    #m
+    (FillSt)		    <BOOL>,		    #m
+    (LogOpt)		    Bstring4,		    #m
+    (OldEnt)                <INT32U>,		    #m
+    (NewEnt)                <INT32U>,               #m
+    (NumOvr)                <INT32U>,		
+    (LstEntDisc)	    <INT32U>,		    #m
+    (OldTim)                <BTIME6>,               #m
+    (NewTim)                <BTIME6>               #m
+    }","LogControlBlock"
+
+
+
+
+

@@ -1,0 +1,458 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+":CI", "mx.odf"
+":CI", "st.odf"
+":CI", "sp.odf"
+":CI", "co.odf"
+":CI", "cf.odf"
+":CI", "cb.odf"
+":CI", "ax.odf"
+":CI", "dc.odf"
+
+#############################################################
+#The following is from Section 7.8 of GOMSFE 0.7
+#############################################################
+
+
+
+
+#
+":T","PBRO",
+   "{
+    (ST) {
+         (Out)              <BOOL>,                  #o
+         (Tar)              <PHSTAR>,                #o
+         (FctDS)            <SIT>,                   #o
+         (AuxIn1)         <BSTR16>,                #o
+         (PuGrp)            <INT8U>                 #o
+         },
+    (SG) {
+         (Pu)               <PUG>,                   #o
+         (PuDelTim)         <INT32U>,                #o
+         (DODelTim)         <INT32U>                #o
+         },
+    (CO) {
+         (EnaDisFct)        <DCO>,                   #o
+         (RsTar)            <BO>,                    #o
+         (RsLat)            <BO>,                    #o
+         (EnaLatRs)         <BO>,                    #o
+         (AuxOut1)        [16:<BOOL>],              #o
+         },
+    (CF) {
+         (Pu)               <ACF>,                   #o
+         (PuDelTim)         <ACF>,                #o
+         (DODelTim)         <ACF>,                #o
+         (EnaDisFct)        <CCF>,                   #o
+         (RsTar)            <CCF>,                    #o
+         (RsLat)            <CCF>,                    #o
+         (EnaLatRs)         <CCF>,                    #o
+         (AuxOut1)          <CCF>              #o
+         },
+    (DC) {
+         (Out)              <d>,                  #o
+         (Tar)              <d>,                #o
+         (FctDS)            <d>,                   #o
+         (AuxIn1)         <d>,                #o
+         (PuGrp)            <d>,                 #o
+         (EnaDisFct)        <d>,                   #o
+         (RsTar)            <d>,                    #o
+         (RsLat)            <d>,                    #o
+         (EnaLatRs)         <d>,                    #o
+         (AuxOut1)          <d>              #o
+         },
+#    (AS) {
+#         (All Related IEDs) <TBD>,                   #m
+#         },
+    }","BasicRelayObject"
+
+
+#
+":T","PBTC",
+   "{
+    (SG) {
+         (CrvMult)          <PUG>,                   #o
+         (CrvTyp)           <ENUM8>,                #o
+         (TimDial)          <AO>,                    #o
+         (RsTimDel)         <AO>,                    #o
+         (RsChar)           <ENUM8>                  #o
+         },
+    (CF) {
+         (CrvMult)          <ACF>,                   #o
+         (CrvTyp)           <ACF>,                #o
+         (TimDial)          <ACF>,                    #o
+         (RsTimDel)         <ACF>,                    #o
+         (RsChar)           <ACF>                  #o
+         },
+    (DC) {
+         (CrvMult)          <d>,                   #o
+         (CrvTyp)           <d>,                #o
+         (TimDial)          <d>,                    #o
+         (RsTimDel)         <d>,                    #o
+         (RsChar)           <d>                  #o
+         },
+    }","BasicTimeCurveObject"
+
+
+#
+":T","PDIS",
+   "{
+    (ST) {
+         (Out)              <BOOL>,                  #o
+         (Tar)              <PHSTAR>,                #o
+         (FctDS)            <SIT>,                   #o
+         (AuxIn1)         <BSTR16>,                #o
+         (DistTyp)          <BSTR8>                  #o
+         },
+    (SG) {
+         (Pu)               <PUG>,                   #o
+         (PuDelTim)         <INT32U>,                #o
+         (DODelTim)         <INT32U>,                #o
+         (PoRch)            <VEC>,                   #o
+         (RectRch)          <XY>,                    #o
+         (PctRch)           <AO>,                    #o
+         (RchDir)           <BO>,                    #o
+         (Ofs)              <AO>,                    #o
+         (Slp)              <AO>,                    #o
+         (PoQuad)           <PQuad>,                 #o
+         (RctQuad)          <RQuad>,                 #o
+         (PoBlind)          <PoB>,                   #o
+         (RectBlind)        <RectB>                  #o
+         },
+    (CO) {
+         (EnaDisFct)        <DCO>,                   #o
+         (RsTar)            <BO>,                    #o
+         (RsLat)            <BO>,                    #o
+         (EnaLatRs)         <BO>,                    #o
+         (AuxOut1)         [16:<BOOL>]              #o
+         },
+    (CF) {
+         (Out)              <ACF>,                  #o
+         (Tar)              <ACF>,                #o
+         (FctDS)            <ACF>,                   #o
+         (AuxIn1)       <ACF>,                #o
+         (DistTyp)          <ACF>,                  #o
+         (EnaDisFct)        <CCF>,                   #o
+         (RsTar)            <CCF>,                    #o
+         (RsLat)            <CCF>,                    #o
+         (EnaLatRs)         <CCF>,                    #o
+         (AuxOut1)         <CCF>              #o
+         },
+    (DC) {
+         (Out)              <d>,                  #o
+         (Tar)              <d>,                #o
+         (FctDS)            <d>,                   #o
+         (AuxIn1)         <d>,                #o
+         (DistTyp)          <d>,                  #o
+         (EnaDisFct)        <d>,                   #o
+         (RsTar)            <d>,                    #o
+         (RsLat)            <d>,                    #o
+         (EnaLatRs)         <d>,                    #o
+         (AuxOut1)         <d>              #o
+         },
+#    (AS) {
+#         (All Related IEDs) <TBD>,                   #m
+#         },
+    }","Distance"
+
+
+#
+":T","RSYN",
+   "{
+    (ST) {
+         (Out)              <BOOL>,                  #o
+         (Tar)              <PHSTAR>,                #o
+         (FctDS)            <SIT>,                   #o
+         (AuxIn1)         <BSTR16>                #o
+         },
+    (SG) {
+         (Pu)               <PUG>,                   #o
+         (PuDelTim)         <INT32U>,                #o
+         (DODelTim)         <INT32U>,                #o
+         (SlipHz)           <PUG>,                   #o
+         (AngDiff)          <PUG>,                   #o
+         (SyncV)            <PUG>,                   #o
+         (BkrCisTim)        <INT8U>                 #o
+         },
+    (CO) {
+         (EnaDisFct)        <DCO>,                   #o
+         (RsTar)            <BO>,                    #o
+         (RsLat)            <BO>,                    #o
+         (EnaLatRs)         <BO>,                    #o
+         (AuxOut1)        [16:<BOOL>]              #o
+         },
+    (CF) {
+         (Pu)               <ACF>,                   #o
+         (PuDelTim)         <ACF>,                #o
+         (DODelTim)         <ACF>,                #o
+         (SlipHz)           <ACF>,                   #o
+         (AngDiff)          <ACF>,                   #o
+         (SyncV)            <ACF>,                   #o
+         (BkrCisTim)        <ACF>,                 #o
+         (EnaDisFct)        <CCF>,                   #o
+         (RsTar)            <CCF>,                    #o
+         (RsLat)            <CCF>,                    #o
+         (EnaLatRs)         <CCF>,                    #o
+         (AuxOut1)          <CCF>              #o
+         },
+    (DC) {
+         (Pu)               <ACF>,                   #o
+         (PuDelTim)         <ACF>,                #o
+         (DODelTim)         <ACF>,                #o
+         (SlipHz)           <ACF>,                   #o
+         (AngDiff)          <ACF>,                   #o
+         (SyncV)            <ACF>,                   #o
+         (BkrCisTim)        <ACF>,                 #o
+         (EnaDisFct)        <CCF>,                   #o
+         (RsTar)            <CCF>,                    #o
+         (RsLat)            <CCF>,                    #o
+         (EnaLatRs)         <CCF>,                    #o
+         (AuxOut1)      <CCF>              #o
+         },
+#    (AS) {
+#         (All Related IEDs) <CCF>,                   #m
+#         },
+    }","SynchronizingOrSynchronismCheck"
+
+
+#
+":T","PHIZ",
+   "{
+    (MX) {
+         (ArcConf)          <WYE>,                   #o
+         },
+    (ST) {
+         (Out)              <BOOL>,                  #o
+         (Tar)              <PHSTAR>,                #o
+         (FctDS)            <SIT>,                   #o
+         (DnCond)           <BOOL>,                  #o
+         (ArcSus)           <BOOL>,                #o
+         (OCTar)            <PHSTAR>,                #o
+         (LOL)              <PHSTAR>,                #o
+         (PuGrp)            <INT8U>                 #o        
+         },
+    (SG) {
+         (Pu)               <PUG>,                   #o
+         (PuDelTim)         <INT32U>,                #o
+         (DODelTim)         <INT32U>                #o
+         },
+    (CO) {
+         (EnaDisFct)        <DCO>,                   #o
+         (RsTar)            <BO>,                    #o
+         (RsLat)            <BO>,                    #o
+         (EnaLatRs)         <BO>,                    #o
+         (AuxOut1)          [16:<BOOL>]              #o
+         },
+    (CF) {
+         (Pu)               <ACF>,                   #o
+         (PuDelTim)         <ACF>,                #o
+         (DODelTim)         <ACF>,                #o
+         (SlipHz)           <ACF>,                   #o
+         (AngDiff)          <ACF>,                   #o
+         (SyncV)            <ACF>,                   #o
+         (BkrCisTim)        <ACF>,                 #o
+         (EnaDisFct)        <CCF>,                   #o
+         (RsTar)            <CCF>,                    #o
+         (RsLat)            <CCF>,                    #o
+         (EnaLatRs)         <CCF>,                    #o
+         (AuxOut1)        <CCF>	              #o
+         },
+    (DC) {
+         (Out)              <d>,                  #o
+         (Tar)              <d>,                #o
+         (FctDS)            <d>,                   #o
+         (AuxIn1)         <d>,                #o
+         (Pu)               <d>,                   #o
+         (PuDelTim)         <d>,                #o
+         (DODelTim)         <d>,                #o
+         (SlipHz)           <d>,                   #o
+         (AngDiff)          <d>,                   #o
+         (SyncV)            <d>,                   #o
+         (BkrCisTim)        <d>,                 #o
+         (EnaDisFct)        <d>,                   #o
+         (RsTar)            <d>,                    #o
+         (RsLat)            <d>,                    #o
+         (EnaLatRs)         <d>,                    #o
+         (AuxOut1)          <d>                   #o
+         },
+#    (AS) {
+#         (All Related IEDs) <CCF>,                   #m
+#         },
+    }","HighImpedanceGroundDetector"
+
+
+#
+":T","PDOC",
+   "{
+    (ST) {
+         (Out)              <BOOL>,                  #o
+         (Tar)              <PHSTAR>,                #o
+         (FctDS)            <SIT>,                   #o
+         (AuxIn1)          <BSTR16>                #o
+         },
+    (SG) {
+         (Pu)               <PUG>,                   #o
+         (PuDelTim)         <INT32U>,                #o
+         (DODelTim)         <INT32U>,                #o
+         (PuDir)            <SIT>,                   #o
+         (MaxTorqAng)       <AO>,                    #o
+         (PoQuan)           <AO>                    #o
+         },
+    (CO) {
+         (EnaDisFct)        <DCO>,                   #o
+         (RsTar)            <BO>,                    #o
+         (RsLat)            <BO>,                    #o
+         (EnaLatRs)         <BO>,                    #o
+         (AuxOut1)          [16:<BOOL>]              #o
+         },
+    (CF) {
+         (Pu)               <ACF>,                   #o
+         (PuDelTim)         <ACF>,                #o
+         (DODelTim)         <ACF>,                #o
+         (PuDir)            <ACF>,                   #o
+         (MaxTorqAng)       <ACF>,                    #o
+         (PoQuan)           <ACF>,                    #o
+         (EnaDisFct)        <CCF>,                   #o
+         (RsTar)            <CCF>,                    #o
+         (RsLat)            <CCF>,                    #o
+         (EnaLatRs)         <CCF>,                    #o
+         (AuxOut1)          <CCF>	             #o
+         },
+    (DC) {
+         (Out)              <d>,                  #o
+         (Tar)              <d>,                #o
+         (FctDS)            <d>,                   #o
+         (AuxIn1)          <d>,                #o
+         (Pu)               <d>,                   #o
+         (PuDelTim)         <d>,                #o
+         (DODelTim)         <d>,                #o
+         (PuDir)            <d>,                   #o
+         (MaxTorqAng)       <d>,                    #o
+         (PoQuan)           <d>,                    #o
+         (EnaDisFct)        <d>,                   #o
+         (RsTar)            <d>,                    #o
+         (RsLat)            <d>,                    #o
+         (EnaLatRs)         <d>,                    #o
+         (AuxOut1)          <d>	             #o
+         },
+#    (AS) {
+#         (All Related IEDs) <CCF>,                   #m
+#         },
+    }","DirectionalOvercurrent"
+
+
+#
+":T","RREC",
+   "{
+    (ST) {
+         (Out)              <BOOL>,                  #o
+         (Tar)              <PHSTAR>,                #o
+         (FctDS)            <SIT>,                   #o
+         (BkrDS)            <SIT>,                   #m
+         (AuxIn1)           <BSTR16>                #o
+         },
+    (SG) {
+         (Pu)               <PUG>,                   #o
+         (PuDelTim)         <INT32U>,                #o
+         (DODelTim)         <INT32U>,                #o
+         (ReclSeq)          <SHOTS>                 #m
+         },
+    (CO) {
+         (EnaDisFct)        <DCO>,                   #o
+         (IniRecl)          <DCO>,                   #o
+         (RsTar)            <BO>,                    #o
+         (RsLat)            <BO>,                    #o
+         (EnaLatRs)         <DCO>,                   #o
+         (AuxOut1)          [16:<BOOL>]              #o
+         },
+    (CF) {
+         (Pu)               <ACF>,                   #o
+         (PuDelTim)         <ACF>,                #o
+         (DODelTim)         <ACF>,                #o
+         (ReclSeq)          <ACF>,                 #m
+         (EnaDisFct)        <CCF>,                   #o
+         (IniRecl)          <CCF>,                   #o
+         (RsTar)            <CCF>,                    #o
+         (RsLat)            <CCF>,                    #o
+         (EnaLatRs)         <CCF>,                   #o
+         (AuxOut1)          <CCF>               #o
+         },
+    (DC) {
+         (Out)              <d>,                  #o
+         (Tar)              <d>,                #o
+         (FctDS)            <d>,                   #o
+         (BkrDS)            <d>,                   #m
+         (AuxIn1)           <d>,                #o
+         (Pu)               <d>,                   #o
+         (PuDelTim)         <d>,                #o
+         (DODelTim)         <d>,                #o
+         (ReclSeq)          <d>,                 #m
+         (EnaDisFct)        <d>,                   #o
+         (IniRecl)          <d>,                   #o
+         (RsTar)            <d>,                    #o
+         (RsLat)            <d>,                    #o
+         (EnaLatRs)         <d>,                   #o
+         (AuxOut1)          <d>               #o
+         },
+#    (AS) {
+#         (All Related IEDs) <CCF>,                   #m
+#         },
+    }","ReclosingRelay"
+
+
+
+#
+":T","PDIF",
+   "{
+    (ST) {
+         (Out)              <BOOL>,                  #o
+         (Tar)              <PHSTAR>,                #o
+         (FctDS)            <SIT>,                   #o
+         (AuxIn1)           <BSTR16>                #o
+         },
+    (SG) {
+         (Pu)               <PUG>,                   #o
+         (PuDelTim)         <INT32U>,                #o
+         (DODelTim)         <INT32U>,                #o
+         (Slp)              <AO>                    #o
+         },
+    (CO) {
+         (EnaDisFct)        <DCO>,                   #o
+         (RsTar)            <BO>,                    #o
+         (RsLat)            <BO>,                    #o
+         (EnaLatRs)         <BO>,                    #o
+         (AuxOut1)          [16:<BOOL>]              #o
+         },
+    (CF) {
+         (Pu)               <ACF>,                   #o
+         (PuDelTim)         <ACF>,                   #o
+         (DODelTim)         <ACF>,                   #o
+         (Slp)              <ACF>,                    #o
+         (EnaDisFct)        <CCF>,                   #o
+         (RsTar)            <CCF>,                    #o
+         (RsLat)            <CCF>,                    #o
+         (EnaLatRs)         <CCF>,                    #o
+         (AuxOut1)          <CCF>	             #o
+         },
+    (DC) {
+         (Out)              <d>,                  #o
+         (Tar)              <d>,                #o
+         (FctDS)            <d>,                   #o
+         (AuxIn1)           <d>,                #o
+         (Pu)               <d>,                   #o
+         (PuDelTim)         <d>,                   #o
+         (DODelTim)         <d>,                   #o
+         (Slp)              <d>,                    #o
+         (EnaDisFct)        <d>,                   #o
+         (RsTar)            <d>,                    #o
+         (RsLat)            <d>,                    #o
+         (EnaLatRs)         <d>,                    #o
+         (AuxOut1)          <d>	             #o
+         },
+#    (AS) {
+#         (All Related IEDs) <CCF>,                   #m
+#         },
+    }","DifferentialRelay"

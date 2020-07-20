@@ -1,0 +1,71 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+#############################################################
+#The following is from Section 7.1 of GOMSFE 0.7
+#############################################################
+
+
+":CI", "gentypes.odf"
+":CI", "mx.odf"
+":CI", "st.odf"
+":CI", "sp.odf"
+":CI", "co.odf"
+":CI", "cf.odf"
+":CI", "dc.odf"
+":CI", "ax.odf"
+":CI", "cb.odf"
+":CI", "dc.odf"
+
+
+
+#                                                   m/o
+":T","GLOBE",
+   "{
+    (ST) {
+         (ModeDS)           <SIT>,                  #m
+         (LocRemDS)         <SIT>,                  #m
+         (ActSG)            <INT8U>,                #o
+         (EditSG)           <INT8U>,                #o
+         (AuxIn01)          <BSTR16>               #o
+         },
+    (SP) {
+         (PreSetDNA)        <DNA>,                  #o
+         (ForDNA)           <DNA>,                  #o
+         (DefDNA)           <DNA>                  #o
+         },
+    (CO) {
+	   (CopySG)           <INT8U>,                #o
+	   (SaveSG)           <INT8U>,                #o
+	   (ActSG)            <INT8U>,                #o
+	   (IndRs)            <BOOL>,                 #o
+	   (AuxOut16)        [16:<BOOL>]             #o
+	   },
+    (CF) {
+         (Img)              <AcsBLOB>,              #o
+	   (ClockTOD)         <BTIME6>,                #o
+	   (SelOutDNA)        <DNA>,                  #o
+	   (SelInDNA)         <DNA>,                  #o
+	   (NeutRef)          <BOOL>,                 #o
+	   (CTRat)            <RATIO>,                #o
+	   (VTRat)            <RATIO>                #o
+	   },
+    (DC) {
+         (ModeDS)           <d>,                  	#m
+         (LocRemDS)         <d>,                  	#m
+         (ActSG)            <d>,                	#o
+         (EditSG)           <d>,                	#o
+         (AuxIn01)          <d>               		#o
+	},
+    (AX){
+	(SGEditor)         <TAG>                  #o 
+	},
+    (RP) {
+#   	   (brcbMX)           <BASRCB>,               #o 
+   	   (brcbST)           <BASRCB>,               #o 
+   	   (GOOSE)           <PACT>                  #o 
+         },
+    }","GLOBE"
+

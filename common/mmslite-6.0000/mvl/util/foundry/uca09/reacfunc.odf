@@ -1,0 +1,95 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+
+#############################################################
+#The following is from Section 7.7 of GOMSFE 0.7
+#############################################################
+
+
+
+
+#
+":T","CAPB","{
+    (DC) {
+         (CapRtg)           <EqRtg>,                #m
+         (ConCkt)           <ConCkt>,               #m
+         (BnkCon)           <ENUM8>                #o
+         },
+    }","CapacitorBank"
+
+
+#
+":T","CAPL",
+   "{
+    (ST) {
+         (OVDS)             <SI>,                    #o
+         (NeutAlm)          <BOOL>,                  #o
+         (DSTDS)            <SIT>,                   #o
+         (SensorSt)         <SIG>,                   #o
+         (DschBlkDS)        <SI>,                    #o
+         (DoorDS)           <SIT>,                   #o
+         (CBDS)             <SIT>                   #o
+         },
+    (SP) {
+         (VPu)              <CBPUG>,                 #o
+         (APu)              <CBPUG>,                 #o
+         (VArPu)            <CBPUG>,                 #o
+         (NeutAPu)          <CBPUG>,                 #o
+         (HiBadV)           <AO>,                    #o
+         (LoBadV)           <AO>,                    #o
+         (TimSched)         <CBTim>,                 #o
+         (StartTS)          <BTIME6>,                #o
+         (StopTS)           <BTIME6>,                #o
+         (StartDST)         <BTIME6>,                #o
+         (StopDST)          <BTIME6>                #o
+         },
+    (CF) {
+         (OperLogic)        <SIG>,                   #m
+         (DschTimDel)       <INT16U>,                #o
+         (maxOper)          <INT8U>,                 #o
+         (VPu)              <CBPUG>,                 #o
+         (APu)              <CBPUG>,                 #o
+         (VArPu)            <CBPUG>,                 #o
+         (NeutAPu)          <CBPUG>,                 #o
+         (HiBadV)           <ACF>,                    #o
+         (LoBadV)           <ACF>,                    #o
+         (TimSched)         <ACF>,                 #o
+         (StartTS)          <ACF>,                #o
+         (StopTS)           <ACF>,                #o
+         (StartDST)         <ACF>,                #o
+         (StopDST)          <ACF>                #o
+         },
+    (DC) {
+         (OVDS)             <d>,                    #o
+         (NeutAlm)          <d>,                  #o
+         (DSTDS)            <d>,                   #o
+         (SensorSt)         <d>,                   #o
+         (DschBlkDS)        <d>,                    #o
+         (DoorDS)           <d>,                   #o
+         (CBDS)             <d>,                   #o
+         (VPu)              <d>,                 #o
+         (APu)              <d>,                 #o
+         (VArPu)            <d>,                 #o
+         (NeutAPu)          <d>,                 #o
+         (HiBadV)           <d>,                    #o
+         (LoBadV)           <d>,                    #o
+         (TimSched)         <d>,                 #o
+         (StartTS)          <d>,                #o
+         (StopTS)           <d>,                #o
+         (StartDST)         <d>,                #o
+         (StopDST)          <d>                #o
+         },
+#    (AS) {
+#         (Related IEDs)        <TBD>,                   #m
+#         },
+    (RP) {
+         (brcbMX)           <BASRCB>,                #m
+         (brcbST)           <BASRCB>                #m
+         },
+    }","CapacitorControlLogic"
+
+

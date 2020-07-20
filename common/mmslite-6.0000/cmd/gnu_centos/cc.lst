@@ -1,0 +1,2357 @@
+STARTING MAKE OF meml_l.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/meml_l.a
+FINISHED CREATING ../../lib/meml_l.a  LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF meml_n.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/meml_n.a
+FINISHED CREATING ../../lib/meml_n.a  LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF meml_ld.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/meml_ld.a
+FINISHED CREATING ../../lib/meml_ld.a  LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF meml_nd.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/meml_nd.a
+FINISHED CREATING ../../lib/meml_nd.a  LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mem_l.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/mem_l.a
+FINISHED CREATING ../../lib/mem_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mem_n.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/mem_n.a
+FINISHED CREATING ../../lib/mem_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mem_ld.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/mem_ld.a
+FINISHED CREATING ../../lib/mem_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mem_nd.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/mem_nd.a
+FINISHED CREATING ../../lib/mem_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smem_l.a LIBRARY for LINUX
+../../src/mem_smem.c: 在函数‘u_smem_get_buf_detail’中:
+../../src/mem_smem.c:1212:12: 警告：格式 ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘size_t’ [-Wformat=]
+            bufSize - m_mem_overhead, mem_node->file, mem_node->line);
+            ^
+../../src/mem_smem.c:1215:5: 警告：格式 ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘size_t’ [-Wformat=]
+     sprintf (bufDetail, "Usable Size %5u", bufSize - m_mem_overhead);
+     ^
+../../src/smemcfgx.c: 在函数‘_newContextIndex_EFun’中:
+../../src/smemcfgx.c:274:8: 警告：变量‘validContext’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT validContext;
+        ^
+ar: 正在创建 ../../lib/smem_l.a
+FINISHED CREATING ../../lib/smem_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smem_n.a LIBRARY for LINUX
+../../src/smem.c: 在函数‘findSmemContextIndex’中:
+../../src/smem.c:480:8: 警告：变量‘bufIndex’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT bufIndex;
+        ^
+../../src/smemcfgx.c: 在函数‘_newContextIndex_EFun’中:
+../../src/smemcfgx.c:274:8: 警告：变量‘validContext’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT validContext;
+        ^
+ar: 正在创建 ../../lib/smem_n.a
+FINISHED CREATING ../../lib/smem_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smem_ld.a LIBRARY for LINUX
+../../src/mem_smem.c: 在函数‘u_smem_get_buf_detail’中:
+../../src/mem_smem.c:1212:12: 警告：格式 ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘size_t’ [-Wformat=]
+            bufSize - m_mem_overhead, mem_node->file, mem_node->line);
+            ^
+../../src/mem_smem.c:1215:5: 警告：格式 ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘size_t’ [-Wformat=]
+     sprintf (bufDetail, "Usable Size %5u", bufSize - m_mem_overhead);
+     ^
+../../src/smemcfgx.c: 在函数‘_newContextIndex_EFun’中:
+../../src/smemcfgx.c:274:8: 警告：变量‘validContext’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT validContext;
+        ^
+ar: 正在创建 ../../lib/smem_ld.a
+FINISHED CREATING ../../lib/smem_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smem_nd.a LIBRARY for LINUX
+../../src/smem.c: 在函数‘findSmemContextIndex’中:
+../../src/smem.c:480:8: 警告：变量‘bufIndex’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT bufIndex;
+        ^
+../../src/smemcfgx.c: 在函数‘_newContextIndex_EFun’中:
+../../src/smemcfgx.c:274:8: 警告：变量‘validContext’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT validContext;
+        ^
+ar: 正在创建 ../../lib/smem_nd.a
+FINISHED CREATING ../../lib/smem_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF slog_l.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/slog_l.a
+FINISHED CREATING ../../lib/slog_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF slog_n.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/slog_n.a
+FINISHED CREATING ../../lib/slog_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF slog_ld.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/slog_ld.a
+FINISHED CREATING ../../lib/slog_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF slog_nd.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/slog_nd.a
+FINISHED CREATING ../../lib/slog_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF asn1l_l.a LIBRARY for LINUX
+../../src/ard_flt.c: 在函数‘asn1r_get_double’中:
+../../src/ard_flt.c:215:12: 警告：变量‘l_ulong’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_UINT32 *l_ulong;
+            ^
+ar: 正在创建 ../../lib/asn1l_l.a
+FINISHED CREATING ../../lib/asn1l_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF asn1l_n.a LIBRARY for LINUX
+../../src/ard_flt.c: 在函数‘asn1r_get_double’中:
+../../src/ard_flt.c:215:12: 警告：变量‘l_ulong’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_UINT32 *l_ulong;
+            ^
+ar: 正在创建 ../../lib/asn1l_n.a
+FINISHED CREATING ../../lib/asn1l_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF asn1l_ld.a LIBRARY for LINUX
+../../src/ard_flt.c: 在函数‘asn1r_get_double’中:
+../../src/ard_flt.c:215:12: 警告：变量‘l_ulong’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_UINT32 *l_ulong;
+            ^
+ar: 正在创建 ../../lib/asn1l_ld.a
+FINISHED CREATING ../../lib/asn1l_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF asn1l_nd.a LIBRARY for LINUX
+../../src/ard_flt.c: 在函数‘asn1r_get_double’中:
+../../src/ard_flt.c:215:12: 警告：变量‘l_ulong’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_UINT32 *l_ulong;
+            ^
+ar: 正在创建 ../../lib/asn1l_nd.a
+FINISHED CREATING ../../lib/asn1l_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsl_l.a LIBRARY for LINUX
+../../src/mmsdata.c: 在函数‘bs_cstr_done’中:
+../../src/mmsdata.c:425:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/mmsdata.c: 在函数‘get_bitstr_prim’中:
+../../src/mmsdata.c:535:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/mms_adl.c: 在函数‘end_of_parsing’中:
+../../src/mms_adl.c:626:13: 警告：变量‘aa’被设定但未被使用 [-Wunused-but-set-variable]
+ ALT_ACC_EL *aa;
+             ^
+ar: 正在创建 ../../lib/mmsl_l.a
+FINISHED CREATING ../../lib/mmsl_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsl_n.a LIBRARY for LINUX
+../../src/mmsdata.c: 在函数‘bs_cstr_done’中:
+../../src/mmsdata.c:425:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/mmsdata.c: 在函数‘get_bitstr_prim’中:
+../../src/mmsdata.c:535:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/mmsl_fin.c: 在函数‘_mms_unconf_req_fin’中:
+../../src/mmsl_fin.c:256:11: 警告：变量‘msg_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_UCHAR *msg_ptr;
+           ^
+../../src/mms_adl.c: 在函数‘end_of_parsing’中:
+../../src/mms_adl.c:626:13: 警告：变量‘aa’被设定但未被使用 [-Wunused-but-set-variable]
+ ALT_ACC_EL *aa;
+             ^
+ar: 正在创建 ../../lib/mmsl_n.a
+FINISHED CREATING ../../lib/mmsl_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsl_ld.a LIBRARY for LINUX
+../../src/mmsdata.c: 在函数‘bs_cstr_done’中:
+../../src/mmsdata.c:425:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/mmsdata.c: 在函数‘get_bitstr_prim’中:
+../../src/mmsdata.c:535:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/mms_adl.c: 在函数‘end_of_parsing’中:
+../../src/mms_adl.c:626:13: 警告：变量‘aa’被设定但未被使用 [-Wunused-but-set-variable]
+ ALT_ACC_EL *aa;
+             ^
+ar: 正在创建 ../../lib/mmsl_ld.a
+FINISHED CREATING ../../lib/mmsl_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsl_nd.a LIBRARY for LINUX
+../../src/mmsdata.c: 在函数‘bs_cstr_done’中:
+../../src/mmsdata.c:425:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/mmsdata.c: 在函数‘get_bitstr_prim’中:
+../../src/mmsdata.c:535:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/mmsl_fin.c: 在函数‘_mms_unconf_req_fin’中:
+../../src/mmsl_fin.c:256:11: 警告：变量‘msg_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_UCHAR *msg_ptr;
+           ^
+../../src/mms_adl.c: 在函数‘end_of_parsing’中:
+../../src/mms_adl.c:626:13: 警告：变量‘aa’被设定但未被使用 [-Wunused-but-set-variable]
+ ALT_ACC_EL *aa;
+             ^
+ar: 正在创建 ../../lib/mmsl_nd.a
+FINISHED CREATING ../../lib/mmsl_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsle_l.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/mmsle_l.a
+FINISHED CREATING ../../lib/mmsle_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsle_n.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/mmsle_n.a
+FINISHED CREATING ../../lib/mmsle_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsle_ld.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/mmsle_ld.a
+FINISHED CREATING ../../lib/mmsle_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mmsle_nd.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/mmsle_nd.a
+FINISHED CREATING ../../lib/mmsle_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositcps_l.a LIBRARY for LINUX
+../../uca/leant/tp0_socks.c: 在函数‘_sockClean’中:
+../../uca/leant/tp0_socks.c:396:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+ar: 正在创建 ../../lib/ositcps_l.a
+FINISHED CREATING ../../lib/ositcps_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositcps_n.a LIBRARY for LINUX
+../../uca/acse/acse2dec.c: 在函数‘u_copp_con_ind’中:
+../../uca/acse/acse2dec.c:360:22: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+       struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                      ^
+../../uca/acse/acse2enc.c: 在函数‘a_associate_req’中:
+../../uca/acse/acse2enc.c:240:20: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+     struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                    ^
+../../uca/leant/cospmain.c: 在函数‘cosp_process_abort’中:
+../../uca/leant/cospmain.c:1934:8: 警告：变量‘err_code’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT err_code;
+        ^
+../../uca/leant/osicfgx.c: 在函数‘printDibStruct’中:
+../../uca/leant/osicfgx.c:1808:22: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+       struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                      ^
+../../uca/leant/tp0_socks.c: 在函数‘_sockClean’中:
+../../uca/leant/tp0_socks.c:396:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+../../uca/leant/tp0_socks.c: 在函数‘_uSockConnectInd’中:
+../../uca/leant/tp0_socks.c:791:10: 警告：变量‘SSLstr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR *SSLstr;
+          ^
+../../uca/leant/tp0_socks.c: 在函数‘_uSockDisconnectInd’中:
+../../uca/leant/tp0_socks.c:848:12: 警告：变量‘errptr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR   *errptr;
+            ^
+ar: 正在创建 ../../lib/ositcps_n.a
+FINISHED CREATING ../../lib/ositcps_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositcps_ld.a LIBRARY for LINUX
+../../uca/leant/tp0_socks.c: 在函数‘_sockClean’中:
+../../uca/leant/tp0_socks.c:396:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+ar: 正在创建 ../../lib/ositcps_ld.a
+FINISHED CREATING ../../lib/ositcps_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositcps_nd.a LIBRARY for LINUX
+../../uca/acse/acse2dec.c: 在函数‘u_copp_con_ind’中:
+../../uca/acse/acse2dec.c:360:22: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+       struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                      ^
+../../uca/acse/acse2enc.c: 在函数‘a_associate_req’中:
+../../uca/acse/acse2enc.c:240:20: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+     struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                    ^
+../../uca/leant/cospmain.c: 在函数‘cosp_process_abort’中:
+../../uca/leant/cospmain.c:1934:8: 警告：变量‘err_code’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT err_code;
+        ^
+../../uca/leant/osicfgx.c: 在函数‘printDibStruct’中:
+../../uca/leant/osicfgx.c:1808:22: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+       struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                      ^
+../../uca/leant/tp0_socks.c: 在函数‘_sockClean’中:
+../../uca/leant/tp0_socks.c:396:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+../../uca/leant/tp0_socks.c: 在函数‘_uSockConnectInd’中:
+../../uca/leant/tp0_socks.c:791:10: 警告：变量‘SSLstr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR *SSLstr;
+          ^
+../../uca/leant/tp0_socks.c: 在函数‘_uSockDisconnectInd’中:
+../../uca/leant/tp0_socks.c:848:12: 警告：变量‘errptr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR   *errptr;
+            ^
+ar: 正在创建 ../../lib/ositcps_nd.a
+FINISHED CREATING ../../lib/ositcps_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositpxs_l.a LIBRARY for LINUX
+../../uca/leant/tp0_socks.c: 在函数‘_sockClean’中:
+../../uca/leant/tp0_socks.c:396:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+ar: 正在创建 ../../lib/ositpxs_l.a
+FINISHED CREATING ../../lib/ositpxs_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositpxs_n.a LIBRARY for LINUX
+../../uca/acse/acse2dec.c: 在函数‘u_copp_con_ind’中:
+../../uca/acse/acse2dec.c:360:22: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+       struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                      ^
+../../uca/acse/acse2enc.c: 在函数‘a_associate_req’中:
+../../uca/acse/acse2enc.c:240:20: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+     struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                    ^
+../../uca/leant/cospmain.c: 在函数‘cosp_process_abort’中:
+../../uca/leant/cospmain.c:1934:8: 警告：变量‘err_code’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT err_code;
+        ^
+../../uca/leant/osicfgx.c: 在函数‘printDibStruct’中:
+../../uca/leant/osicfgx.c:1808:22: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+       struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                      ^
+../../uca/leant/tp0_socks.c: 在函数‘_sockClean’中:
+../../uca/leant/tp0_socks.c:396:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+../../uca/leant/tp0_socks.c: 在函数‘_uSockConnectInd’中:
+../../uca/leant/tp0_socks.c:791:10: 警告：变量‘SSLstr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR *SSLstr;
+          ^
+../../uca/leant/tp0_socks.c: 在函数‘_uSockDisconnectInd’中:
+../../uca/leant/tp0_socks.c:848:12: 警告：变量‘errptr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR   *errptr;
+            ^
+ar: 正在创建 ../../lib/ositpxs_n.a
+FINISHED CREATING ../../lib/ositpxs_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositpxs_ld.a LIBRARY for LINUX
+../../uca/leant/tp0_socks.c: 在函数‘_sockClean’中:
+../../uca/leant/tp0_socks.c:396:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+ar: 正在创建 ../../lib/ositpxs_ld.a
+FINISHED CREATING ../../lib/ositpxs_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF ositpxs_nd.a LIBRARY for LINUX
+../../uca/acse/acse2dec.c: 在函数‘u_copp_con_ind’中:
+../../uca/acse/acse2dec.c:360:22: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+       struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                      ^
+../../uca/acse/acse2enc.c: 在函数‘a_associate_req’中:
+../../uca/acse/acse2enc.c:240:20: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+     struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                    ^
+../../uca/leant/cospmain.c: 在函数‘cosp_process_abort’中:
+../../uca/leant/cospmain.c:1934:8: 警告：变量‘err_code’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT err_code;
+        ^
+../../uca/leant/osicfgx.c: 在函数‘printDibStruct’中:
+../../uca/leant/osicfgx.c:1808:22: 警告：变量‘sin_addr’被设定但未被使用 [-Wunused-but-set-variable]
+       struct in_addr sin_addr; /* inet_ntoa needs this addr format*/
+                      ^
+../../uca/leant/tp0_socks.c: 在函数‘_sockClean’中:
+../../uca/leant/tp0_socks.c:396:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+../../uca/leant/tp0_socks.c: 在函数‘_uSockConnectInd’中:
+../../uca/leant/tp0_socks.c:791:10: 警告：变量‘SSLstr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR *SSLstr;
+          ^
+../../uca/leant/tp0_socks.c: 在函数‘_uSockDisconnectInd’中:
+../../uca/leant/tp0_socks.c:848:12: 警告：变量‘errptr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR   *errptr;
+            ^
+ar: 正在创建 ../../lib/ositpxs_nd.a
+FINISHED CREATING ../../lib/ositpxs_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF gse_mgmt_l.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/gse_mgmt_l.a
+FINISHED CREATING ../../lib/gse_mgmt_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF gse_mgmt_n.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/gse_mgmt_n.a
+FINISHED CREATING ../../lib/gse_mgmt_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF gse_mgmt_ld.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/gse_mgmt_ld.a
+FINISHED CREATING ../../lib/gse_mgmt_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF gse_mgmt_nd.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/gse_mgmt_nd.a
+FINISHED CREATING ../../lib/gse_mgmt_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smpval_l.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/smpval_l.a
+FINISHED CREATING ../../lib/smpval_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smpval_n.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/smpval_n.a
+FINISHED CREATING ../../lib/smpval_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smpval_ld.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/smpval_ld.a
+FINISHED CREATING ../../lib/smpval_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF smpval_nd.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/smpval_nd.a
+FINISHED CREATING ../../lib/smpval_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvl_l.a LIBRARY for LINUX
+../../mvl/src/c_fget.c: 在函数‘u_fopen_done’中:
+../../mvl/src/c_fget.c:174:22: 警告：变量‘rej_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   REJECT_RESP_INFO  *rej_ptr;
+                      ^
+../../mvl/src/c_fget.c:173:15: 警告：变量‘err_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   ERR_INFO   *err_ptr;
+               ^
+../../mvl/src/mvl_obj.c: 在函数‘mvl_nvl_destroy’中:
+../../mvl/src/mvl_obj.c:935:16: 警告：变量‘va’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_VAR_ASSOC *va;
+                ^
+../../mvl/src/mvl_serv.c: 在函数‘mvl_error_rcvd’中:
+../../mvl/src/mvl_serv.c:470:8: 警告：变量‘op’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT op;
+        ^
+../../mvl/src/s_getnam.c: 在函数‘mvlas_namelist_resp’中:
+../../mvl/src/s_getnam.c:107:10: 警告：变量‘mms_class’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT16 mms_class;
+          ^
+../../mvl/src/s_write.c: 在函数‘mvlas_write_resp’中:
+../../mvl/src/s_write.c:199:15: 警告：变量‘net_info’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_NET_INFO *net_info; 
+               ^
+ar: 正在创建 ../../lib/mvl_l.a
+FINISHED CREATING ../../lib/mvl_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvl_n.a LIBRARY for LINUX
+../../mvl/src/c_fget.c: 在函数‘u_fopen_done’中:
+../../mvl/src/c_fget.c:174:22: 警告：变量‘rej_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   REJECT_RESP_INFO  *rej_ptr;
+                      ^
+../../mvl/src/c_fget.c:173:15: 警告：变量‘err_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   ERR_INFO   *err_ptr;
+               ^
+../../mvl/src/mvl_obj.c: 在函数‘mvl_nvl_destroy’中:
+../../mvl/src/mvl_obj.c:935:16: 警告：变量‘va’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_VAR_ASSOC *va;
+                ^
+../../mvl/src/mvl_serv.c: 在函数‘mvl_error_rcvd’中:
+../../mvl/src/mvl_serv.c:470:8: 警告：变量‘op’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT op;
+        ^
+../../mvl/src/s_getnam.c: 在函数‘mvlas_namelist_resp’中:
+../../mvl/src/s_getnam.c:107:10: 警告：变量‘mms_class’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT16 mms_class;
+          ^
+../../mvl/src/s_write.c: 在函数‘mvlas_write_resp’中:
+../../mvl/src/s_write.c:199:15: 警告：变量‘net_info’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_NET_INFO *net_info; 
+               ^
+ar: 正在创建 ../../lib/mvl_n.a
+FINISHED CREATING ../../lib/mvl_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvl_ld.a LIBRARY for LINUX
+../../mvl/src/c_fget.c: 在函数‘u_fopen_done’中:
+../../mvl/src/c_fget.c:174:22: 警告：变量‘rej_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   REJECT_RESP_INFO  *rej_ptr;
+                      ^
+../../mvl/src/c_fget.c:173:15: 警告：变量‘err_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   ERR_INFO   *err_ptr;
+               ^
+../../mvl/src/mvl_obj.c: 在函数‘mvl_nvl_destroy’中:
+../../mvl/src/mvl_obj.c:935:16: 警告：变量‘va’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_VAR_ASSOC *va;
+                ^
+../../mvl/src/mvl_serv.c: 在函数‘mvl_error_rcvd’中:
+../../mvl/src/mvl_serv.c:470:8: 警告：变量‘op’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT op;
+        ^
+../../mvl/src/s_getnam.c: 在函数‘mvlas_namelist_resp’中:
+../../mvl/src/s_getnam.c:107:10: 警告：变量‘mms_class’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT16 mms_class;
+          ^
+../../mvl/src/s_write.c: 在函数‘mvlas_write_resp’中:
+../../mvl/src/s_write.c:199:15: 警告：变量‘net_info’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_NET_INFO *net_info; 
+               ^
+ar: 正在创建 ../../lib/mvl_ld.a
+FINISHED CREATING ../../lib/mvl_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvl_nd.a LIBRARY for LINUX
+../../mvl/src/c_fget.c: 在函数‘u_fopen_done’中:
+../../mvl/src/c_fget.c:174:22: 警告：变量‘rej_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   REJECT_RESP_INFO  *rej_ptr;
+                      ^
+../../mvl/src/c_fget.c:173:15: 警告：变量‘err_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   ERR_INFO   *err_ptr;
+               ^
+../../mvl/src/mvl_obj.c: 在函数‘mvl_nvl_destroy’中:
+../../mvl/src/mvl_obj.c:935:16: 警告：变量‘va’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_VAR_ASSOC *va;
+                ^
+../../mvl/src/mvl_serv.c: 在函数‘mvl_error_rcvd’中:
+../../mvl/src/mvl_serv.c:470:8: 警告：变量‘op’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT op;
+        ^
+../../mvl/src/s_getnam.c: 在函数‘mvlas_namelist_resp’中:
+../../mvl/src/s_getnam.c:107:10: 警告：变量‘mms_class’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT16 mms_class;
+          ^
+../../mvl/src/s_write.c: 在函数‘mvlas_write_resp’中:
+../../mvl/src/s_write.c:199:15: 警告：变量‘net_info’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_NET_INFO *net_info; 
+               ^
+ar: 正在创建 ../../lib/mvl_nd.a
+FINISHED CREATING ../../lib/mvl_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvlu_l.a LIBRARY for LINUX
+../../mvl/src/c_fget.c: 在函数‘u_fopen_done’中:
+../../mvl/src/c_fget.c:174:22: 警告：变量‘rej_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   REJECT_RESP_INFO  *rej_ptr;
+                      ^
+../../mvl/src/c_fget.c:173:15: 警告：变量‘err_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   ERR_INFO   *err_ptr;
+               ^
+../../mvl/src/mvlu_sbo.c: 在函数‘mvlu_sbo_operate_wr_ind’中:
+../../mvl/src/mvlu_sbo.c:135:12: 警告：变量‘va_scope’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_SCOPE *va_scope;
+            ^
+../../mvl/src/mvl_serv.c: 在函数‘mvl_error_rcvd’中:
+../../mvl/src/mvl_serv.c:470:8: 警告：变量‘op’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT op;
+        ^
+../../mvl/src/s_write.c: 在函数‘mvlas_write_resp’中:
+../../mvl/src/s_write.c:199:15: 警告：变量‘net_info’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_NET_INFO *net_info; 
+               ^
+../../mvl/src/sclproc.c: 在函数‘scl2_datatype_count_scd’中:
+../../mvl/src/sclproc.c:4297:8: 警告：变量‘retcode’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET retcode;
+        ^
+ar: 正在创建 ../../lib/mvlu_l.a
+FINISHED CREATING ../../lib/mvlu_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvlu_n.a LIBRARY for LINUX
+../../mvl/src/c_fget.c: 在函数‘u_fopen_done’中:
+../../mvl/src/c_fget.c:174:22: 警告：变量‘rej_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   REJECT_RESP_INFO  *rej_ptr;
+                      ^
+../../mvl/src/c_fget.c:173:15: 警告：变量‘err_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   ERR_INFO   *err_ptr;
+               ^
+../../mvl/src/mvlu_sbo.c: 在函数‘mvlu_sbo_operate_wr_ind’中:
+../../mvl/src/mvlu_sbo.c:135:12: 警告：变量‘va_scope’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_SCOPE *va_scope;
+            ^
+../../mvl/src/mvl_serv.c: 在函数‘mvl_error_rcvd’中:
+../../mvl/src/mvl_serv.c:470:8: 警告：变量‘op’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT op;
+        ^
+../../mvl/src/s_write.c: 在函数‘mvlas_write_resp’中:
+../../mvl/src/s_write.c:199:15: 警告：变量‘net_info’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_NET_INFO *net_info; 
+               ^
+../../mvl/src/sclproc.c: 在函数‘scl2_datatype_count_scd’中:
+../../mvl/src/sclproc.c:4297:8: 警告：变量‘retcode’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET retcode;
+        ^
+ar: 正在创建 ../../lib/mvlu_n.a
+FINISHED CREATING ../../lib/mvlu_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvlu_ld.a LIBRARY for LINUX
+../../mvl/src/c_fget.c: 在函数‘u_fopen_done’中:
+../../mvl/src/c_fget.c:174:22: 警告：变量‘rej_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   REJECT_RESP_INFO  *rej_ptr;
+                      ^
+../../mvl/src/c_fget.c:173:15: 警告：变量‘err_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   ERR_INFO   *err_ptr;
+               ^
+../../mvl/src/mvlu_sbo.c: 在函数‘mvlu_sbo_operate_wr_ind’中:
+../../mvl/src/mvlu_sbo.c:135:12: 警告：变量‘va_scope’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_SCOPE *va_scope;
+            ^
+../../mvl/src/mvl_serv.c: 在函数‘mvl_error_rcvd’中:
+../../mvl/src/mvl_serv.c:470:8: 警告：变量‘op’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT op;
+        ^
+../../mvl/src/s_write.c: 在函数‘mvlas_write_resp’中:
+../../mvl/src/s_write.c:199:15: 警告：变量‘net_info’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_NET_INFO *net_info; 
+               ^
+../../mvl/src/sclproc.c: 在函数‘scl2_datatype_count_scd’中:
+../../mvl/src/sclproc.c:4297:8: 警告：变量‘retcode’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET retcode;
+        ^
+ar: 正在创建 ../../lib/mvlu_ld.a
+FINISHED CREATING ../../lib/mvlu_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mvlu_nd.a LIBRARY for LINUX
+../../mvl/src/c_fget.c: 在函数‘u_fopen_done’中:
+../../mvl/src/c_fget.c:174:22: 警告：变量‘rej_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   REJECT_RESP_INFO  *rej_ptr;
+                      ^
+../../mvl/src/c_fget.c:173:15: 警告：变量‘err_ptr’被设定但未被使用 [-Wunused-but-set-variable]
+   ERR_INFO   *err_ptr;
+               ^
+../../mvl/src/mvlu_sbo.c: 在函数‘mvlu_sbo_operate_wr_ind’中:
+../../mvl/src/mvlu_sbo.c:135:12: 警告：变量‘va_scope’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_SCOPE *va_scope;
+            ^
+../../mvl/src/mvl_serv.c: 在函数‘mvl_error_rcvd’中:
+../../mvl/src/mvl_serv.c:470:8: 警告：变量‘op’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT op;
+        ^
+../../mvl/src/s_write.c: 在函数‘mvlas_write_resp’中:
+../../mvl/src/s_write.c:199:15: 警告：变量‘net_info’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_NET_INFO *net_info; 
+               ^
+../../mvl/src/sclproc.c: 在函数‘scl2_datatype_count_scd’中:
+../../mvl/src/sclproc.c:4297:8: 警告：变量‘retcode’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET retcode;
+        ^
+ar: 正在创建 ../../lib/mvlu_nd.a
+FINISHED CREATING ../../lib/mvlu_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF util_l.a LIBRARY for LINUX
+../../src/gensock2.c: 在函数‘sockStartEx’中:
+../../src/gensock2.c:295:16: 警告：变量‘serviceCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTRL *serviceCtrl = NULL;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueAdd’中:
+../../src/gensock2.c:730:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueDestroy’中:
+../../src/gensock2.c:761:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueGroupCntGet’中:
+../../src/gensock2.c:844:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockInitFds’中:
+../../src/gensock2.c:1266:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockSelectResultProcess’中:
+../../src/gensock2.c:1373:8: 警告：变量‘startState’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT startState;
+        ^
+../../src/gensock2.c: 在函数‘_sockAllocSock’中:
+../../src/gensock2.c:1927:5: 警告：变量‘sRet’被设定但未被使用 [-Wunused-but-set-variable]
+ int sRet;
+     ^
+../../src/sclparse.c: 在函数‘_Inputs_SEFun’中:
+../../src/sclparse.c:3279:15: 警告：变量‘sclDecCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ SCL_DEC_CTRL *sclDecCtrl;
+               ^
+../../src/sclparse_serv.c: 在函数‘Services_SEFun’中:
+../../src/sclparse_serv.c:396:11: 警告：变量‘scl_info’被设定但未被使用 [-Wunused-but-set-variable]
+ SCL_INFO *scl_info;
+           ^
+../../src/stime.c: 在函数‘_sGetSysMsTime’中:
+../../src/stime.c:176:12: 警告：变量‘err’被设定但未被使用 [-Wunused-but-set-variable]
+     ST_INT err;
+            ^
+../../src/sx_enc.c: 在函数‘sx_wr_duration’中:
+../../src/sx_enc.c:1034:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+In file included from ../../src/stdtime.c:85:0:
+../../src/stdtime.c: 在函数‘Rc_StdTime_FileTimeToSystemTimeEx’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:456:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (Rc_StdTime_FileTimeToSystemTimeEx)
+   ^
+../../src/stdtime.c: 在函数‘Rc_StdTime_SystemTimeExToFileTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:520:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (Rc_StdTime_SystemTimeExToFileTime)
+   ^
+../../src/stdtime.c: 在函数‘GetStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1095:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (GetStdTime)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeFields’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1123:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeFields)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_AddSpan’中:
+../../inc/stdtime.h:350:14: 警告：变量‘func’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC func;                                                            \
+              ^
+../../src/stdtime.c:1296:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_AddSpan)
+   ^
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1296:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_AddSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_SubSpan’中:
+../../inc/stdtime.h:350:14: 警告：变量‘func’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC func;                                                            \
+              ^
+../../src/stdtime.c:1349:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_SubSpan)
+   ^
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1349:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_SubSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_GetSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1453:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_GetSpan)
+   ^
+../../src/stdtime.c: 在函数‘NormalizeStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1502:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NormalizeStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeDeltaToStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1950:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeDeltaToStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeSpanToStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2047:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeSpanToStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2144:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2161:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘AbsStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2243:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (AbsStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘NegStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2270:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NegStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘AbsStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2325:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (AbsStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘NegStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2347:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NegStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToFileTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2426:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToFileTime)
+   ^
+../../src/stdtime.c: 在函数‘FileTimeToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2448:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (FileTimeToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToSystemTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2763:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToSystemTime)
+   ^
+../../src/stdtime.c: 在函数‘SystemTimeToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2778:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (SystemTimeToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StructTmExToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3007:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StructTmExToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToTimeTypeEx’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3038:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToTimeTypeEx)
+   ^
+../../src/stdtime.c: 在函数‘TimeTypeExToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3089:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (TimeTypeExToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeGetDayofWeekAndYear’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3382:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeGetDayofWeekAndYear)
+   ^
+../../src/stdtime.c: 在函数‘NormalizeStdTimeTzoA’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3586:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NormalizeStdTimeTzoA)
+   ^
+In file included from ../../src/stdtime_mms_btime.c:23:0:
+../../src/stdtime_mms_btime.c: 在函数‘StdTimeToMmsTimeOfDay6’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_mms_btime.c:174:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToMmsTimeOfDay6)
+   ^
+../../src/stdtime_mms_btime.c: 在函数‘MmsTimeOfDay6ToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_mms_btime.c:190:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (MmsTimeOfDay6ToStdTime)
+   ^
+../../src/stdtime_w32.c: 在函数‘StdTimeW32FileTimeToSystemTime’中:
+../../src/stdtime_w32.c:647:37: 警告：变量‘usec’被设定但未被使用 [-Wunused-but-set-variable]
+   int                               usec;
+                                     ^
+../../src/stdtime_w32.c:646:37: 警告：变量‘nsec’被设定但未被使用 [-Wunused-but-set-variable]
+   int                               nsec;
+                                     ^
+In file included from ../../src/stdtime_w32.c:31:0:
+../../src/stdtime_w32.c: 在函数‘StdTimeW32GetDayofWeekAndYear’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_w32.c:841:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeW32GetDayofWeekAndYear)
+   ^
+ar: 正在创建 ../../lib/util_l.a
+FINISHED CREATING ../../lib/util_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF util_n.a LIBRARY for LINUX
+../../src/gensock2.c: 在函数‘sockStartEx’中:
+../../src/gensock2.c:295:16: 警告：变量‘serviceCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTRL *serviceCtrl = NULL;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueAdd’中:
+../../src/gensock2.c:730:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueDestroy’中:
+../../src/gensock2.c:761:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueProc’中:
+../../src/gensock2.c:787:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueGroupCntGet’中:
+../../src/gensock2.c:844:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTx’中:
+../../src/gensock2.c:863:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockFree’中:
+../../src/gensock2.c:992:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockInitFds’中:
+../../src/gensock2.c:1266:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockSelectResultProcess’中:
+../../src/gensock2.c:1373:8: 警告：变量‘startState’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT startState;
+        ^
+../../src/gensock2.c:1368:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘_sockServiceDiscardSock’中:
+../../src/gensock2.c:1585:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘_sockAccept’中:
+../../src/gensock2.c:1645:5: 警告：变量‘err’被设定但未被使用 [-Wunused-but-set-variable]
+ int err;
+     ^
+../../src/gensock2.c: 在函数‘_sockCheckRxData’中:
+../../src/gensock2.c:1754:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘_sockAllocSock’中:
+../../src/gensock2.c:1927:5: 警告：变量‘sRet’被设定但未被使用 [-Wunused-but-set-variable]
+ int sRet;
+     ^
+../../src/gensock2.c: 在函数‘sockLogState’中:
+../../src/gensock2.c:2408:8: 警告：变量‘sockCount’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT sockCount;
+        ^
+../../src/gensock2.c:2407:8: 警告：变量‘serviceCount’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT serviceCount;
+        ^
+../../src/sclparse.c: 在函数‘_Inputs_SEFun’中:
+../../src/sclparse.c:3279:15: 警告：变量‘sclDecCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ SCL_DEC_CTRL *sclDecCtrl;
+               ^
+../../src/sclparse_serv.c: 在函数‘Services_SEFun’中:
+../../src/sclparse_serv.c:396:11: 警告：变量‘scl_info’被设定但未被使用 [-Wunused-but-set-variable]
+ SCL_INFO *scl_info;
+           ^
+../../src/stime.c: 在函数‘_sGetSysMsTime’中:
+../../src/stime.c:176:12: 警告：变量‘err’被设定但未被使用 [-Wunused-but-set-variable]
+     ST_INT err;
+            ^
+../../src/sx_enc.c: 在函数‘sx_end_encode’中:
+../../src/sx_enc.c:292:9: 警告：变量‘xmlLen’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_LONG xmlLen;
+         ^
+../../src/sx_enc.c: 在函数‘sx_wr_duration’中:
+../../src/sx_enc.c:1034:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+In file included from ../../src/stdtime.c:85:0:
+../../src/stdtime.c: 在函数‘Rc_StdTime_FileTimeToSystemTimeEx’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:456:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (Rc_StdTime_FileTimeToSystemTimeEx)
+   ^
+../../src/stdtime.c: 在函数‘Rc_StdTime_SystemTimeExToFileTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:520:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (Rc_StdTime_SystemTimeExToFileTime)
+   ^
+../../src/stdtime.c: 在函数‘GetStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1095:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (GetStdTime)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeFields’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1123:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeFields)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_AddSpan’中:
+../../inc/stdtime.h:350:14: 警告：变量‘func’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC func;                                                            \
+              ^
+../../src/stdtime.c:1296:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_AddSpan)
+   ^
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1296:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_AddSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_SubSpan’中:
+../../inc/stdtime.h:350:14: 警告：变量‘func’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC func;                                                            \
+              ^
+../../src/stdtime.c:1349:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_SubSpan)
+   ^
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1349:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_SubSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_GetSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1453:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_GetSpan)
+   ^
+../../src/stdtime.c: 在函数‘NormalizeStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1502:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NormalizeStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeDeltaToStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1950:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeDeltaToStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeSpanToStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2047:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeSpanToStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2144:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2161:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘AbsStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2243:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (AbsStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘NegStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2270:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NegStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘AbsStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2325:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (AbsStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘NegStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2347:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NegStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToFileTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2426:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToFileTime)
+   ^
+../../src/stdtime.c: 在函数‘FileTimeToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2448:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (FileTimeToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToSystemTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2763:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToSystemTime)
+   ^
+../../src/stdtime.c: 在函数‘SystemTimeToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2778:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (SystemTimeToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StructTmExToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3007:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StructTmExToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToTimeTypeEx’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3038:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToTimeTypeEx)
+   ^
+../../src/stdtime.c: 在函数‘TimeTypeExToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3089:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (TimeTypeExToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeGetDayofWeekAndYear’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3382:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeGetDayofWeekAndYear)
+   ^
+../../src/stdtime.c: 在函数‘NormalizeStdTimeTzoA’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3586:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NormalizeStdTimeTzoA)
+   ^
+In file included from ../../src/stdtime_mms_btime.c:23:0:
+../../src/stdtime_mms_btime.c: 在函数‘StdTimeToMmsTimeOfDay6’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_mms_btime.c:174:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToMmsTimeOfDay6)
+   ^
+../../src/stdtime_mms_btime.c: 在函数‘MmsTimeOfDay6ToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_mms_btime.c:190:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (MmsTimeOfDay6ToStdTime)
+   ^
+../../src/stdtime_w32.c: 在函数‘StdTimeW32FileTimeToSystemTime’中:
+../../src/stdtime_w32.c:647:37: 警告：变量‘usec’被设定但未被使用 [-Wunused-but-set-variable]
+   int                               usec;
+                                     ^
+../../src/stdtime_w32.c:646:37: 警告：变量‘nsec’被设定但未被使用 [-Wunused-but-set-variable]
+   int                               nsec;
+                                     ^
+In file included from ../../src/stdtime_w32.c:31:0:
+../../src/stdtime_w32.c: 在函数‘StdTimeW32GetDayofWeekAndYear’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_w32.c:841:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeW32GetDayofWeekAndYear)
+   ^
+ar: 正在创建 ../../lib/util_n.a
+FINISHED CREATING ../../lib/util_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF util_ld.a LIBRARY for LINUX
+../../src/gensock2.c: 在函数‘sockStartEx’中:
+../../src/gensock2.c:295:16: 警告：变量‘serviceCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTRL *serviceCtrl = NULL;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueAdd’中:
+../../src/gensock2.c:730:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueDestroy’中:
+../../src/gensock2.c:761:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueGroupCntGet’中:
+../../src/gensock2.c:844:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockInitFds’中:
+../../src/gensock2.c:1266:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockSelectResultProcess’中:
+../../src/gensock2.c:1373:8: 警告：变量‘startState’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT startState;
+        ^
+../../src/gensock2.c: 在函数‘_sockAllocSock’中:
+../../src/gensock2.c:1927:5: 警告：变量‘sRet’被设定但未被使用 [-Wunused-but-set-variable]
+ int sRet;
+     ^
+../../src/sclparse.c: 在函数‘_Inputs_SEFun’中:
+../../src/sclparse.c:3279:15: 警告：变量‘sclDecCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ SCL_DEC_CTRL *sclDecCtrl;
+               ^
+../../src/sclparse_serv.c: 在函数‘Services_SEFun’中:
+../../src/sclparse_serv.c:396:11: 警告：变量‘scl_info’被设定但未被使用 [-Wunused-but-set-variable]
+ SCL_INFO *scl_info;
+           ^
+../../src/stime.c: 在函数‘_sGetSysMsTime’中:
+../../src/stime.c:176:12: 警告：变量‘err’被设定但未被使用 [-Wunused-but-set-variable]
+     ST_INT err;
+            ^
+../../src/sx_enc.c: 在函数‘sx_wr_duration’中:
+../../src/sx_enc.c:1034:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+In file included from ../../src/stdtime.c:85:0:
+../../src/stdtime.c: 在函数‘Rc_StdTime_FileTimeToSystemTimeEx’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:456:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (Rc_StdTime_FileTimeToSystemTimeEx)
+   ^
+../../src/stdtime.c: 在函数‘Rc_StdTime_SystemTimeExToFileTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:520:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (Rc_StdTime_SystemTimeExToFileTime)
+   ^
+../../src/stdtime.c: 在函数‘GetStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1095:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (GetStdTime)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeFields’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1123:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeFields)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_AddSpan’中:
+../../inc/stdtime.h:350:14: 警告：变量‘func’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC func;                                                            \
+              ^
+../../src/stdtime.c:1296:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_AddSpan)
+   ^
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1296:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_AddSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_SubSpan’中:
+../../inc/stdtime.h:350:14: 警告：变量‘func’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC func;                                                            \
+              ^
+../../src/stdtime.c:1349:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_SubSpan)
+   ^
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1349:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_SubSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_GetSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1453:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_GetSpan)
+   ^
+../../src/stdtime.c: 在函数‘NormalizeStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1502:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NormalizeStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeDeltaToStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1950:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeDeltaToStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeSpanToStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2047:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeSpanToStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2144:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2161:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘AbsStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2243:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (AbsStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘NegStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2270:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NegStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘AbsStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2325:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (AbsStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘NegStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2347:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NegStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToFileTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2426:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToFileTime)
+   ^
+../../src/stdtime.c: 在函数‘FileTimeToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2448:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (FileTimeToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToSystemTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2763:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToSystemTime)
+   ^
+../../src/stdtime.c: 在函数‘SystemTimeToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2778:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (SystemTimeToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StructTmExToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3007:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StructTmExToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToTimeTypeEx’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3038:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToTimeTypeEx)
+   ^
+../../src/stdtime.c: 在函数‘TimeTypeExToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3089:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (TimeTypeExToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeGetDayofWeekAndYear’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3382:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeGetDayofWeekAndYear)
+   ^
+../../src/stdtime.c: 在函数‘NormalizeStdTimeTzoA’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3586:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NormalizeStdTimeTzoA)
+   ^
+In file included from ../../src/stdtime_mms_btime.c:23:0:
+../../src/stdtime_mms_btime.c: 在函数‘StdTimeToMmsTimeOfDay6’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_mms_btime.c:174:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToMmsTimeOfDay6)
+   ^
+../../src/stdtime_mms_btime.c: 在函数‘MmsTimeOfDay6ToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_mms_btime.c:190:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (MmsTimeOfDay6ToStdTime)
+   ^
+../../src/stdtime_w32.c: 在函数‘StdTimeW32FileTimeToSystemTime’中:
+../../src/stdtime_w32.c:647:37: 警告：变量‘usec’被设定但未被使用 [-Wunused-but-set-variable]
+   int                               usec;
+                                     ^
+../../src/stdtime_w32.c:646:37: 警告：变量‘nsec’被设定但未被使用 [-Wunused-but-set-variable]
+   int                               nsec;
+                                     ^
+In file included from ../../src/stdtime_w32.c:31:0:
+../../src/stdtime_w32.c: 在函数‘StdTimeW32GetDayofWeekAndYear’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_w32.c:841:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeW32GetDayofWeekAndYear)
+   ^
+ar: 正在创建 ../../lib/util_ld.a
+FINISHED CREATING ../../lib/util_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF util_nd.a LIBRARY for LINUX
+../../src/gensock2.c: 在函数‘sockStartEx’中:
+../../src/gensock2.c:295:16: 警告：变量‘serviceCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTRL *serviceCtrl = NULL;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueAdd’中:
+../../src/gensock2.c:730:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueDestroy’中:
+../../src/gensock2.c:761:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueProc’中:
+../../src/gensock2.c:787:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTxQueueGroupCntGet’中:
+../../src/gensock2.c:844:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockTx’中:
+../../src/gensock2.c:863:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockFree’中:
+../../src/gensock2.c:992:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockInitFds’中:
+../../src/gensock2.c:1266:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘sockSelectResultProcess’中:
+../../src/gensock2.c:1373:8: 警告：变量‘startState’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT startState;
+        ^
+../../src/gensock2.c:1368:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘_sockServiceDiscardSock’中:
+../../src/gensock2.c:1585:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘_sockAccept’中:
+../../src/gensock2.c:1645:5: 警告：变量‘err’被设定但未被使用 [-Wunused-but-set-variable]
+ int err;
+     ^
+../../src/gensock2.c: 在函数‘_sockCheckRxData’中:
+../../src/gensock2.c:1754:16: 警告：变量‘sockCtx’被设定但未被使用 [-Wunused-but-set-variable]
+ GEN_SOCK_CTXT *sockCtx;
+                ^
+../../src/gensock2.c: 在函数‘_sockAllocSock’中:
+../../src/gensock2.c:1927:5: 警告：变量‘sRet’被设定但未被使用 [-Wunused-but-set-variable]
+ int sRet;
+     ^
+../../src/gensock2.c: 在函数‘sockLogState’中:
+../../src/gensock2.c:2408:8: 警告：变量‘sockCount’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT sockCount;
+        ^
+../../src/gensock2.c:2407:8: 警告：变量‘serviceCount’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT serviceCount;
+        ^
+../../src/sclparse.c: 在函数‘_Inputs_SEFun’中:
+../../src/sclparse.c:3279:15: 警告：变量‘sclDecCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ SCL_DEC_CTRL *sclDecCtrl;
+               ^
+../../src/sclparse_serv.c: 在函数‘Services_SEFun’中:
+../../src/sclparse_serv.c:396:11: 警告：变量‘scl_info’被设定但未被使用 [-Wunused-but-set-variable]
+ SCL_INFO *scl_info;
+           ^
+../../src/stime.c: 在函数‘_sGetSysMsTime’中:
+../../src/stime.c:176:12: 警告：变量‘err’被设定但未被使用 [-Wunused-but-set-variable]
+     ST_INT err;
+            ^
+../../src/sx_enc.c: 在函数‘sx_end_encode’中:
+../../src/sx_enc.c:292:9: 警告：变量‘xmlLen’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_LONG xmlLen;
+         ^
+../../src/sx_enc.c: 在函数‘sx_wr_duration’中:
+../../src/sx_enc.c:1034:8: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET rc;
+        ^
+In file included from ../../src/stdtime.c:85:0:
+../../src/stdtime.c: 在函数‘Rc_StdTime_FileTimeToSystemTimeEx’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:456:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (Rc_StdTime_FileTimeToSystemTimeEx)
+   ^
+../../src/stdtime.c: 在函数‘Rc_StdTime_SystemTimeExToFileTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:520:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (Rc_StdTime_SystemTimeExToFileTime)
+   ^
+../../src/stdtime.c: 在函数‘GetStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1095:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (GetStdTime)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeFields’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1123:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeFields)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_AddSpan’中:
+../../inc/stdtime.h:350:14: 警告：变量‘func’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC func;                                                            \
+              ^
+../../src/stdtime.c:1296:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_AddSpan)
+   ^
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1296:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_AddSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_SubSpan’中:
+../../inc/stdtime.h:350:14: 警告：变量‘func’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC func;                                                            \
+              ^
+../../src/stdtime.c:1349:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_SubSpan)
+   ^
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1349:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_SubSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTime_GetSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1453:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTime_GetSpan)
+   ^
+../../src/stdtime.c: 在函数‘NormalizeStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1502:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NormalizeStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeDeltaToStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:1950:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeDeltaToStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeSpanToStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2047:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeSpanToStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2144:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘ValidStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2161:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (ValidStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘AbsStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2243:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (AbsStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘NegStdTimeDelta’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2270:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NegStdTimeDelta)
+   ^
+../../src/stdtime.c: 在函数‘AbsStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2325:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (AbsStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘NegStdTimeSpan’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2347:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NegStdTimeSpan)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToFileTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2426:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToFileTime)
+   ^
+../../src/stdtime.c: 在函数‘FileTimeToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2448:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (FileTimeToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToSystemTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2763:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToSystemTime)
+   ^
+../../src/stdtime.c: 在函数‘SystemTimeToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:2778:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (SystemTimeToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StructTmExToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3007:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StructTmExToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeToTimeTypeEx’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3038:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToTimeTypeEx)
+   ^
+../../src/stdtime.c: 在函数‘TimeTypeExToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3089:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (TimeTypeExToStdTime)
+   ^
+../../src/stdtime.c: 在函数‘StdTimeGetDayofWeekAndYear’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3382:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeGetDayofWeekAndYear)
+   ^
+../../src/stdtime.c: 在函数‘NormalizeStdTimeTzoA’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime.c:3586:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (NormalizeStdTimeTzoA)
+   ^
+In file included from ../../src/stdtime_mms_btime.c:23:0:
+../../src/stdtime_mms_btime.c: 在函数‘StdTimeToMmsTimeOfDay6’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_mms_btime.c:174:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeToMmsTimeOfDay6)
+   ^
+../../src/stdtime_mms_btime.c: 在函数‘MmsTimeOfDay6ToStdTime’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_mms_btime.c:190:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (MmsTimeOfDay6ToStdTime)
+   ^
+../../src/stdtime_w32.c: 在函数‘StdTimeW32FileTimeToSystemTime’中:
+../../src/stdtime_w32.c:647:37: 警告：变量‘usec’被设定但未被使用 [-Wunused-but-set-variable]
+   int                               usec;
+                                     ^
+../../src/stdtime_w32.c:646:37: 警告：变量‘nsec’被设定但未被使用 [-Wunused-but-set-variable]
+   int                               nsec;
+                                     ^
+In file included from ../../src/stdtime_w32.c:31:0:
+../../src/stdtime_w32.c: 在函数‘StdTimeW32GetDayofWeekAndYear’中:
+../../inc/stdtime.h:349:14: 警告：变量‘rc’被设定但未被使用 [-Wunused-but-set-variable]
+   STDTIME_RC rc;                                                              \
+              ^
+../../src/stdtime_w32.c:841:3: 附注：in expansion of macro ‘STDTIME_ENUM_FUNC’
+   STDTIME_ENUM_FUNC (StdTimeW32GetDayofWeekAndYear)
+   ^
+ar: 正在创建 ../../lib/util_nd.a
+FINISHED CREATING ../../lib/util_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mlogl_l.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/mlogl_l.a
+FINISHED CREATING ../../lib/mlogl_l.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mlogl_n.a LIBRARY for LINUX
+../../src/mlogavar.c: 在函数‘mlogInt8’中:
+../../src/mlogavar.c:251:8: 警告：变量‘int_val’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT int_val;
+        ^
+../../src/mlogavar.c: 在函数‘mlogInt16’中:
+../../src/mlogavar.c:260:8: 警告：变量‘i’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT i;
+        ^
+../../src/mlogavar.c: 在函数‘mlogUint8’中:
+../../src/mlogavar.c:283:8: 警告：变量‘int_val’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT int_val;
+        ^
+../../src/mlogavar.c: 在函数‘mlogUint16’中:
+../../src/mlogavar.c:292:8: 警告：变量‘i’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT i;
+        ^
+../../src/mlogavar.c: 在函数‘mlogFlt’中:
+../../src/mlogavar.c:315:12: 警告：变量‘d’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_DOUBLE  d;
+            ^
+../../src/mlogavar.c: 在函数‘mlogOct’中:
+../../src/mlogavar.c:330:8: 警告：变量‘i’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT i;
+        ^
+../../src/mlogavar.c: 在函数‘mlogBool’中:
+../../src/mlogavar.c:352:8: 警告：变量‘int_val’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT int_val;
+        ^
+../../src/mlogavar.c: 在函数‘mlogBcd1’中:
+../../src/mlogavar.c:363:8: 警告：变量‘int_val’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT int_val;
+        ^
+../../src/mlogavar.c: 在函数‘mlogBcd2’中:
+../../src/mlogavar.c:373:8: 警告：变量‘i’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT i;
+        ^
+../../src/mlogavar.c: 在函数‘mlogBs’中:
+../../src/mlogavar.c:391:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/ml_namel.c: 在函数‘m_log_namelist_resp’中:
+../../src/ml_namel.c:128:11: 警告：变量‘nptr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR **nptr;
+           ^
+ar: 正在创建 ../../lib/mlogl_n.a
+FINISHED CREATING ../../lib/mlogl_n.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mlogl_ld.a LIBRARY for LINUX
+ar: 正在创建 ../../lib/mlogl_ld.a
+FINISHED CREATING ../../lib/mlogl_ld.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF mlogl_nd.a LIBRARY for LINUX
+../../src/mlogavar.c: 在函数‘mlogInt8’中:
+../../src/mlogavar.c:251:8: 警告：变量‘int_val’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT int_val;
+        ^
+../../src/mlogavar.c: 在函数‘mlogInt16’中:
+../../src/mlogavar.c:260:8: 警告：变量‘i’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT i;
+        ^
+../../src/mlogavar.c: 在函数‘mlogUint8’中:
+../../src/mlogavar.c:283:8: 警告：变量‘int_val’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT int_val;
+        ^
+../../src/mlogavar.c: 在函数‘mlogUint16’中:
+../../src/mlogavar.c:292:8: 警告：变量‘i’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT i;
+        ^
+../../src/mlogavar.c: 在函数‘mlogFlt’中:
+../../src/mlogavar.c:315:12: 警告：变量‘d’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_DOUBLE  d;
+            ^
+../../src/mlogavar.c: 在函数‘mlogOct’中:
+../../src/mlogavar.c:330:8: 警告：变量‘i’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT i;
+        ^
+../../src/mlogavar.c: 在函数‘mlogBool’中:
+../../src/mlogavar.c:352:8: 警告：变量‘int_val’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT int_val;
+        ^
+../../src/mlogavar.c: 在函数‘mlogBcd1’中:
+../../src/mlogavar.c:363:8: 警告：变量‘int_val’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT int_val;
+        ^
+../../src/mlogavar.c: 在函数‘mlogBcd2’中:
+../../src/mlogavar.c:373:8: 警告：变量‘i’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT i;
+        ^
+../../src/mlogavar.c: 在函数‘mlogBs’中:
+../../src/mlogavar.c:391:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/ml_namel.c: 在函数‘m_log_namelist_resp’中:
+../../src/ml_namel.c:128:11: 警告：变量‘nptr’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR **nptr;
+           ^
+ar: 正在创建 ../../lib/mlogl_nd.a
+FINISHED CREATING ../../lib/mlogl_nd.a LIBRARY
+-----------------------------------------------------
+STARTING MAKE OF findalgn_ld EXECUTABLE for LINUX
+FINISHED GENERATING ../../bin/findalgn_ld EXECUTABLE
+-----------------------------------------------------
+STARTING MAKE OF foundry_ld EXECUTABLE for LINUX
+../../mvl/util/foundry/fo_tfn.c: 在函数‘parseDefine’中:
+../../mvl/util/foundry/fo_tfn.c:315:12: 警告：变量‘bDone’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_BOOLEAN bDone;
+            ^
+../../mvl/util/foundry/fo_tfn.c: 在函数‘parseReplacedFun’中:
+../../mvl/util/foundry/fo_tfn.c:393:8: 警告：变量‘ret’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET ret;
+        ^
+../../mvl/util/foundry/fo_tfn.c:390:12: 警告：变量‘bDone’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_BOOLEAN bDone;
+            ^
+../../mvl/util/foundry/fo_tfn.c:389:10: 警告：变量‘pRValue’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR *pRValue;
+          ^
+../../mvl/util/foundry/fo_tfn.c: 在函数‘parseFun’中:
+../../mvl/util/foundry/fo_tfn.c:686:7: 警告：assignment discards ‘const’ qualifier from pointer target type [默认启用]
+  pBuf =(ST_CHAR *) strpbrk (pBuf, "");
+       ^
+../../mvl/util/foundry/fo_tfn.c:473:8: 警告：变量‘count’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT count;        /* used in bldFunprototype  */ 
+        ^
+../../mvl/util/foundry/fo_main.c: 在函数‘init_mem’中:
+../../mvl/util/foundry/fo_main.c:486:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   m_memerr_fun = my_malloc_err;
+                ^
+../../mvl/util/foundry/fo_main.c:487:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   c_memerr_fun = my_calloc_err;
+                ^
+../../mvl/util/foundry/fo_main.c:488:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   r_memerr_fun = my_realloc_err;
+                ^
+../../mvl/util/foundry/fo_write.c: 在函数‘writeDomVarListInit’中:
+../../mvl/util/foundry/fo_write.c:654:8: 警告：变量‘domIndex’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT domIndex;
+        ^
+../../mvl/util/foundry/fo_uca.c: 在函数‘writeRtLeafInit’中:
+../../mvl/util/foundry/fo_uca.c:1241:12: 警告：变量‘typeCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ TYPE_CTRL *typeCtrl;
+            ^
+../../mvl/util/foundry/fo_uca.c: 在函数‘deriveUcaNames’中:
+../../mvl/util/foundry/fo_uca.c:1446:15: 警告：变量‘rt’被设定但未被使用 [-Wunused-but-set-variable]
+ RUNTIME_TYPE *rt;
+               ^
+FINISHED GENERATING ../../bin/foundry_ld EXECUTABLE
+-----------------------------------------------------
+STARTING MAKE OF mmslog_ld EXECUTABLE for LINUX
+../../mvl/util/mmslog/mmslog.c: 在函数‘init_mem’中:
+../../mvl/util/mmslog/mmslog.c:525:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   m_memerr_fun = my_malloc_err;
+                ^
+../../mvl/util/mmslog/mmslog.c:526:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   c_memerr_fun = my_calloc_err;
+                ^
+../../mvl/util/mmslog/mmslog.c:527:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   r_memerr_fun = my_realloc_err;
+                ^
+../../src/mmsdata.c: 在函数‘bs_cstr_done’中:
+../../src/mmsdata.c:425:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/mmsdata.c: 在函数‘get_bitstr_prim’中:
+../../src/mmsdata.c:535:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/mmsdataa.c: 在函数‘bs_cstr_done_aa’中:
+../../src/mmsdataa.c:446:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+../../src/mmsdataa.c: 在函数‘get_bitstr_prim_aa’中:
+../../src/mmsdataa.c:549:8: 警告：变量‘abs_len’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT abs_len;
+        ^
+FINISHED GENERATING ../../bin/mmslog_ld EXECUTABLE
+-----------------------------------------------------
+STARTING MAKE OF cositcps0_ld EXECUTABLE for LINUX
+
+
+                  MMS-EASE Lite Object Foundry
+(c) Copyright Systems Integration Specialists Company, Inc.,
+                  1998 - 2008, All Rights Reserved
+
+Done
+In file included from ../../mvl/usr/client/client.c:171:0:
+../../mvl/usr/client/mmsop_en.h:35:9: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+ #pragma message(" into mmsop_en.h in mvl/usr/client/mmsop_en.h")
+         ^
+../../mvl/usr/client/client.c: 在函数‘init_mem’中:
+../../mvl/usr/client/client.c:2073:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   m_memerr_fun = my_malloc_err;
+                ^
+../../mvl/usr/client/client.c:2074:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   c_memerr_fun = my_calloc_err;
+                ^
+../../mvl/usr/client/client.c:2075:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   r_memerr_fun = my_realloc_err;
+                ^
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fopen_ind’中:
+../../mvl/usr/client/client.c:2155:22: 警告：将一个指针转换为大小不同的整数 [-Wpointer-to-int-cast]
+   resp_info.frsmid = (ST_INT32) fp;
+                      ^
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fread_ind’中:
+../../mvl/usr/client/client.c:2186:8: 警告：将一个整数转换为大小不同的指针 [-Wint-to-pointer-cast]
+   fp = (FILE *) fread_ctrl->req_info->frsmid;
+        ^
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fclose_ind’中:
+../../mvl/usr/client/client.c:2218:8: 警告：将一个整数转换为大小不同的指针 [-Wint-to-pointer-cast]
+   fp = (FILE *) fclose_ctrl->req_info->frsmid;
+        ^
+../../mvl/usr/client/client.c: 在函数‘test_iec_remote_vmd’中:
+../../mvl/usr/client/client.c:2709:8: 警告：变量‘retcode’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET retcode;
+        ^
+../../mvl/usr/client/cli_rpt.c: 在函数‘rcb_info_var_create’中:
+../../mvl/usr/client/cli_rpt.c:476:8: 警告：变量‘incSize’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT incSize;  /* num bytes for inclusion bitstring */
+        ^
+In file included from ../../src/mmsop_en.c:89:0:
+../../mvl/usr/client/mmsop_en.h:35:9: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+ #pragma message(" into mmsop_en.h in mvl/usr/client/mmsop_en.h")
+         ^
+In file included from ../../mvl/src/mvlop_en.c:41:0:
+../../mvl/usr/client/mmsop_en.h:35:9: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+ #pragma message(" into mmsop_en.h in mvl/usr/client/mmsop_en.h")
+         ^
+../../mvl/src/acse/mvl_acse.c:238:9: 附注：#pragma message： begin mmsop_en.h in mvl_acse.c
+ #pragma message(" begin mmsop_en.h in mvl_acse.c")
+         ^
+In file included from ../../mvl/src/acse/mvl_acse.c:239:0:
+../../mvl/usr/client/mmsop_en.h:35:9: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+ #pragma message(" into mmsop_en.h in mvl/usr/client/mmsop_en.h")
+         ^
+../../mvl/src/acse/mvl_acse.c:240:9: 附注：#pragma message： after mmsop_en.h in mvl_acse.c
+ #pragma message(" after mmsop_en.h in mvl_acse.c")
+         ^
+../../mvl/src/acse/mvl_acse.c: 在函数‘mvl_add_bind_ctrl’中:
+../../mvl/src/acse/mvl_acse.c:1058:12: 警告：变量‘activate’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_BOOLEAN activate;
+            ^
+../../mvl/usr/event2.c: 在函数‘wait_any_event’中:
+../../mvl/usr/event2.c:44:5: 警告：变量‘nfds’被设定但未被使用 [-Wunused-but-set-variable]
+ int nfds;
+     ^
+../../mvl/usr/logcfgx.c: 在函数‘_logcfg_save_logmasks’中:
+../../mvl/usr/logcfgx.c:273:8: 警告：变量‘bytesWritten’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT bytesWritten;
+        ^
+../../mvl/usr/logcfgx.c: 在函数‘logcfgx_exx’中:
+../../mvl/usr/logcfgx.c:623:10: 警告：变量‘savedFileName’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR *savedFileName;
+          ^
+../../mvl/usr/logcfgx.c: 在函数‘_logcfg_data_end’中:
+../../mvl/usr/logcfgx.c:880:22: 警告：变量‘sxDecElInfo’被设定但未被使用 [-Wunused-but-set-variable]
+ SX_DEC_ELEMENT_INFO *sxDecElInfo; 
+                      ^
+../../src/slogipc.c: 在函数‘slogIpcSendRawData’中:
+../../src/slogipc.c:1222:19: 警告：变量‘firstConn’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_BOOLEAN        firstConn;
+                   ^
+../../src/slogipc.c: 在函数‘slogIpcCallingEnableEx’中:
+../../src/slogipc.c:1417:11: 警告：变量‘logCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_UINT32 logCtrl;
+           ^
+../../src/slogipc.c: 在函数‘_slogIpcInitSockCfg’中:
+../../src/slogipc.c:1498:14: 警告：变量‘ctx’被设定但未被使用 [-Wunused-but-set-variable]
+ SLOGIPC_CTX *ctx;
+              ^
+../../src/slogipc.c: 在函数‘_slogIpcInitHdr’中:
+../../src/slogipc.c:1635:14: 警告：变量‘ctx’被设定但未被使用 [-Wunused-but-set-variable]
+ SLOGIPC_CTX *ctx;
+              ^
+../../lib/mvlu_ld.a(mvl_serv.o)：在函数‘u_mvl_reject_ind’中：
+/home/skt/src/common/mmslite-6.0000/cmd/gnu/../../mvl/src/mvl_serv.c:171: multiple definition of `u_mvl_reject_ind'
+obj_cositcps0_ld/reject.o:/home/skt/src/common/mmslite-6.0000/cmd/gnu/../../mvl/usr/reject.c:46：第一次在此定义
+collect2: 错误：ld 返回 1
+STARTING MAKE OF sositcps0_ld EXECUTABLE for LINUX
+
+
+                  MMS-EASE Lite Object Foundry
+(c) Copyright Systems Integration Specialists Company, Inc.,
+                  1998 - 2008, All Rights Reserved
+
+Done
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fopen_ind’中:
+../../mvl/usr/server/server.c:2095:22: 警告：将一个指针转换为大小不同的整数 [-Wpointer-to-int-cast]
+   resp_info.frsmid = (ST_INT32) open_file;
+                      ^
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fread_ind’中:
+../../mvl/usr/server/server.c:2128:15: 警告：将一个整数转换为大小不同的指针 [-Wint-to-pointer-cast]
+   open_file = (MVL_NET_FILE *) fread_ctrl->req_info->frsmid;
+               ^
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fclose_ind’中:
+../../mvl/usr/server/server.c:2163:15: 警告：将一个整数转换为大小不同的指针 [-Wint-to-pointer-cast]
+   open_file = (MVL_NET_FILE *) fclose_ctrl->req_info->frsmid;
+               ^
+../../mvl/usr/server/server.c: 在函数‘connect_ind_fun’中:
+../../mvl/usr/server/server.c:2457:18: 警告：变量‘aa’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_AA_OBJ_CTRL *aa;
+                  ^
+../../mvl/usr/server/server.c: 在函数‘init_mem’中:
+../../mvl/usr/server/server.c:2636:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   m_memerr_fun = my_malloc_err;
+                ^
+../../mvl/usr/server/server.c:2637:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   c_memerr_fun = my_calloc_err;
+                ^
+../../mvl/usr/server/server.c:2638:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   r_memerr_fun = my_realloc_err;
+                ^
+../../mvl/src/acse/mvl_acse.c:238:9: 附注：#pragma message： begin mmsop_en.h in mvl_acse.c
+ #pragma message(" begin mmsop_en.h in mvl_acse.c")
+         ^
+../../mvl/src/acse/mvl_acse.c:240:9: 附注：#pragma message： after mmsop_en.h in mvl_acse.c
+ #pragma message(" after mmsop_en.h in mvl_acse.c")
+         ^
+../../mvl/src/acse/mvl_acse.c: 在函数‘mvl_add_bind_ctrl’中:
+../../mvl/src/acse/mvl_acse.c:1058:12: 警告：变量‘activate’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_BOOLEAN activate;
+            ^
+../../mvl/usr/event2.c: 在函数‘wait_any_event’中:
+../../mvl/usr/event2.c:44:5: 警告：变量‘nfds’被设定但未被使用 [-Wunused-but-set-variable]
+ int nfds;
+     ^
+../../mvl/usr/logcfgx.c: 在函数‘_logcfg_save_logmasks’中:
+../../mvl/usr/logcfgx.c:273:8: 警告：变量‘bytesWritten’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT bytesWritten;
+        ^
+../../mvl/usr/logcfgx.c: 在函数‘logcfgx_exx’中:
+../../mvl/usr/logcfgx.c:623:10: 警告：变量‘savedFileName’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR *savedFileName;
+          ^
+../../mvl/usr/logcfgx.c: 在函数‘_logcfg_data_end’中:
+../../mvl/usr/logcfgx.c:880:22: 警告：变量‘sxDecElInfo’被设定但未被使用 [-Wunused-but-set-variable]
+ SX_DEC_ELEMENT_INFO *sxDecElInfo; 
+                      ^
+../../src/slogipc.c: 在函数‘slogIpcSendRawData’中:
+../../src/slogipc.c:1222:19: 警告：变量‘firstConn’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_BOOLEAN        firstConn;
+                   ^
+../../src/slogipc.c: 在函数‘slogIpcCallingEnableEx’中:
+../../src/slogipc.c:1417:11: 警告：变量‘logCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_UINT32 logCtrl;
+           ^
+../../src/slogipc.c: 在函数‘_slogIpcInitSockCfg’中:
+../../src/slogipc.c:1498:14: 警告：变量‘ctx’被设定但未被使用 [-Wunused-but-set-variable]
+ SLOGIPC_CTX *ctx;
+              ^
+../../src/slogipc.c: 在函数‘_slogIpcInitHdr’中:
+../../src/slogipc.c:1635:14: 警告：变量‘ctx’被设定但未被使用 [-Wunused-but-set-variable]
+ SLOGIPC_CTX *ctx;
+              ^
+../../lib/mvl_ld.a(mvl_serv.o)：在函数‘u_mvl_reject_ind’中：
+/home/skt/src/common/mmslite-6.0000/cmd/gnu/../../mvl/src/mvl_serv.c:171: multiple definition of `u_mvl_reject_ind'
+obj_sositcps0_ld/reject.o:/home/skt/src/common/mmslite-6.0000/cmd/gnu/../../mvl/usr/reject.c:46：第一次在此定义
+collect2: 错误：ld 返回 1
+STARTING MAKE OF scl_srvr_ld EXECUTABLE for LINUX
+
+
+                  MMS-EASE Lite Object Foundry
+(c) Copyright Systems Integration Specialists Company, Inc.,
+                  1998 - 2008, All Rights Reserved
+
+Done
+../../mvl/usr/scl_srvr/scl_srvr.c:149:17: 致命错误：vld.h：没有那个文件或目录
+ #include <vld.h>
+                 ^
+编译中断。
+STARTING MAKE OF cositpxs0_ld EXECUTABLE for LINUX
+In file included from ../../mvl/usr/client/client.c:171:0:
+../../mvl/usr/client/mmsop_en.h:35:9: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+ #pragma message(" into mmsop_en.h in mvl/usr/client/mmsop_en.h")
+         ^
+../../mvl/usr/client/client.c: 在函数‘init_mem’中:
+../../mvl/usr/client/client.c:2073:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   m_memerr_fun = my_malloc_err;
+                ^
+../../mvl/usr/client/client.c:2074:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   c_memerr_fun = my_calloc_err;
+                ^
+../../mvl/usr/client/client.c:2075:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   r_memerr_fun = my_realloc_err;
+                ^
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fopen_ind’中:
+../../mvl/usr/client/client.c:2155:22: 警告：将一个指针转换为大小不同的整数 [-Wpointer-to-int-cast]
+   resp_info.frsmid = (ST_INT32) fp;
+                      ^
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fread_ind’中:
+../../mvl/usr/client/client.c:2186:8: 警告：将一个整数转换为大小不同的指针 [-Wint-to-pointer-cast]
+   fp = (FILE *) fread_ctrl->req_info->frsmid;
+        ^
+../../mvl/usr/client/client.c: 在函数‘u_mvl_fclose_ind’中:
+../../mvl/usr/client/client.c:2218:8: 警告：将一个整数转换为大小不同的指针 [-Wint-to-pointer-cast]
+   fp = (FILE *) fclose_ctrl->req_info->frsmid;
+        ^
+../../mvl/usr/client/client.c: 在函数‘test_iec_remote_vmd’中:
+../../mvl/usr/client/client.c:2709:8: 警告：变量‘retcode’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_RET retcode;
+        ^
+../../mvl/usr/client/cli_rpt.c: 在函数‘rcb_info_var_create’中:
+../../mvl/usr/client/cli_rpt.c:476:8: 警告：变量‘incSize’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT incSize;  /* num bytes for inclusion bitstring */
+        ^
+In file included from ../../src/mmsop_en.c:89:0:
+../../mvl/usr/client/mmsop_en.h:35:9: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+ #pragma message(" into mmsop_en.h in mvl/usr/client/mmsop_en.h")
+         ^
+In file included from ../../mvl/src/mvlop_en.c:41:0:
+../../mvl/usr/client/mmsop_en.h:35:9: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+ #pragma message(" into mmsop_en.h in mvl/usr/client/mmsop_en.h")
+         ^
+../../mvl/src/acse/mvl_acse.c:238:9: 附注：#pragma message： begin mmsop_en.h in mvl_acse.c
+ #pragma message(" begin mmsop_en.h in mvl_acse.c")
+         ^
+In file included from ../../mvl/src/acse/mvl_acse.c:239:0:
+../../mvl/usr/client/mmsop_en.h:35:9: 附注：#pragma message： into mmsop_en.h in mvl/usr/client/mmsop_en.h
+ #pragma message(" into mmsop_en.h in mvl/usr/client/mmsop_en.h")
+         ^
+../../mvl/src/acse/mvl_acse.c:240:9: 附注：#pragma message： after mmsop_en.h in mvl_acse.c
+ #pragma message(" after mmsop_en.h in mvl_acse.c")
+         ^
+../../mvl/src/acse/mvl_acse.c: 在函数‘mvl_add_bind_ctrl’中:
+../../mvl/src/acse/mvl_acse.c:1058:12: 警告：变量‘activate’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_BOOLEAN activate;
+            ^
+../../mvl/usr/event2.c: 在函数‘wait_any_event’中:
+../../mvl/usr/event2.c:44:5: 警告：变量‘nfds’被设定但未被使用 [-Wunused-but-set-variable]
+ int nfds;
+     ^
+../../mvl/usr/logcfgx.c: 在函数‘_logcfg_save_logmasks’中:
+../../mvl/usr/logcfgx.c:273:8: 警告：变量‘bytesWritten’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT bytesWritten;
+        ^
+../../mvl/usr/logcfgx.c: 在函数‘logcfgx_exx’中:
+../../mvl/usr/logcfgx.c:623:10: 警告：变量‘savedFileName’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR *savedFileName;
+          ^
+../../mvl/usr/logcfgx.c: 在函数‘_logcfg_data_end’中:
+../../mvl/usr/logcfgx.c:880:22: 警告：变量‘sxDecElInfo’被设定但未被使用 [-Wunused-but-set-variable]
+ SX_DEC_ELEMENT_INFO *sxDecElInfo; 
+                      ^
+../../src/slogipc.c: 在函数‘slogIpcSendRawData’中:
+../../src/slogipc.c:1222:19: 警告：变量‘firstConn’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_BOOLEAN        firstConn;
+                   ^
+../../src/slogipc.c: 在函数‘slogIpcCallingEnableEx’中:
+../../src/slogipc.c:1417:11: 警告：变量‘logCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_UINT32 logCtrl;
+           ^
+../../src/slogipc.c: 在函数‘_slogIpcInitSockCfg’中:
+../../src/slogipc.c:1498:14: 警告：变量‘ctx’被设定但未被使用 [-Wunused-but-set-variable]
+ SLOGIPC_CTX *ctx;
+              ^
+../../src/slogipc.c: 在函数‘_slogIpcInitHdr’中:
+../../src/slogipc.c:1635:14: 警告：变量‘ctx’被设定但未被使用 [-Wunused-but-set-variable]
+ SLOGIPC_CTX *ctx;
+              ^
+../../lib/mvlu_ld.a(mvl_serv.o)：在函数‘u_mvl_reject_ind’中：
+/home/skt/src/common/mmslite-6.0000/cmd/gnu/../../mvl/src/mvl_serv.c:171: multiple definition of `u_mvl_reject_ind'
+obj_cositpxs0_ld/reject.o:/home/skt/src/common/mmslite-6.0000/cmd/gnu/../../mvl/usr/reject.c:46：第一次在此定义
+collect2: 错误：ld 返回 1
+STARTING MAKE OF sositpxs0_ld EXECUTABLE for LINUX
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fopen_ind’中:
+../../mvl/usr/server/server.c:2095:22: 警告：将一个指针转换为大小不同的整数 [-Wpointer-to-int-cast]
+   resp_info.frsmid = (ST_INT32) open_file;
+                      ^
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fread_ind’中:
+../../mvl/usr/server/server.c:2128:15: 警告：将一个整数转换为大小不同的指针 [-Wint-to-pointer-cast]
+   open_file = (MVL_NET_FILE *) fread_ctrl->req_info->frsmid;
+               ^
+../../mvl/usr/server/server.c: 在函数‘u_mvl_fclose_ind’中:
+../../mvl/usr/server/server.c:2163:15: 警告：将一个整数转换为大小不同的指针 [-Wint-to-pointer-cast]
+   open_file = (MVL_NET_FILE *) fclose_ctrl->req_info->frsmid;
+               ^
+../../mvl/usr/server/server.c: 在函数‘connect_ind_fun’中:
+../../mvl/usr/server/server.c:2457:18: 警告：变量‘aa’被设定但未被使用 [-Wunused-but-set-variable]
+ MVL_AA_OBJ_CTRL *aa;
+                  ^
+../../mvl/usr/server/server.c: 在函数‘init_mem’中:
+../../mvl/usr/server/server.c:2636:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   m_memerr_fun = my_malloc_err;
+                ^
+../../mvl/usr/server/server.c:2637:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   c_memerr_fun = my_calloc_err;
+                ^
+../../mvl/usr/server/server.c:2638:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   r_memerr_fun = my_realloc_err;
+                ^
+../../mvl/src/acse/mvl_acse.c:238:9: 附注：#pragma message： begin mmsop_en.h in mvl_acse.c
+ #pragma message(" begin mmsop_en.h in mvl_acse.c")
+         ^
+../../mvl/src/acse/mvl_acse.c:240:9: 附注：#pragma message： after mmsop_en.h in mvl_acse.c
+ #pragma message(" after mmsop_en.h in mvl_acse.c")
+         ^
+../../mvl/src/acse/mvl_acse.c: 在函数‘mvl_add_bind_ctrl’中:
+../../mvl/src/acse/mvl_acse.c:1058:12: 警告：变量‘activate’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_BOOLEAN activate;
+            ^
+../../mvl/usr/event2.c: 在函数‘wait_any_event’中:
+../../mvl/usr/event2.c:44:5: 警告：变量‘nfds’被设定但未被使用 [-Wunused-but-set-variable]
+ int nfds;
+     ^
+../../mvl/usr/logcfgx.c: 在函数‘_logcfg_save_logmasks’中:
+../../mvl/usr/logcfgx.c:273:8: 警告：变量‘bytesWritten’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_INT bytesWritten;
+        ^
+../../mvl/usr/logcfgx.c: 在函数‘logcfgx_exx’中:
+../../mvl/usr/logcfgx.c:623:10: 警告：变量‘savedFileName’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_CHAR *savedFileName;
+          ^
+../../mvl/usr/logcfgx.c: 在函数‘_logcfg_data_end’中:
+../../mvl/usr/logcfgx.c:880:22: 警告：变量‘sxDecElInfo’被设定但未被使用 [-Wunused-but-set-variable]
+ SX_DEC_ELEMENT_INFO *sxDecElInfo; 
+                      ^
+../../src/slogipc.c: 在函数‘slogIpcSendRawData’中:
+../../src/slogipc.c:1222:19: 警告：变量‘firstConn’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_BOOLEAN        firstConn;
+                   ^
+../../src/slogipc.c: 在函数‘slogIpcCallingEnableEx’中:
+../../src/slogipc.c:1417:11: 警告：变量‘logCtrl’被设定但未被使用 [-Wunused-but-set-variable]
+ ST_UINT32 logCtrl;
+           ^
+../../src/slogipc.c: 在函数‘_slogIpcInitSockCfg’中:
+../../src/slogipc.c:1498:14: 警告：变量‘ctx’被设定但未被使用 [-Wunused-but-set-variable]
+ SLOGIPC_CTX *ctx;
+              ^
+../../src/slogipc.c: 在函数‘_slogIpcInitHdr’中:
+../../src/slogipc.c:1635:14: 警告：变量‘ctx’被设定但未被使用 [-Wunused-but-set-variable]
+ SLOGIPC_CTX *ctx;
+              ^
+../../lib/mvl_ld.a(mvl_serv.o)：在函数‘u_mvl_reject_ind’中：
+/home/skt/src/common/mmslite-6.0000/cmd/gnu/../../mvl/src/mvl_serv.c:171: multiple definition of `u_mvl_reject_ind'
+obj_sositpxs0_ld/reject.o:/home/skt/src/common/mmslite-6.0000/cmd/gnu/../../mvl/usr/reject.c:46：第一次在此定义
+collect2: 错误：ld 返回 1
+STARTING MAKE OF scl_tpxs0_ld EXECUTABLE for LINUX
+../../mvl/usr/scl_srvr/scl_srvr.c:149:17: 致命错误：vld.h：没有那个文件或目录
+ #include <vld.h>
+                 ^
+编译中断。
+STARTING MAKE OF iecgoose_ld EXECUTABLE for LINUX
+
+
+                  MMS-EASE Lite Object Foundry
+(c) Copyright Systems Integration Specialists Company, Inc.,
+                  1998 - 2008, All Rights Reserved
+Error, cannot open input file '../../mvl/usr/iecgoose/uca_obj.odf'
+
+
+Usage:  foundry [-o] [-ccfgFile] [-ttemplateFile] infile[.ext] [outfile]
+
+ Valid Arguments :
+	-?   	: List Valid Arguments
+	-c   	: Alignment control file
+	-t   	: UCA Template Function File
+	-o   	: Overwrite target
+	-d   	: Debug mode
+	-v   	: Create UCA Variable Names & Associations
+	-n   	: Extract UCA Variable Names
+	-p   	: Print line numbers being processed
+	-r   	: Use code to initialize Runtime Type
+	-l   	: List all types
+	-i   	: Include path
+	-x   	: No MMS-Lite Required
+	*    	: Object Definition File NameSTARTING MAKE OF gse_mgmt_ld EXECUTABLE for LINUX
+
+
+                  MMS-EASE Lite Object Foundry
+(c) Copyright Systems Integration Specialists Company, Inc.,
+                  1998 - 2008, All Rights Reserved
+
+Done
+../../mvl/usr/gse_mgmt/gse_mgmt.c: 在函数‘init_mem’中:
+../../mvl/usr/gse_mgmt/gse_mgmt.c:870:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   m_memerr_fun = my_malloc_err;
+                ^
+../../mvl/usr/gse_mgmt/gse_mgmt.c:871:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   c_memerr_fun = my_calloc_err;
+                ^
+../../mvl/usr/gse_mgmt/gse_mgmt.c:872:16: 警告：从不兼容的指针类型赋值 [默认启用]
+   r_memerr_fun = my_realloc_err;
+                ^

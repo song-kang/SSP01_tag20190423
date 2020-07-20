@@ -1,0 +1,97 @@
+
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 10:33:06 2015
+***********************************************************
+
+2015-09-22 10:33:06.340 SLOGALWAYS (client.c 635 ThreadId=0x870 (2160)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2015-09-22 10:33:09.933 CLNP_LOG_ERR (clnp_pcap.c 170 ThreadId=0x870 (2160)) 
+  Subnetwork initialization error: 'network_device' not set.
+
+2015-09-22 10:33:09.933 CLNP_LOG_ERR (clnp_usr.c 227 ThreadId=0x870 (2160)) 
+  CLNP-ERROR: initialization failed ret=1
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 10:39:02 2015
+***********************************************************
+
+2015-09-22 10:39:02.418 SLOGALWAYS (client.c 635 ThreadId=0xB0 (176)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2015-09-22 10:39:07.308 CLNP_LOG_ERR (clnp_pcap.c 170 ThreadId=0xB0 (176)) 
+  Subnetwork initialization error: 'network_device' not set.
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 10:39:22 2015
+***********************************************************
+
+2015-09-22 10:39:22.590 SLOGALWAYS (client.c 635 ThreadId=0x6A0 (1696)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 10:46:49 2015
+***********************************************************
+
+2015-09-22 10:46:49.855 SLOGALWAYS (client.c 635 ThreadId=0xE68 (3688)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 10:47:30 2015
+***********************************************************
+
+2015-09-22 10:47:30.308 SLOGALWAYS (client.c 635 ThreadId=0xFB8 (4024)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2015-09-22 10:47:31.558 CLNP_LOG_ERR (clnp_pcap.c 170 ThreadId=0xFB8 (4024)) 
+  Subnetwork initialization error: 'network_device' not set.
+
+2015-09-22 10:47:31.558 CLNP_LOG_ERR (clnp_usr.c 227 ThreadId=0xFB8 (4024)) 
+  CLNP-ERROR: initialization failed ret=1
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 10:48:40 2015
+***********************************************************
+
+2015-09-22 10:48:40.808 SLOGALWAYS (client.c 635 ThreadId=0x6F4 (1780)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2015-09-22 11:08:51.793 CLNP_LOG_ERR (clnp_pcap.c 170 ThreadId=0x6F4 (1780)) 
+  Subnetwork initialization error: 'network_device' not set.
+
+2015-09-22 11:08:51.793 CLNP_LOG_ERR (clnp_usr.c 227 ThreadId=0x6F4 (1780)) 
+  CLNP-ERROR: initialization failed ret=1
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 11:09:19 2015
+***********************************************************
+
+2015-09-22 11:09:19.230 SLOGALWAYS (client.c 635 ThreadId=0xF40 (3904)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 11:22:12 2015
+***********************************************************
+
+2015-09-22 11:22:12.043 SLOGALWAYS (client.c 635 ThreadId=0x734 (1844)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2015-09-22 11:22:20.215 CLNP_LOG_ERR (clnp_pcap.c 170 ThreadId=0x734 (1844)) 
+  Subnetwork initialization error: 'network_device' not set.
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 11:24:43 2015
+***********************************************************
+
+2015-09-22 11:24:43.261 SLOGALWAYS (client.c 635 ThreadId=0xCE4 (3300)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2015-09-22 11:24:46.136 CLNP_LOG_ERR (clnp_pcap.c 190 ThreadId=0xCE4 (3300)) 
+  Device '' not found in the following device list:
+
+2015-09-22 11:24:46.136 CLNP_LOG_ERR (clnp_pcap.c 192 ThreadId=0xCE4 (3300)) 
+    \Device\NPF_{A575BB8A-C2F2-4677-B162-B23D51EEB308}	(Microsoft)
+
+2015-09-22 11:24:46.136 CLNP_LOG_ERR (clnp_pcap.c 192 ThreadId=0xCE4 (3300)) 
+    \Device\NPF_{3251D107-38D3-47C9-AF02-816849BE30D7}	(VMware Accelerated AMD PCNet Adapter (Microsoft's Packet Scheduler) )

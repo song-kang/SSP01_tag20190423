@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/qt_zh_CN.qm</file>
+        <file>Resources/icon/connect.bmp</file>
+        <file>Resources/icon/delete.bmp</file>
+        <file>Resources/icon/disconnect.bmp</file>
+        <file>Resources/icon/exe.png</file>
+        <file>Resources/icon/exec.png</file>
+        <file>Resources/icon/insert.png</file>
+        <file>Resources/icon/runfile.png</file>
+        <file>Resources/icon/save.bmp</file>
+    </qresource>
+</RCC>

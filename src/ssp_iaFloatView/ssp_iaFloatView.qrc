@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="ia2floatview">Resources/ia2floatview.png</file>
+        <file alias="display">Resources/display.png</file>
+        <file alias="setting">Resources/setting.png</file>
+        <file alias="todo">Resources/todo.png</file>
+        <file alias="select">Resources/select.png</file>
+        <file alias="alarm">Resources/alarm.png</file>
+        <file alias="bonus">Resources/bonus.png</file>
+        <file alias="cards">Resources/cards.png</file>
+        <file alias="delete">Resources/delete.png</file>
+        <file alias="help">Resources/help.png</file>
+        <file alias="information">Resources/information.png</file>
+        <file alias="tag">Resources/tag.png</file>
+        <file alias="cancel">Resources/cancel.png</file>
+        <file alias="ok">Resources/ok.png</file>
+        <file alias="notepad">Resources/notepad.png</file>
+        <file alias="coffee">Resources/coffee.png</file>
+        <file alias="down">Resources/down.png</file>
+        <file alias="up">Resources/up.png</file>
+        <file alias="left">Resources/left.png</file>
+        <file alias="right">Resources/right.png</file>
+        <file alias="cabinet">Resources/cabinet.png</file>
+        <file alias="house">Resources/house.png</file>
+        <file alias="bookmark">Resources/bookmark.png</file>
+        <file alias="hideleft">Resources/hideleft.png</file>
+        <file alias="hideright">Resources/hideright.png</file>
+        <file alias="pause">Resources/pause.png</file>
+        <file alias="printer">Resources/printer.png</file>
+        <file alias="save">Resources/save.png</file>
+        <file alias="search">Resources/search.png</file>
+        <file alias="start">Resources/start.png</file>
+        <file alias="configure">Resources/configure.png</file>
+        <file alias="data">Resources/data.png</file>
+        <file alias="home">Resources/home.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CIa2AlarmPopWnd</class>
+ <widget class="QWidget" name="CIa2AlarmPopWnd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>728</width>
+    <height>432</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>智能告警实时信息栏</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ssp_iaFloatView.qrc">
+    <normaloff>:/images/alarm</normaloff>:/images/alarm</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_main">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>2</number>
+   </property>
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="btn_confirm_all">
+       <property name="text">
+        <string>确认全部</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ssp_iaFloatView.qrc">
+         <normaloff>:/images/bookmark</normaloff>:/images/bookmark</iconset>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_start_stop">
+       <property name="text">
+        <string>暂停</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ssp_iaFloatView.qrc">
+         <normaloff>:/images/pause</normaloff>:/images/pause</iconset>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_save">
+       <property name="text">
+        <string>保存</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ssp_iaFloatView.qrc">
+         <normaloff>:/images/save</normaloff>:/images/save</iconset>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_query">
+       <property name="text">
+        <string>历史查询</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ssp_iaFloatView.qrc">
+         <normaloff>:/images/search</normaloff>:/images/search</iconset>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_setting">
+       <property name="text">
+        <string>参数设置</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ssp_iaFloatView.qrc">
+         <normaloff>:/images/configure</normaloff>:/images/configure</iconset>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_extend">
+       <property name="text">
+        <string>扩展功能</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ssp_iaFloatView.qrc">
+         <normaloff>:/images/hideright</normaloff>:/images/hideright</iconset>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1" rowspan="3">
+    <widget class="QWidget" name="widget_extend" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="verticalSpacing">
+       <number>2</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QTreeWidget" name="treeWidget">
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <column>
+         <property name="text">
+          <string>按厂站及间隔筛选</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ssp_iaFloatView.qrc">
+           <normaloff>:/images/todo</normaloff>:/images/todo</iconset>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="btn_ok">
+        <property name="text">
+         <string>确认(&amp;O)</string>
+        </property>
+        <property name="icon">
+         <iconset resource="ssp_iaFloatView.qrc">
+          <normaloff>:/images/ok</normaloff>:/images/ok</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTableWidget" name="tableWidget"/>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="rightMargin">
+      <number>2</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="btn_all">
+       <property name="text">
+        <string>全部告警(&amp;L)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_critrial">
+       <property name="text">
+        <string>紧急告警(&amp;R)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_important">
+       <property name="text">
+        <string>重要告警(&amp;I)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_secondary">
+       <property name="text">
+        <string>次要告警(&amp;E)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_general">
+       <property name="text">
+        <string>一般告警(&amp;G)</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ssp_iaFloatView.qrc"/>
+ </resources>
+ <connections/>
+</ui>

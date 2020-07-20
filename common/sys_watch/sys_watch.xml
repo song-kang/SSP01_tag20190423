@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?>
+<watch-config>
+    <hard_dog open="false" />
+    <watch-list>
+	      <process module="sys_mdb" cmdline="sys_mdb" arg="" path="/home/uk9001/bin" />
+	      <process module="oms_hmi" cmdline="oms_hmi" arg="" path="/home/uk9001/bin" />
+	      <process module="nai_main" cmdline="nai_main" arg="" path="/home/uk9001/bin" />
+    </watch-list>
+</watch-config>

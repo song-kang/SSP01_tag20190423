@@ -1,0 +1,120 @@
+##########################################################################
+# EXECUTION CONTROL
+
+#":CI", "/mmslite/mvl/util/mktypes/uca"    # include path
+#":CC", "c:\path\cfgFile.ext"  # Configuration File
+#":CF", ":VDP"		      # Default Variable Object Flags
+#":CF", ":TV"		      # Default Type Object Flags
+#":CF", "-o"		      # Overwrite destination
+#":CF", "-n"		      # Extract UCA Names
+#":CF", "-v"		      # Extract UCA Names w/Variable Associations
+#":CF", "-p"		      # Print Verbose
+#":CF", "-d"		      # Debug mode
+
+":CU", "MVLU_DYN_DATA"
+":CU", "MVLU_USE_DATA"
+":CU", "MVLU_USE_PROC"
+
+":CFUN", "funsel.cfg"
+
+##########################################################################
+# INCLUDE FILE DEFINITION SECTION
+# I -> Include directives
+
+":I", "umvlinit.h"
+
+##########################################################################
+# TYPE CREATION SECTION
+# T -> type
+
+":T", "SHORT_TYPE", "Short", "Our first Short"
+":T" "SHORT_TYPE2" "Short" "Our second Short"
+":T","BRKC_ST","{
+               (SwDS)<SHORT_TYPE>,					#	m
+		(LocRemDS)<SHORT_TYPE>,				#	o
+		(AutoManDS)<SHORT_TYPE>,				#	o
+		(CtlFailInd)<SHORT_TYPE>,				#	o
+		(CtlTagBlk)<SHORT_TYPE>,				#	o
+		(CtlIntkBlk)<SHORT_TYPE>,				#	o
+		(LastCmd)<SHORT_TYPE>,					#	o
+		(FIA)<SHORT_TYPE>,	  				#	o
+		(FIB)<SHORT_TYPE>,	  				#	o
+		(FIC)<SHORT_TYPE>,	  				#	o
+		(FIN)<SHORT_TYPE>,	  				#	o
+		(PwrSupAlm)<SHORT_TYPE>,  				#	o
+		(SF6GasLoAlm)<SHORT_TYPE>,				#	o
+		(UneqPoleDS)<SHORT_TYPE>,				#	o
+		(BkrCtlFailDS)<SHORT_TYPE>,				#	o
+		(BkrCtlFaliInd)<SHORT_TYPE>,				#	o
+		(SyncSt)<SHORT_TYPE>,					#	o
+		(AutoManDS)<SHORT_TYPE>,				#	o
+		(RecloseDS)<SHORT_TYPE>				#	o
+	       }","Breaker Controller Status"
+
+
+"OLD_TYPE1","Sh#My Comment Is Here!
+ort",
+"Backwards compatability check 1"
+
+":", "OLD_TYPE2","Short","Backwards compatability check 2"
+":T", "TWIN_TYPE", "Short", "Will be twinned"
+":TU", "UNIQUE_TYPE", "Short", "Won't be twinned"
+":TB", "BASE_TYPE_UNUSED", "Short", "Base type, unused so will be eliminated"
+":TB", "BASE_TYPE_USED", "Short", "Base type, used so won't be eliminated, will be twinned"
+":TTB", "TRANSIENT_TYPE", "Short", "Transient Type, Will be eliminated"
+":T", "USES_BASE_TYPE", "<BASE_TYPE_USED>", "Uses base type, will be twinned"
+":TU", "USES_BASE_TYPEU", "<BASE_TYPE_USED>", "Uses base type, won't be twinned"
+
+":T", "STRUCT_TYPE", "{(a)<SHORT_TYPE>,(b)Short}", "Simple Structure"
+":T", "NSTRUCT_TYPE", "{(A)<STRUCT_TYPE>,(B)<STRUCT_TYPE>}", "Nested Structure"
+
+##########################################################################
+# DOMAIN CREATION SECTION
+# D -> Domain
+
+":D", "domName"
+":D", "MyDomain5"
+":D", "MyDomain2"
+":D", "MyDomain1"
+":D", "MyDomain3"
+":D", "MyDomain4"
+
+##########################################################################
+# VARIABLE ASSOCIATION CREATION SECTION
+# V -> Variable Association
+# D -> Use 3rd string to set data pointer
+# P -> Use 4th (3rd for no D) string to set processing fun
+
+":V", "myVar1", "SHORT_TYPE"
+":VD", "myVar2", "SHORT_TYPE", "&myVar1"
+":VD", "myVar3", "SHORT_TYPE", "chk_calloc (1, sizeof(SHORT_TYPE_T)"
+
+":VP", "myVar4", "SHORT_TYPE", "&varProcFuns"
+":VDP", "myVar5", "SHORT_TYPE", "&myVar1", "&varProcFuns"
+":VDP", "domName:myDomVar1", "SHORT_TYPE", "&myVar1_domName", "&varProcFuns"
+":VDP", "domName:myDomVar2", "SHORT_TYPE", "&myVar2_domName", "&varProcFuns"
+":VDP", "AA_SCOPE:myAAVar1", "SHORT_TYPE", "&myVar1_aa[i]", "&varProcFuns"
+":VDP", "AA_SCOPE:myAAVar2", "SHORT_TYPE", "&myVar2_aa[i]", "&varProcFuns"
+
+
+##########################################################################
+# NAMED VARIABLE LIST CREATION SECTION
+# L -> Variable Association
+# S -> End of list
+#
+#":L", "MyNamedVarList", "myVar1", "myVar2:adl", ":S"
+":L", "MyNamedVarList", "myVar1", "myVar2", ":S"
+":L", "domName:MyDomVarList", "domName:myDomVar1", "domName:myDomVar2", ":S"
+":L", "AA_SCOPE:MyAAVarList", "AA_SCOPE:myAAVar1", "AA_SCOPE:myAAVar2", ":S"
+
+
+
+##########################################################################
+# VARIABLE NAME EXTRACTION SECTION
+# N -> Variable Name Extraction
+# 2nd Parameter is name base
+# 3nd Parameter is type
+
+":N", "mx", "NSTRUCT_TYPE"
+":N", "bx", "NSTRUCT_TYPE"
+

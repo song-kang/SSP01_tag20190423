@@ -1,0 +1,157 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+":CI", "mx.odf"
+":CI", "st.odf"
+":CI", "sp.odf"
+":CI", "co.odf"
+":CI", "cf.odf"
+":CI", "cb.odf"
+":CI", "ax.odf"
+":CI", "dc.odf"
+
+#############################################################
+#The following is from Section 7.5 of GOMSFE 0.7
+#############################################################
+
+#
+":T","TANK",
+   "{
+    (MX) {
+	(T)		   <AI>			  #o
+         },
+    (CF) {
+         (T)                <ACF>                   #o
+         },
+    (DC) {
+         (T)                 <d>                    #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>,               #m
+         },
+    }","TransformerTank"
+
+
+#
+":T","BUSH",
+   "{
+    (MX) {
+         (C1PF)             <WYE>,                  #o
+         (C2PF)             <WYE>                  #o
+         },
+    (CF) {
+         (C1PF)             <ACF>,                  #o
+         (C2PF)             <ACF>                  #o
+         },
+    (DC) {
+         (C1PF)             <d>,                  #o
+         (C2PF)             <d>                  #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>,               #m
+         },
+    }","Bushings"
+
+
+#
+":T","HTEX",
+   "{
+    (MX) {
+         (TopT)             <AI>,                   #o
+         (BotT)             <AI>                   #o
+         },
+    (CF) {
+         (TopT)             <ACF>,                   #o
+         (BotT)             <ACF>                   #o
+         },
+    (DC) {
+         (TopT)             <d>,                   #o
+         (BotT)             <d>                   #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>,               #m
+         },
+    }","HeatExchanger"
+
+
+#
+":T","PUMP",
+   "{
+    (MX) {
+         (A)                <AI>                    #o
+         },
+    (ST) {
+         (PmpSt)            <SIG>                   #m
+         },
+    (SP) {
+         (OnT)              <AO>,                    #m
+         (OffT)             <AO>                    #o
+         },
+    (CF) {
+         (A)                <ACF>,                    #o
+         (OnT)              <ACF>,                    #m
+         (OffT)             <ACF>                    #o
+         },
+    (DC) {
+         (A)                <d>,                    #o
+         (PmpSt)            <d>,                   #m
+         (OnT)              <d>,                    #m
+         (OffT)             <d>                    #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>,                #m
+         (brcbST)           <BASRCB>                #m
+         },
+    }","Pump"
+
+
+#
+":T","CFAN",
+   "{
+    (MX) {
+         (A)                <AI>                    #o
+         },
+    (ST) {
+         (DevSt)            <SIG>                   #o
+         },
+    (SP) {
+         (OnT)              <AO>,                    #o
+         (OffT)             <AO>                    #o
+         },
+    (CF) {
+         (A)                <ACF>,                    #o
+         (OnT)              <ACF>,                    #o
+         (OffT)             <ACF>                    #o
+         },
+    (DC) {
+         (A)                <d>,                    #o
+         (DevSt)            <d>,                   #o
+         (OnT)              <d>,                    #o
+         (OffT)             <d>                    #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>,                #m
+         (brcbST)           <BASRCB>,                #m
+         },
+    }","Fans"
+
+
+#
+":T","LTCH",
+   "{
+    (MX) {
+         (DrvMotA)          <AI>                    #o
+         },
+    (CF) {
+         (DrvMotA)          <ACF>                    #o
+         },
+    (DC) {
+         (DrvMotA)          <d>                    #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>                #m
+         },
+    }","LoadTapChanger"

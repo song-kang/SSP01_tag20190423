@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0545E71E-ED4C-48B8-999A-34DC97206DAC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ssnmp</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>include/;include/snm_pp/;./;../;$(IncludePath)</IncludePath>
+    <OutDir>../../lib/win32</OutDir>
+    <TargetExt>.dll</TargetExt>
+    <TargetName>$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>../../lib/win32</OutDir>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_USE_OPENSSL;_LIB;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;SSNMP_EXPORT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>ssnmp.def</ModuleDefinitionFile>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)d$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_USE_OPENSSL;_LIB;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;SSNMP_EXPORT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>ssnmp.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ssnmp.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="include\snmp_pp\address.h" />
+    <ClInclude Include="include\snmp_pp\asn1.h" />
+    <ClInclude Include="include\snmp_pp\auth_priv.h" />
+    <ClInclude Include="include\snmp_pp\collect.h" />
+    <ClInclude Include="include\snmp_pp\config_snmp_pp.h" />
+    <ClInclude Include="include\snmp_pp\counter.h" />
+    <ClInclude Include="include\snmp_pp\ctr64.h" />
+    <ClInclude Include="include\snmp_pp\eventlist.h" />
+    <ClInclude Include="include\snmp_pp\eventlistholder.h" />
+    <ClInclude Include="include\snmp_pp\gauge.h" />
+    <ClInclude Include="include\snmp_pp\idea.h" />
+    <ClInclude Include="include\snmp_pp\integer.h" />
+    <ClInclude Include="include\snmp_pp\IPv6Utility.h" />
+    <ClInclude Include="include\snmp_pp\log.h" />
+    <ClInclude Include="include\snmp_pp\md5.h" />
+    <ClInclude Include="include\snmp_pp\mp_v3.h" />
+    <ClInclude Include="include\snmp_pp\msec.h" />
+    <ClInclude Include="include\snmp_pp\msgqueue.h" />
+    <ClInclude Include="include\snmp_pp\notifyqueue.h" />
+    <ClInclude Include="include\snmp_pp\octet.h" />
+    <ClInclude Include="include\snmp_pp\oid.h" />
+    <ClInclude Include="include\snmp_pp\oid_def.h" />
+    <ClInclude Include="include\snmp_pp\pdu.h" />
+    <ClInclude Include="include\snmp_pp\reentrant.h" />
+    <ClInclude Include="include\snmp_pp\sha.h" />
+    <ClInclude Include="include\snmp_pp\smi.h" />
+    <ClInclude Include="include\snmp_pp\smival.h" />
+    <ClInclude Include="include\snmp_pp\snmperrs.h" />
+    <ClInclude Include="include\snmp_pp\snmpmsg.h" />
+    <ClInclude Include="include\snmp_pp\snmp_pp.h" />
+    <ClInclude Include="include\snmp_pp\target.h" />
+    <ClInclude Include="include\snmp_pp\timetick.h" />
+    <ClInclude Include="include\snmp_pp\usm_v3.h" />
+    <ClInclude Include="include\snmp_pp\uxsnmp.h" />
+    <ClInclude Include="include\snmp_pp\v3.h" />
+    <ClInclude Include="include\snmp_pp\vb.h" />
+    <ClInclude Include="libsnmp.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SSnmpClient.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\address.cpp" />
+    <ClCompile Include="src\asn1.cpp" />
+    <ClCompile Include="src\auth_priv.cpp" />
+    <ClCompile Include="src\counter.cpp" />
+    <ClCompile Include="src\ctr64.cpp" />
+    <ClCompile Include="src\eventlist.cpp" />
+    <ClCompile Include="src\eventlistholder.cpp" />
+    <ClCompile Include="src\gauge.cpp" />
+    <ClCompile Include="src\idea.cpp" />
+    <ClCompile Include="src\integer.cpp" />
+    <ClCompile Include="src\IPv6Utility.cpp" />
+    <ClCompile Include="src\log.cpp" />
+    <ClCompile Include="src\md5c.cpp" />
+    <ClCompile Include="src\mp_v3.cpp" />
+    <ClCompile Include="src\msec.cpp" />
+    <ClCompile Include="src\msgqueue.cpp" />
+    <ClCompile Include="src\notifyqueue.cpp" />
+    <ClCompile Include="src\octet.cpp" />
+    <ClCompile Include="src\oid.cpp" />
+    <ClCompile Include="src\pdu.cpp" />
+    <ClCompile Include="src\reentrant.cpp" />
+    <ClCompile Include="src\sha.cpp" />
+    <ClCompile Include="src\snmpmsg.cpp" />
+    <ClCompile Include="src\target.cpp" />
+    <ClCompile Include="src\timetick.cpp" />
+    <ClCompile Include="src\usm_v3.cpp" />
+    <ClCompile Include="src\uxsnmp.cpp" />
+    <ClCompile Include="src\v3.cpp" />
+    <ClCompile Include="src\vb.cpp" />
+    <ClCompile Include="SSnmpClient.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ssnmp.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

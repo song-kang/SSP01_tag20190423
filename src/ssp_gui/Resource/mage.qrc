@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>Resource/arrow_d.png</file>
+        <file>Resource/bg.jpg</file>
+        <file>Resource/help_icon.png</file>
+        <file>Resource/home_icon.png</file>
+        <file>Resource/logo.png</file>
+        <file>Resource/peiz_icon.png</file>
+        <file>Resource/right_big.png</file>
+        <file>Resource/right_big_hover.png</file>
+        <file>Resource/right_close.png</file>
+        <file>Resource/right_close_hover.png</file>
+        <file>Resource/right_more.png</file>
+        <file>Resource/right_more_hover.png</file>
+        <file>Resource/right_sma.png</file>
+        <file>Resource/right_sma_hover.png</file>
+        <file>Resource/sea_icon.png</file>
+        <file>Resource/slid_arrow.png</file>
+        <file>Resource/slid_do_arrow.png</file>
+        <file>Resource/t-mage.png</file>
+        <file>Resource/xgu_icon.png</file>
+        <file>Resource/xit_iocn.png</file>
+    </qresource>
+</RCC>

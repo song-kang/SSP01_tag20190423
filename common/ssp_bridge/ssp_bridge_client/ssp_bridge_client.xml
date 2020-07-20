@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GBK"?>
+<ssp_bridge_client>
+  <tcp_bridges>
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2000" inside_ip="172.10.1.16" inside_port="2000" desc="外网终端接入" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2201" inside_ip="172.10.1.11" inside_port="1521" desc="主数据库通信" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2202" inside_ip="172.10.1.12" inside_port="1521" desc="备数据库通信" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2203" inside_ip="172.10.1.11" inside_port="80" desc="主数据服务器文件WEB发布" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2204" inside_ip="172.10.1.12" inside_port="80" desc="备数据服务器文件WEB发布" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2205" inside_ip="172.10.1.11" inside_port="6002" desc="主数据服务器数据服务" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2206" inside_ip="172.10.1.12" inside_port="6002" desc="备数据服务器数据服务" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2211" inside_ip="172.10.1.11" inside_port="5901" desc="数据服务器-主 VNC远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2212" inside_ip="172.10.1.12" inside_port="5901" desc="数据服务器-备 VNC远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2213" inside_ip="172.10.1.13" inside_port="5901" desc="图像处理服务器1 VNC远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2214" inside_ip="172.10.1.14" inside_port="5901" desc="图像处理服务器2 VNC远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2215" inside_ip="172.10.1.15" inside_port="2215" desc="外网应用服务器 VNC远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2216" inside_ip="172.10.1.16" inside_port="5901" desc="前置采集服务器1 VNC远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2217" inside_ip="172.10.1.17" inside_port="5901" desc="前置采集服务器2 VNC远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2218" inside_ip="172.10.1.18" inside_port="5901" desc="前置采集服务器3 VNC远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2221" inside_ip="172.10.1.21" inside_port="5901" desc="工作站1 VNC远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2222" inside_ip="172.10.1.22" inside_port="5901" desc="工作站2 VNC远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2231" inside_ip="172.10.1.21" inside_port="3389" desc="工作站1 远程桌面" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2232" inside_ip="172.10.1.22" inside_port="3389" desc="工作站2 远程桌面" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2233" inside_ip="172.10.1.13" inside_port="3389" desc="图像处理服务器1 远程桌面" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2234" inside_ip="172.10.1.14" inside_port="3389" desc="图像处理服务器2 远程桌面" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2311" inside_ip="172.10.1.11" inside_port="22" desc="数据服务器-主 SSH远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2312" inside_ip="172.10.1.12" inside_port="22" desc="数据服务器-备 SSH远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2316" inside_ip="172.10.1.16" inside_port="22" desc="前置采集服务器1 SSH远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2317" inside_ip="172.10.1.17" inside_port="22" desc="前置采集服务器2 SSH远程" />
+    <bridge bridge_ip="172.10.1.15" bridge_port="6001" outside_port="2318" inside_ip="172.10.1.18" inside_port="22" desc="前置采集服务器3 SSH远程" />
+  </tcp_bridges>
+</ssp_bridge_client>

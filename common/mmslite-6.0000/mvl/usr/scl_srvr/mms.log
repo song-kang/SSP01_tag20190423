@@ -1,0 +1,1047 @@
+
+
+***********************************************************
+          LOGGING STARTED Tue Aug 30 09:35:02 2016
+***********************************************************
+
+2016-08-30 09:35:02.067 SLOGALWAYS (scl_srvr.c 549 ThreadId=0x1320 (4896)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2016-08-30 09:35:02.067 SLOGALWAYS (scl_srvr.c 551 ThreadId=0x1320 (4896)) 
+  Initializing ...
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x1320 (4896)) 
+  Could not find leaf 'BR$PosReport01$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x1320 (4896)) 
+  Cannot find leaf 'b$BR$PosReport01$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x1320 (4896)) 
+  Could not set leaf b$BR$PosReport01$ResvTms parameters
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x1320 (4896)) 
+  Could not find leaf 'BR$PosReport02$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x1320 (4896)) 
+  Cannot find leaf 'b$BR$PosReport02$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x1320 (4896)) 
+  Could not set leaf b$BR$PosReport02$ResvTms parameters
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x1320 (4896)) 
+  Could not find leaf 'BR$PosReport03$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x1320 (4896)) 
+  Cannot find leaf 'b$BR$PosReport03$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x1320 (4896)) 
+  Could not set leaf b$BR$PosReport03$ResvTms parameters
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x1320 (4896)) 
+  Could not find leaf 'BR$PosReport04$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x1320 (4896)) 
+  Cannot find leaf 'b$BR$PosReport04$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x1320 (4896)) 
+  Could not set leaf b$BR$PosReport04$ResvTms parameters
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x1320 (4896)) 
+  Could not find leaf 'BR$PosReport05$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x1320 (4896)) 
+  Cannot find leaf 'b$BR$PosReport05$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x1320 (4896)) 
+  Could not set leaf b$BR$PosReport05$ResvTms parameters
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x1320 (4896)) 
+  Could not find leaf 'BR$PosReport201$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x1320 (4896)) 
+  Cannot find leaf 'b$BR$PosReport201$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x1320 (4896)) 
+  Could not set leaf b$BR$PosReport201$ResvTms parameters
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x1320 (4896)) 
+  Could not find leaf 'BR$PosReport202$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x1320 (4896)) 
+  Cannot find leaf 'b$BR$PosReport202$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x1320 (4896)) 
+  Could not set leaf b$BR$PosReport202$ResvTms parameters
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x1320 (4896)) 
+  Could not find leaf 'BR$PosReport203$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x1320 (4896)) 
+  Cannot find leaf 'b$BR$PosReport203$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x1320 (4896)) 
+  Could not set leaf b$BR$PosReport203$ResvTms parameters
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x1320 (4896)) 
+  Could not find leaf 'BR$PosReport204$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x1320 (4896)) 
+  Cannot find leaf 'b$BR$PosReport204$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x1320 (4896)) 
+  Could not set leaf b$BR$PosReport204$ResvTms parameters
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x1320 (4896)) 
+  Could not find leaf 'BR$PosReport205$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x1320 (4896)) 
+  Cannot find leaf 'b$BR$PosReport205$ResvTms'
+
+2016-08-30 09:35:02.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x1320 (4896)) 
+  Could not set leaf b$BR$PosReport205$ResvTms parameters
+
+***********************************************************
+          LOGGING STARTED Tue Aug 30 14:40:03 2016
+***********************************************************
+
+2016-08-30 14:40:03.629 SLOGALWAYS (scl_srvr.c 549 ThreadId=0x15EC (5612)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2016-08-30 14:40:03.645 SLOGALWAYS (scl_srvr.c 551 ThreadId=0x15EC (5612)) 
+  Initializing ...
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x15EC (5612)) 
+  Could not find leaf 'BR$PosReport01$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x15EC (5612)) 
+  Cannot find leaf 'b$BR$PosReport01$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x15EC (5612)) 
+  Could not set leaf b$BR$PosReport01$ResvTms parameters
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x15EC (5612)) 
+  Could not find leaf 'BR$PosReport02$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x15EC (5612)) 
+  Cannot find leaf 'b$BR$PosReport02$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x15EC (5612)) 
+  Could not set leaf b$BR$PosReport02$ResvTms parameters
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x15EC (5612)) 
+  Could not find leaf 'BR$PosReport03$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x15EC (5612)) 
+  Cannot find leaf 'b$BR$PosReport03$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x15EC (5612)) 
+  Could not set leaf b$BR$PosReport03$ResvTms parameters
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x15EC (5612)) 
+  Could not find leaf 'BR$PosReport04$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x15EC (5612)) 
+  Cannot find leaf 'b$BR$PosReport04$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x15EC (5612)) 
+  Could not set leaf b$BR$PosReport04$ResvTms parameters
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x15EC (5612)) 
+  Could not find leaf 'BR$PosReport05$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x15EC (5612)) 
+  Cannot find leaf 'b$BR$PosReport05$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x15EC (5612)) 
+  Could not set leaf b$BR$PosReport05$ResvTms parameters
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x15EC (5612)) 
+  Could not find leaf 'BR$PosReport201$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x15EC (5612)) 
+  Cannot find leaf 'b$BR$PosReport201$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x15EC (5612)) 
+  Could not set leaf b$BR$PosReport201$ResvTms parameters
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x15EC (5612)) 
+  Could not find leaf 'BR$PosReport202$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x15EC (5612)) 
+  Cannot find leaf 'b$BR$PosReport202$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x15EC (5612)) 
+  Could not set leaf b$BR$PosReport202$ResvTms parameters
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x15EC (5612)) 
+  Could not find leaf 'BR$PosReport203$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x15EC (5612)) 
+  Cannot find leaf 'b$BR$PosReport203$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x15EC (5612)) 
+  Could not set leaf b$BR$PosReport203$ResvTms parameters
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x15EC (5612)) 
+  Could not find leaf 'BR$PosReport204$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x15EC (5612)) 
+  Cannot find leaf 'b$BR$PosReport204$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x15EC (5612)) 
+  Could not set leaf b$BR$PosReport204$ResvTms parameters
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x15EC (5612)) 
+  Could not find leaf 'BR$PosReport205$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x15EC (5612)) 
+  Cannot find leaf 'b$BR$PosReport205$ResvTms'
+
+2016-08-30 14:40:03.770 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x15EC (5612)) 
+  Could not set leaf b$BR$PosReport205$ResvTms parameters
+
+2016-08-30 14:40:43.317 SX_LOG_ERR (usermap.c 1100 ThreadId=0x15EC (5612)) 
+  No mapping entries found for LD='E1Q1SB1C1' in input file 'datamap.cfg'.
+Dummy entries will be generated in output file 'datamapout.cfg'.
+
+2016-08-30 14:43:23.239 MVLLOG_ERR (db_61850.c 127 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$PPV$phsAB$dbAng' not found for leaf 'MMXU1$MX$PPV$phsAB$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.239 MVLLOG_ERR (db_61850.c 281 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$PPV$phsAB$dbAng' not found for leaf 'MMXU1$MX$PPV$phsAB$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.239 MVLLOG_ERR (db_61850.c 127 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$PPV$phsBC$dbAng' not found for leaf 'MMXU1$MX$PPV$phsBC$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.239 MVLLOG_ERR (db_61850.c 281 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$PPV$phsBC$dbAng' not found for leaf 'MMXU1$MX$PPV$phsBC$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 127 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$PPV$phsCA$dbAng' not found for leaf 'MMXU1$MX$PPV$phsCA$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 281 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$PPV$phsCA$dbAng' not found for leaf 'MMXU1$MX$PPV$phsCA$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 127 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$phsA$dbAng' not found for leaf 'MMXU1$MX$A$phsA$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 281 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$phsA$dbAng' not found for leaf 'MMXU1$MX$A$phsA$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 127 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$phsB$dbAng' not found for leaf 'MMXU1$MX$A$phsB$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 281 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$phsB$dbAng' not found for leaf 'MMXU1$MX$A$phsB$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 127 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$phsC$dbAng' not found for leaf 'MMXU1$MX$A$phsC$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 281 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$phsC$dbAng' not found for leaf 'MMXU1$MX$A$phsC$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 127 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$neut$dbAng' not found for leaf 'MMXU1$MX$A$neut$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 281 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$neut$dbAng' not found for leaf 'MMXU1$MX$A$neut$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 127 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$net$dbAng' not found for leaf 'MMXU1$MX$A$net$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 281 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$net$dbAng' not found for leaf 'MMXU1$MX$A$net$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 127 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$res$dbAng' not found for leaf 'MMXU1$MX$A$res$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:43:23.254 MVLLOG_ERR (db_61850.c 281 ThreadId=0x15EC (5612)) 
+  Deadband param 'CF$A$res$dbAng' not found for leaf 'MMXU1$MX$A$res$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:44:43.411 SLOGALWAYS (scl_srvr.c 635 ThreadId=0x15EC (5612)) 
+  Initialization complete, entering service loop
+
+2016-08-30 14:45:10.489 TP4_LOG_ERR (tp4port.c 72 ThreadId=0x15EC (5612)) 
+  WARNING: stack not serviced for 6.229 seconds.
+  MAY CAUSE UNEXPECTED TIMEOUTS, DISCONNECTS, ABORTS.
+
+2016-08-30 14:45:10.708 SLOGALWAYS (scl_srvr.c 837 ThreadId=0x15EC (5612)) 
+  DEBUG: Number of types in use after cleanup=0
+
+2016-08-30 14:45:10.708 MEM_LOG_DUMP (Mem_chks.c 1334 ThreadId=0x15EC (5612)) 
+  DYNAMIC MEMORY POINTER TABLE
+----------------------------  
+  Ptr 0x00F4B64C  Size   400  File : ..\..\src\gensock2.c #1949
+  Ptr 0x00B1917C  Size    56  File : ..\..\src\gensock2.c #1037
+  Ptr 0x00B190DC  Size   104  File : ..\..\src\slogipc.c #0851
+  Ptr 0x00B19094  Size    10  File : ..\..\src\sx_dec.c #1060
+  Ptr 0x00B1903C  Size    26  File : ..\..\src\sx_dec.c #1060
+  Ptr 0x00B18FFC  Size     8  File : ..\..\mvl\usr\logcfgx.c #1446
+  ---- END OF MEMORY POINTER TABLE ----------
+  Total number of allocated pointers:   6
+  Total amount of memory allocated:     604 bytes 
+  Maximum number of pointers allocated: 2721
+  Maximum amount of memory allocated:   2855493 bytes
+
+***********************************************************
+          LOGGING STARTED Tue Aug 30 14:45:37 2016
+***********************************************************
+
+2016-08-30 14:45:37.083 SLOGALWAYS (scl_srvr.c 549 ThreadId=0xFE8 (4072)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2016-08-30 14:45:37.083 SLOGALWAYS (scl_srvr.c 551 ThreadId=0xFE8 (4072)) 
+  Initializing ...
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xFE8 (4072)) 
+  Could not find leaf 'BR$PosReport01$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xFE8 (4072)) 
+  Cannot find leaf 'b$BR$PosReport01$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xFE8 (4072)) 
+  Could not set leaf b$BR$PosReport01$ResvTms parameters
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xFE8 (4072)) 
+  Could not find leaf 'BR$PosReport02$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xFE8 (4072)) 
+  Cannot find leaf 'b$BR$PosReport02$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xFE8 (4072)) 
+  Could not set leaf b$BR$PosReport02$ResvTms parameters
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xFE8 (4072)) 
+  Could not find leaf 'BR$PosReport03$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xFE8 (4072)) 
+  Cannot find leaf 'b$BR$PosReport03$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xFE8 (4072)) 
+  Could not set leaf b$BR$PosReport03$ResvTms parameters
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xFE8 (4072)) 
+  Could not find leaf 'BR$PosReport04$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xFE8 (4072)) 
+  Cannot find leaf 'b$BR$PosReport04$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xFE8 (4072)) 
+  Could not set leaf b$BR$PosReport04$ResvTms parameters
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xFE8 (4072)) 
+  Could not find leaf 'BR$PosReport05$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xFE8 (4072)) 
+  Cannot find leaf 'b$BR$PosReport05$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xFE8 (4072)) 
+  Could not set leaf b$BR$PosReport05$ResvTms parameters
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xFE8 (4072)) 
+  Could not find leaf 'BR$PosReport201$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xFE8 (4072)) 
+  Cannot find leaf 'b$BR$PosReport201$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xFE8 (4072)) 
+  Could not set leaf b$BR$PosReport201$ResvTms parameters
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xFE8 (4072)) 
+  Could not find leaf 'BR$PosReport202$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xFE8 (4072)) 
+  Cannot find leaf 'b$BR$PosReport202$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xFE8 (4072)) 
+  Could not set leaf b$BR$PosReport202$ResvTms parameters
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xFE8 (4072)) 
+  Could not find leaf 'BR$PosReport203$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xFE8 (4072)) 
+  Cannot find leaf 'b$BR$PosReport203$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xFE8 (4072)) 
+  Could not set leaf b$BR$PosReport203$ResvTms parameters
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xFE8 (4072)) 
+  Could not find leaf 'BR$PosReport204$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xFE8 (4072)) 
+  Cannot find leaf 'b$BR$PosReport204$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xFE8 (4072)) 
+  Could not set leaf b$BR$PosReport204$ResvTms parameters
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xFE8 (4072)) 
+  Could not find leaf 'BR$PosReport205$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xFE8 (4072)) 
+  Cannot find leaf 'b$BR$PosReport205$ResvTms'
+
+2016-08-30 14:45:37.129 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xFE8 (4072)) 
+  Could not set leaf b$BR$PosReport205$ResvTms parameters
+
+2016-08-30 14:45:41.333 SX_LOG_ERR (usermap.c 1100 ThreadId=0xFE8 (4072)) 
+  No mapping entries found for LD='E1Q1SB1C1' in input file 'datamap.cfg'.
+Dummy entries will be generated in output file 'datamapout.cfg'.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$PPV$phsAB$dbAng' not found for leaf 'MMXU1$MX$PPV$phsAB$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$PPV$phsAB$dbAng' not found for leaf 'MMXU1$MX$PPV$phsAB$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$PPV$phsBC$dbAng' not found for leaf 'MMXU1$MX$PPV$phsBC$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$PPV$phsBC$dbAng' not found for leaf 'MMXU1$MX$PPV$phsBC$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$PPV$phsCA$dbAng' not found for leaf 'MMXU1$MX$PPV$phsCA$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$PPV$phsCA$dbAng' not found for leaf 'MMXU1$MX$PPV$phsCA$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$phsA$dbAng' not found for leaf 'MMXU1$MX$A$phsA$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$phsA$dbAng' not found for leaf 'MMXU1$MX$A$phsA$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$phsB$dbAng' not found for leaf 'MMXU1$MX$A$phsB$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$phsB$dbAng' not found for leaf 'MMXU1$MX$A$phsB$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$phsC$dbAng' not found for leaf 'MMXU1$MX$A$phsC$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$phsC$dbAng' not found for leaf 'MMXU1$MX$A$phsC$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$neut$dbAng' not found for leaf 'MMXU1$MX$A$neut$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$neut$dbAng' not found for leaf 'MMXU1$MX$A$neut$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$net$dbAng' not found for leaf 'MMXU1$MX$A$net$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$net$dbAng' not found for leaf 'MMXU1$MX$A$net$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$res$dbAng' not found for leaf 'MMXU1$MX$A$res$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0xFE8 (4072)) 
+  Deadband param 'CF$A$res$dbAng' not found for leaf 'MMXU1$MX$A$res$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:45:41.583 SLOGALWAYS (scl_srvr.c 635 ThreadId=0xFE8 (4072)) 
+  Initialization complete, entering service loop
+
+***********************************************************
+          LOGGING STARTED Tue Aug 30 14:46:51 2016
+***********************************************************
+
+2016-08-30 14:46:51.879 SLOGALWAYS (scl_srvr.c 549 ThreadId=0x17C0 (6080)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2016-08-30 14:46:51.879 SLOGALWAYS (scl_srvr.c 551 ThreadId=0x17C0 (6080)) 
+  Initializing ...
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x17C0 (6080)) 
+  Could not find leaf 'BR$PosReport01$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x17C0 (6080)) 
+  Cannot find leaf 'b$BR$PosReport01$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x17C0 (6080)) 
+  Could not set leaf b$BR$PosReport01$ResvTms parameters
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x17C0 (6080)) 
+  Could not find leaf 'BR$PosReport02$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x17C0 (6080)) 
+  Cannot find leaf 'b$BR$PosReport02$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x17C0 (6080)) 
+  Could not set leaf b$BR$PosReport02$ResvTms parameters
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x17C0 (6080)) 
+  Could not find leaf 'BR$PosReport03$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x17C0 (6080)) 
+  Cannot find leaf 'b$BR$PosReport03$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x17C0 (6080)) 
+  Could not set leaf b$BR$PosReport03$ResvTms parameters
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x17C0 (6080)) 
+  Could not find leaf 'BR$PosReport04$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x17C0 (6080)) 
+  Cannot find leaf 'b$BR$PosReport04$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x17C0 (6080)) 
+  Could not set leaf b$BR$PosReport04$ResvTms parameters
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x17C0 (6080)) 
+  Could not find leaf 'BR$PosReport05$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x17C0 (6080)) 
+  Cannot find leaf 'b$BR$PosReport05$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x17C0 (6080)) 
+  Could not set leaf b$BR$PosReport05$ResvTms parameters
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x17C0 (6080)) 
+  Could not find leaf 'BR$PosReport201$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x17C0 (6080)) 
+  Cannot find leaf 'b$BR$PosReport201$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x17C0 (6080)) 
+  Could not set leaf b$BR$PosReport201$ResvTms parameters
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x17C0 (6080)) 
+  Could not find leaf 'BR$PosReport202$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x17C0 (6080)) 
+  Cannot find leaf 'b$BR$PosReport202$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x17C0 (6080)) 
+  Could not set leaf b$BR$PosReport202$ResvTms parameters
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x17C0 (6080)) 
+  Could not find leaf 'BR$PosReport203$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x17C0 (6080)) 
+  Cannot find leaf 'b$BR$PosReport203$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x17C0 (6080)) 
+  Could not set leaf b$BR$PosReport203$ResvTms parameters
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x17C0 (6080)) 
+  Could not find leaf 'BR$PosReport204$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x17C0 (6080)) 
+  Cannot find leaf 'b$BR$PosReport204$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x17C0 (6080)) 
+  Could not set leaf b$BR$PosReport204$ResvTms parameters
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x17C0 (6080)) 
+  Could not find leaf 'BR$PosReport205$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x17C0 (6080)) 
+  Cannot find leaf 'b$BR$PosReport205$ResvTms'
+
+2016-08-30 14:46:51.942 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x17C0 (6080)) 
+  Could not set leaf b$BR$PosReport205$ResvTms parameters
+
+2016-08-30 14:46:51.958 SX_LOG_ERR (usermap.c 1100 ThreadId=0x17C0 (6080)) 
+  No mapping entries found for LD='E1Q1SB1C1' in input file 'datamap.cfg'.
+Dummy entries will be generated in output file 'datamapout.cfg'.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 127 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$PPV$phsAB$dbAng' not found for leaf 'MMXU1$MX$PPV$phsAB$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 281 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$PPV$phsAB$dbAng' not found for leaf 'MMXU1$MX$PPV$phsAB$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 127 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$PPV$phsBC$dbAng' not found for leaf 'MMXU1$MX$PPV$phsBC$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 281 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$PPV$phsBC$dbAng' not found for leaf 'MMXU1$MX$PPV$phsBC$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 127 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$PPV$phsCA$dbAng' not found for leaf 'MMXU1$MX$PPV$phsCA$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 281 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$PPV$phsCA$dbAng' not found for leaf 'MMXU1$MX$PPV$phsCA$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 127 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$phsA$dbAng' not found for leaf 'MMXU1$MX$A$phsA$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 281 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$phsA$dbAng' not found for leaf 'MMXU1$MX$A$phsA$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 127 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$phsB$dbAng' not found for leaf 'MMXU1$MX$A$phsB$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 281 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$phsB$dbAng' not found for leaf 'MMXU1$MX$A$phsB$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 127 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$phsC$dbAng' not found for leaf 'MMXU1$MX$A$phsC$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 281 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$phsC$dbAng' not found for leaf 'MMXU1$MX$A$phsC$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 127 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$neut$dbAng' not found for leaf 'MMXU1$MX$A$neut$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 281 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$neut$dbAng' not found for leaf 'MMXU1$MX$A$neut$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 127 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$net$dbAng' not found for leaf 'MMXU1$MX$A$net$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 281 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$net$dbAng' not found for leaf 'MMXU1$MX$A$net$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 127 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$res$dbAng' not found for leaf 'MMXU1$MX$A$res$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:51.958 MVLLOG_ERR (db_61850.c 281 ThreadId=0x17C0 (6080)) 
+  Deadband param 'CF$A$res$dbAng' not found for leaf 'MMXU1$MX$A$res$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:46:52.208 SLOGALWAYS (scl_srvr.c 635 ThreadId=0x17C0 (6080)) 
+  Initialization complete, entering service loop
+
+2016-08-30 14:47:45.098 TP4_LOG_ERR (tp4port.c 72 ThreadId=0x17C0 (6080)) 
+  WARNING: stack not serviced for 53.045 seconds.
+  MAY CAUSE UNEXPECTED TIMEOUTS, DISCONNECTS, ABORTS.
+
+2016-08-30 14:49:18.333 TP4_LOG_ERR (tp4port.c 72 ThreadId=0x17C0 (6080)) 
+  WARNING: stack not serviced for 35.269 seconds.
+
+***********************************************************
+          LOGGING STARTED Tue Aug 30 14:50:08 2016
+***********************************************************
+
+2016-08-30 14:50:08.270 SLOGALWAYS (scl_srvr.c 549 ThreadId=0x13EC (5100)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2016-08-30 14:50:08.286 SLOGALWAYS (scl_srvr.c 551 ThreadId=0x13EC (5100)) 
+  Initializing ...
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x13EC (5100)) 
+  Could not find leaf 'BR$PosReport01$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x13EC (5100)) 
+  Cannot find leaf 'b$BR$PosReport01$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x13EC (5100)) 
+  Could not set leaf b$BR$PosReport01$ResvTms parameters
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x13EC (5100)) 
+  Could not find leaf 'BR$PosReport02$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x13EC (5100)) 
+  Cannot find leaf 'b$BR$PosReport02$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x13EC (5100)) 
+  Could not set leaf b$BR$PosReport02$ResvTms parameters
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x13EC (5100)) 
+  Could not find leaf 'BR$PosReport03$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x13EC (5100)) 
+  Cannot find leaf 'b$BR$PosReport03$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x13EC (5100)) 
+  Could not set leaf b$BR$PosReport03$ResvTms parameters
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x13EC (5100)) 
+  Could not find leaf 'BR$PosReport04$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x13EC (5100)) 
+  Cannot find leaf 'b$BR$PosReport04$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x13EC (5100)) 
+  Could not set leaf b$BR$PosReport04$ResvTms parameters
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x13EC (5100)) 
+  Could not find leaf 'BR$PosReport05$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x13EC (5100)) 
+  Cannot find leaf 'b$BR$PosReport05$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x13EC (5100)) 
+  Could not set leaf b$BR$PosReport05$ResvTms parameters
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x13EC (5100)) 
+  Could not find leaf 'BR$PosReport201$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x13EC (5100)) 
+  Cannot find leaf 'b$BR$PosReport201$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x13EC (5100)) 
+  Could not set leaf b$BR$PosReport201$ResvTms parameters
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x13EC (5100)) 
+  Could not find leaf 'BR$PosReport202$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x13EC (5100)) 
+  Cannot find leaf 'b$BR$PosReport202$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x13EC (5100)) 
+  Could not set leaf b$BR$PosReport202$ResvTms parameters
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x13EC (5100)) 
+  Could not find leaf 'BR$PosReport203$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x13EC (5100)) 
+  Cannot find leaf 'b$BR$PosReport203$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x13EC (5100)) 
+  Could not set leaf b$BR$PosReport203$ResvTms parameters
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x13EC (5100)) 
+  Could not find leaf 'BR$PosReport204$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x13EC (5100)) 
+  Cannot find leaf 'b$BR$PosReport204$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x13EC (5100)) 
+  Could not set leaf b$BR$PosReport204$ResvTms parameters
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0x13EC (5100)) 
+  Could not find leaf 'BR$PosReport205$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0x13EC (5100)) 
+  Cannot find leaf 'b$BR$PosReport205$ResvTms'
+
+2016-08-30 14:50:08.333 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0x13EC (5100)) 
+  Could not set leaf b$BR$PosReport205$ResvTms parameters
+
+2016-08-30 14:50:08.333 SX_LOG_ERR (usermap.c 1100 ThreadId=0x13EC (5100)) 
+  No mapping entries found for LD='E1Q1SB1C1' in input file 'datamap.cfg'.
+Dummy entries will be generated in output file 'datamapout.cfg'.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$PPV$phsAB$dbAng' not found for leaf 'MMXU1$MX$PPV$phsAB$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$PPV$phsAB$dbAng' not found for leaf 'MMXU1$MX$PPV$phsAB$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$PPV$phsBC$dbAng' not found for leaf 'MMXU1$MX$PPV$phsBC$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$PPV$phsBC$dbAng' not found for leaf 'MMXU1$MX$PPV$phsBC$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$PPV$phsCA$dbAng' not found for leaf 'MMXU1$MX$PPV$phsCA$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$PPV$phsCA$dbAng' not found for leaf 'MMXU1$MX$PPV$phsCA$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$phsA$dbAng' not found for leaf 'MMXU1$MX$A$phsA$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$phsA$dbAng' not found for leaf 'MMXU1$MX$A$phsA$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$phsB$dbAng' not found for leaf 'MMXU1$MX$A$phsB$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$phsB$dbAng' not found for leaf 'MMXU1$MX$A$phsB$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$phsC$dbAng' not found for leaf 'MMXU1$MX$A$phsC$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$phsC$dbAng' not found for leaf 'MMXU1$MX$A$phsC$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$neut$dbAng' not found for leaf 'MMXU1$MX$A$neut$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$neut$dbAng' not found for leaf 'MMXU1$MX$A$neut$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$net$dbAng' not found for leaf 'MMXU1$MX$A$net$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$net$dbAng' not found for leaf 'MMXU1$MX$A$net$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 127 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$res$dbAng' not found for leaf 'MMXU1$MX$A$res$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.348 MVLLOG_ERR (db_61850.c 281 ThreadId=0x13EC (5100)) 
+  Deadband param 'CF$A$res$dbAng' not found for leaf 'MMXU1$MX$A$res$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 14:50:08.583 SLOGALWAYS (scl_srvr.c 635 ThreadId=0x13EC (5100)) 
+  Initialization complete, entering service loop
+
+***********************************************************
+          LOGGING STARTED Tue Aug 30 19:26:25 2016
+***********************************************************
+
+2016-08-30 19:26:25.638 SLOGALWAYS (scl_srvr.c 549 ThreadId=0xC90 (3216)) 
+  MMS-LITE-80X-001 Version 6.0000
+
+2016-08-30 19:26:25.638 SLOGALWAYS (scl_srvr.c 551 ThreadId=0xC90 (3216)) 
+  Initializing ...
+
+2016-08-30 19:26:25.684 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xC90 (3216)) 
+  Could not find leaf 'BR$PosReport01$ResvTms'
+
+2016-08-30 19:26:25.684 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xC90 (3216)) 
+  Cannot find leaf 'b$BR$PosReport01$ResvTms'
+
+2016-08-30 19:26:25.684 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xC90 (3216)) 
+  Could not set leaf b$BR$PosReport01$ResvTms parameters
+
+2016-08-30 19:26:25.684 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xC90 (3216)) 
+  Could not find leaf 'BR$PosReport02$ResvTms'
+
+2016-08-30 19:26:25.684 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xC90 (3216)) 
+  Cannot find leaf 'b$BR$PosReport02$ResvTms'
+
+2016-08-30 19:26:25.684 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xC90 (3216)) 
+  Could not set leaf b$BR$PosReport02$ResvTms parameters
+
+2016-08-30 19:26:25.684 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xC90 (3216)) 
+  Could not find leaf 'BR$PosReport03$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xC90 (3216)) 
+  Cannot find leaf 'b$BR$PosReport03$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xC90 (3216)) 
+  Could not set leaf b$BR$PosReport03$ResvTms parameters
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xC90 (3216)) 
+  Could not find leaf 'BR$PosReport04$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xC90 (3216)) 
+  Cannot find leaf 'b$BR$PosReport04$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xC90 (3216)) 
+  Could not set leaf b$BR$PosReport04$ResvTms parameters
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xC90 (3216)) 
+  Could not find leaf 'BR$PosReport05$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xC90 (3216)) 
+  Cannot find leaf 'b$BR$PosReport05$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xC90 (3216)) 
+  Could not set leaf b$BR$PosReport05$ResvTms parameters
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xC90 (3216)) 
+  Could not find leaf 'BR$PosReport201$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xC90 (3216)) 
+  Cannot find leaf 'b$BR$PosReport201$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xC90 (3216)) 
+  Could not set leaf b$BR$PosReport201$ResvTms parameters
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xC90 (3216)) 
+  Could not find leaf 'BR$PosReport202$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xC90 (3216)) 
+  Cannot find leaf 'b$BR$PosReport202$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xC90 (3216)) 
+  Could not set leaf b$BR$PosReport202$ResvTms parameters
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xC90 (3216)) 
+  Could not find leaf 'BR$PosReport203$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xC90 (3216)) 
+  Cannot find leaf 'b$BR$PosReport203$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xC90 (3216)) 
+  Could not set leaf b$BR$PosReport203$ResvTms parameters
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xC90 (3216)) 
+  Could not find leaf 'BR$PosReport204$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xC90 (3216)) 
+  Cannot find leaf 'b$BR$PosReport204$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xC90 (3216)) 
+  Could not set leaf b$BR$PosReport204$ResvTms parameters
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (Mvl_uca.c 2160 ThreadId=0xC90 (3216)) 
+  Could not find leaf 'BR$PosReport205$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 378 ThreadId=0xC90 (3216)) 
+  Cannot find leaf 'b$BR$PosReport205$ResvTms'
+
+2016-08-30 19:26:25.700 MVLLOG_NERR (mvluleaf.c 480 ThreadId=0xC90 (3216)) 
+  Could not set leaf b$BR$PosReport205$ResvTms parameters
+
+2016-08-30 19:26:25.700 SX_LOG_ERR (usermap.c 1100 ThreadId=0xC90 (3216)) 
+  No mapping entries found for LD='E1Q1SB1C1' in input file 'datamap.cfg'.
+Dummy entries will be generated in output file 'datamapout.cfg'.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 127 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$PPV$phsAB$dbAng' not found for leaf 'MMXU1$MX$PPV$phsAB$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 281 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$PPV$phsAB$dbAng' not found for leaf 'MMXU1$MX$PPV$phsAB$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 127 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$PPV$phsBC$dbAng' not found for leaf 'MMXU1$MX$PPV$phsBC$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 281 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$PPV$phsBC$dbAng' not found for leaf 'MMXU1$MX$PPV$phsBC$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 127 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$PPV$phsCA$dbAng' not found for leaf 'MMXU1$MX$PPV$phsCA$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 281 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$PPV$phsCA$dbAng' not found for leaf 'MMXU1$MX$PPV$phsCA$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 127 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$phsA$dbAng' not found for leaf 'MMXU1$MX$A$phsA$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 281 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$phsA$dbAng' not found for leaf 'MMXU1$MX$A$phsA$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 127 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$phsB$dbAng' not found for leaf 'MMXU1$MX$A$phsB$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 281 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$phsB$dbAng' not found for leaf 'MMXU1$MX$A$phsB$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 127 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$phsC$dbAng' not found for leaf 'MMXU1$MX$A$phsC$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 281 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$phsC$dbAng' not found for leaf 'MMXU1$MX$A$phsC$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 127 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$neut$dbAng' not found for leaf 'MMXU1$MX$A$neut$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 281 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$neut$dbAng' not found for leaf 'MMXU1$MX$A$neut$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 127 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$net$dbAng' not found for leaf 'MMXU1$MX$A$net$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 281 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$net$dbAng' not found for leaf 'MMXU1$MX$A$net$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 127 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$res$dbAng' not found for leaf 'MMXU1$MX$A$res$cVal$ang$i'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.716 MVLLOG_ERR (db_61850.c 281 ThreadId=0xC90 (3216)) 
+  Deadband param 'CF$A$res$dbAng' not found for leaf 'MMXU1$MX$A$res$cVal$ang$f'
+  Deadband calculation will not be performed.
+
+2016-08-30 19:26:25.966 SLOGALWAYS (scl_srvr.c 635 ThreadId=0xC90 (3216)) 
+  Initialization complete, entering service loop
+
+2016-08-30 19:26:38.200 TP4_LOG_ERR (tp4port.c 72 ThreadId=0xC90 (3216)) 
+  WARNING: stack not serviced for 7.377 seconds.
+  MAY CAUSE UNEXPECTED TIMEOUTS, DISCONNECTS, ABORTS.
+
+2016-08-30 19:26:38.466 SLOGALWAYS (scl_srvr.c 837 ThreadId=0xC90 (3216)) 
+  DEBUG: Number of types in use after cleanup=0
+
+2016-08-30 19:26:38.466 MEM_LOG_DUMP (Mem_chks.c 1334 ThreadId=0xC90 (3216)) 
+  DYNAMIC MEMORY POINTER TABLE
+----------------------------  
+  Ptr 0x01564C0C  Size   400  File : ..\..\src\gensock2.c #1949
+  Ptr 0x0103917C  Size    56  File : ..\..\src\gensock2.c #1037
+  Ptr 0x010390DC  Size   104  File : ..\..\src\slogipc.c #0851
+  Ptr 0x01039094  Size    10  File : ..\..\src\sx_dec.c #1060
+  Ptr 0x0103903C  Size    26  File : ..\..\src\sx_dec.c #1060
+  Ptr 0x01038FFC  Size     8  File : ..\..\mvl\usr\logcfgx.c #1446
+  ---- END OF MEMORY POINTER TABLE ----------
+  Total number of allocated pointers:   6
+  Total amount of memory allocated:     604 bytes 
+  Maximum number of pointers allocated: 2636
+  Maximum amount of memory allocated:   2833053 bytes

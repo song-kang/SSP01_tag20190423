@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sys_mdb", "sys_mdb.vcproj", "{7DFE91EE-D733-41EF-8703-A72C687349A7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{337797D5-38CB-45EF-BEF9-E1FD9BCCF6A2} = {337797D5-38CB-45EF-BEF9-E1FD9BCCF6A2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sbase", "..\..\sbase\sbase.vcproj", "{337797D5-38CB-45EF-BEF9-E1FD9BCCF6A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sbase_raw", "..\..\sbase\sbase_raw.vcproj", "{C46CA773-C88B-4B5C-8407-C7CF25087CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DFE91EE-D733-41EF-8703-A72C687349A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7DFE91EE-D733-41EF-8703-A72C687349A7}.Debug|Win32.Build.0 = Debug|Win32
+		{7DFE91EE-D733-41EF-8703-A72C687349A7}.Release|Win32.ActiveCfg = Release|Win32
+		{7DFE91EE-D733-41EF-8703-A72C687349A7}.Release|Win32.Build.0 = Release|Win32
+		{337797D5-38CB-45EF-BEF9-E1FD9BCCF6A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{337797D5-38CB-45EF-BEF9-E1FD9BCCF6A2}.Debug|Win32.Build.0 = Debug|Win32
+		{337797D5-38CB-45EF-BEF9-E1FD9BCCF6A2}.Release|Win32.ActiveCfg = Release|Win32
+		{337797D5-38CB-45EF-BEF9-E1FD9BCCF6A2}.Release|Win32.Build.0 = Release|Win32
+		{C46CA773-C88B-4B5C-8407-C7CF25087CFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C46CA773-C88B-4B5C-8407-C7CF25087CFC}.Debug|Win32.Build.0 = Debug|Win32
+		{C46CA773-C88B-4B5C-8407-C7CF25087CFC}.Release|Win32.ActiveCfg = Release|Win32
+		{C46CA773-C88B-4B5C-8407-C7CF25087CFC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

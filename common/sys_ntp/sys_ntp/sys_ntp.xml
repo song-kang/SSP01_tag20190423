@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?>
+<ntp-config>
+    <client ip="139.199.215.251" port="123" open="true" timeSecs="86400" />//timeSecs单位为s
+  <server ip="0.0.0.0" port="5000" open="true" />
+</ntp-config>

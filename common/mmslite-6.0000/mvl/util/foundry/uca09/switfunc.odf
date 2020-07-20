@@ -1,0 +1,196 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+":CI", "mx.odf"
+":CI", "st.odf"
+":CI", "sp.odf"
+":CI", "co.odf"
+":CI", "cf.odf"
+":CI", "cb.odf"
+":CI", "ax.odf"
+":CI", "dc.odf"
+
+#############################################################
+#The following is from Section 7.6 of GOMSFE 0.7
+#############################################################
+
+#
+":T","SWIT",
+   "{
+    (ST) {
+         (SwDS)             <SIT>                  #o
+         },
+    (DC) {
+         (SwRtg)            <EqRtg>,                #m
+         (ConCkt)           <ConCkt>,               #m
+         (SwDS)             <d>,                    #o
+         },
+    (AX) {
+         (TagTyp)           <TAG>,                  #o
+         (Tags)             <TAG>,                  #o
+         (OpenIntlk)        <SI>,                   #o
+         (CloseIntlk)       <SI>                   #o
+         },
+    (RP) {
+         (brcbST)           <BASRCB>,               #m
+         },
+    }","Switch"
+
+
+#
+":T","SDRV",
+   "{
+    (MX) {
+         (OperCnt)          <ACCI>,                  #o
+         (SwOperTim)        <AI>,                    #o
+         (CtlCmdCnt)        <ACCI>                  #o
+         },
+    (ST) {
+         (LocRemDS)         <SIT>,                   #o
+         (FailInd)          <SI>,                    #o
+         (TagBlk)           <SI>,                    #o
+         (IntlkBlk)         <SI>,                    #o
+         (TrpCoil)          <SI>                    #o
+         },
+    (CO) {
+         (ODSw)             <DCO>                   #m
+         },
+    (CF) {
+         (ClockTOD)         <BTIME6>,                #m
+         (FailTmr)          <ACF>,                   #o
+         (OperCnt)          <ACF>,                  #o
+         (SwOperTim)        <ACF>,                    #o
+         (CtlCmdCnt)        <ACF>,                  #o
+         (ODSw)             <ACF>,                   #m
+         (Img)              <AcsBLOB>               #o
+         },
+    (DC) {
+         (OperCnt)          <d>,                  #o
+         (SwOperTim)        <d>,                    #o
+         (CtlCmdCnt)        <d>,                  #o
+         (LocRemDS)         <d>,                   #o
+         (FailInd)          <d>,                    #o
+         (TagBlk)           <d>,                    #o
+         (IntlkBlk)         <d>,                    #o
+         (TrpCoil)          <d>,                    #o
+         (ODSw)             <d>                   #m
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>,                #m
+         (brcbST)           <BASRCB>                #m
+         },
+#    (AS) {
+#         (LogDev<n>)        <TBD>,                  #o
+#         },
+    }","SwitchDriveMechanism"
+
+
+#
+":T","MOSW",
+   "{
+    (ST) {
+         (SwDS)             <SIT>                   #o
+         },
+    (CO) {
+         (ODSw)             <DCO>                   #m
+         },
+    (CF) {
+         (ODSw)             <CCF>                   #m
+         },
+    (DC) {
+         (SRc)              <ConCkt>,                #o
+         (Lod)              <ConCkt>,                #o
+         (SwDS)             <d>,                   #o
+         (ODSw)             <d>                   #m
+         },
+    (RP) {
+         (brcbST)           <BASRCB>,                #m
+         },
+#    (AX) {
+#         (LogDev<n>)        <TBD>,                   
+#         },
+    }","MotorizedSwitch"
+
+
+#
+":T","XCBR",
+   "{
+    (SP) {
+         (LoPresAlm)        <ACF>,                   #o
+         (LoPresLO)         <ACF>,                   #o
+         (HiPresAlm)        <ACF>,                   #o
+         (LoDenAlm)         <ACF>,                   #o
+         (LoDenLO)          <ACF>,                   #o
+         (HiDenAlm)         <ACF>,                   #o
+         (LoLevAlm)         <ACF>,                   #o
+         (LoLevLO)          <ACF>,                   #o
+         (HiLevAlm)         <ACF>,                   #o
+         (PoleDiscTim)      <ACF>                   #o
+         },
+    (ST) {
+         (SwDS)             <SIT>,                   #o
+         (SwPoleDS)         <BSTR8>,                 #o
+         (UneqPoleDS)       <SI>,                    #o
+         (PwrSupSt)         <SIG>,                   #o
+         (PresSt)           <SIT>,                   #o
+         (Den)              <SIT>,                   #o
+         (LevSt)            <SIT>,                   #o
+         (PmpMotSt)         <SIT>,                   #o
+         (PoleDiscSt)       <SI>,                    #o
+         (BlkSwSt)          <SI>,                    #o
+         (TrpCoil)          <SI>                    #o
+         },
+    (CO) {
+         (ODSw)             <DCO>                   #m
+         },
+    (CF) {
+         (ODSw)             <CCF>,                   #m
+         (LoPresAlm)        <ACF>,                   #o
+         (LoPresLO)         <ACF>,                   #o
+         (HiPresAlm)        <ACF>,                   #o
+         (LoDenAlm)         <ACF>,                   #o
+         (LoDenLO)          <ACF>,                   #o
+         (HiDenAlm)         <ACF>,                   #o
+         (LoLevAlm)         <ACF>,                   #o
+         (LoLevLO)          <ACF>,                   #o
+         (HiLevAlm)         <ACF>,                   #o
+         (PoleDiscTim)      <ACF>,                   #o
+         (Img)              <AcsBLOB>               #o
+         },
+    (DC) {
+         (BkrRTg)           <d>,                 #m
+         (ConCkt)           <d>,                #m
+         (SwDS)             <d>,                   #o
+         (SwPoleDS)         <d>,                 #o
+         (UneqPoleDS)       <d>,                    #o
+         (PwrSupSt)         <d>,                   #o
+         (PresSt)           <d>,                   #o
+         (Den)              <d>,                   #o
+         (LevSt)            <d>,                   #o
+         (PmpMotSt)         <d>,                   #o
+         (PoleDiscSt)       <d>,                    #o
+         (BlkSwSt)          <d>,                    #o
+         (TrpCoil)          <d>,                    #o
+         (LoPresAlm)        <d>,                   #o
+         (LoPresLO)         <d>,                   #o
+         (HiPresAlm)        <d>,                   #o
+         (LoDenAlm)         <d>,                   #o
+         (LoDenLO)          <d>,                   #o
+         (HiDenAlm)         <d>,                   #o
+         (LoLevAlm)         <d>,                   #o
+         (LoLevLO)          <d>,                   #o
+         (HiLevAlm)         <d>,                   #o
+         (PoleDiscTim)      <d>,                   #o
+         (ODSw)             <d>                   #m
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>,                #m
+         (brcbST)           <BASRCB>,                #m
+         },
+#    (AS) {
+#         (LogDev<n>)        <TBD>,                  #o
+#         },
+    }","CircuitBreaker"

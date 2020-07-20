@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.0 (http://www.xmlspy.com) by Ginny Bloxsom (SISCO/Engineering) -->
+<!-- ****************************************************************** -->
+<!-- * SISCO MODULE HEADER ******************************************** -->
+<!-- ****************************************************************** -->
+<!-- *   (c) Copyright Systems Integration Specialists Company, Inc.,   -->
+<!-- *                      2001 - 2005, All Rights Reserved            -->
+<!-- *                                                                  -->
+<!-- * MODULE NAME : osicfg.dtd                                         -->
+<!-- * PRODUCT(S)  : MMSEASE-Lite                                       -->
+<!-- *                                                                  -->
+<!-- * MODULE DESCRIPTION :                                             -->
+<!-- *                                                                  -->
+<!-- *    Document Type Definition (DTD) File for Lean-T 	     	-->
+<!-- *    Configuration Files.  This module can be utilized by          -->
+<!-- *    any Lean-T Configuration File in XML format, such as          -->
+<!-- *    'osicfg.xml'.                                                 -->
+<!-- *                                                                  -->
+<!-- *    Comment works like this ...                                   -->
+<!-- *    ? == zero or one element                                      -->
+<!-- *    + == one or more                                              -->
+<!-- *    * == zero or more elements       		 		-->
+<!-- *    nothing is default of one element        	 		-->
+<!-- *                                                                  -->
+<!-- * MODIFICATION LOG :                                               -->
+<!-- *  Date     Who   Rev  Comments                                    -->
+<!-- * =======  =====  === ==========================                   -->
+<!-- * 05/05/05  EJV    06  Added Rfc1006_Listen_Port, Port             -->
+<!-- * 01/22/04  EJV    05  Added Rfc1006_Max_Spdu_Outstanding          -->
+<!-- * 04/02/02  GLB    04  Made NetAddr ATTLIST more specific		-->
+<!-- * 02/05/02  GLB    03  Made optional: Rfc1006_Max_Num_Conns,       -->
+<!-- *                       LocalAddressList, RemoteAddressList        -->
+<!-- * 11/05/01  GLB    02  Added MMS section and Session               -->
+<!-- * 08/31/00  GLB    01  Initial Release.                            -->
+<!-- ****************************************************************** -->
+
+<!-- ****************************************************************** -->
+<!-- *  STACK_CFG                                                     * -->
+<!-- ****************************************************************** -->
+<!ELEMENT STACK_CFG (MMS?, 
+                     Network?, 
+                     Transport, 
+		     Session?,
+                     NetworkAddressing)>
+
+<!-- ****************************************************************** -->
+<!-- *  MMS                                                           * -->
+<!-- ****************************************************************** -->
+<!ELEMENT MMS (Max_Mms_Pdu_Length, 
+               Max_Calling_Connections, 
+               Max_Called_Connections)>
+
+<!-- ****************************************************************** -->
+<!-- *  Network                                                       * -->
+<!-- ****************************************************************** -->
+<!ELEMENT Network (Clnp?)>
+<!-- ****************************************************************** -->
+<!-- *  Clnp                                                          * -->
+<!ELEMENT Clnp (Lifetime?, 
+                Lifetime_Decrement?, 
+                Cfg_Timer?, 
+                Esh_Delay?, 
+                Local_NSAP?)>
+
+<!-- ****************************************************************** -->
+<!-- *  Transport                                                     * -->
+<!-- ****************************************************************** -->
+<!ELEMENT Transport (Tp4?, 
+                     Tcp?)>
+<!-- ****************************************************************** -->
+<!-- *  Tp4                                                           * -->
+<!ELEMENT Tp4 (Max_Tpdu_Length?, 
+               Max_Remote_Cdt?, 
+               Local_Cdt?, 
+               Max_Num_Connections?, 
+               Max_Spdu_Outstanding?, 
+               Window_Time?, 
+               Inactivity_Time?, 
+               Retransmission_Time?, 
+               Max_Transmissions?, 
+               Ak_Delay?)>
+<!-- ****************************************************************** -->
+<!-- *  Tcp                                                           * -->
+<!ELEMENT Tcp (Rfc1006_Max_Tpdu_Len?, 
+               Rfc1006_Max_Num_Conns?,
+               Rfc1006_Max_Spdu_Outstanding?,
+               Rfc1006_Listen_Port?)>
+
+<!-- ****************************************************************** -->
+<!-- *  Session                                                           * -->
+<!ELEMENT Session (Disconnect_Timeout?)>
+<!-- ****************************************************************** -->
+<!-- *  NetworkAddressing                                             * -->
+<!-- ****************************************************************** -->
+<!ELEMENT NetworkAddressing (LocalAddressList?, 
+                             RemoteAddressList?)>
+
+<!-- ****************************************************************** -->
+<!-- *  LocalAddressList                                              * -->
+<!ELEMENT LocalAddressList (LocalAddress+)>
+
+<!-- ****************************************************************** -->
+<!-- *  LocalAddress                                                  * -->
+<!ELEMENT LocalAddress (AR_Name, 
+                        AP_Title?, 
+                        AE_Qualifier?, 
+                        Psel, 
+                        Ssel, 
+                        Tsel, 
+                        TransportType)>
+
+<!-- ****************************************************************** -->
+<!-- *  RemoteAddressList                                             * -->
+<!ELEMENT RemoteAddressList (RemoteAddress+)>
+
+<!-- ****************************************************************** -->
+<!-- *  RemoteAddress                                             * -->
+<!ELEMENT RemoteAddress (AR_Name, 
+                         AP_Title?, 
+                         AE_Qualifier?, 
+                         Psel, 
+                         Ssel, 
+                         Tsel, 
+                         NetAddr,
+                         Port)>
+<!ATTLIST NetAddr
+	  Type (IPADDR | NSAP) #REQUIRED
+>
+
+
+<!-- ******************************************************************* -->
+<!-- *  Elements                                                       * -->
+<!-- ******************************************************************* -->
+<!ELEMENT AE_Qualifier (#PCDATA)>
+<!ELEMENT AP_Title (#PCDATA)>
+<!ELEMENT Ak_Delay (#PCDATA)>
+<!ELEMENT Cfg_Timer (#PCDATA)>
+<!ELEMENT Disconnect_Timeout (#PCDATA)>
+<!ELEMENT Esh_Delay (#PCDATA)>
+<!ELEMENT Inactivity_Time (#PCDATA)>
+<!ELEMENT Lifetime (#PCDATA)>
+<!ELEMENT Lifetime_Decrement (#PCDATA)>
+<!ELEMENT Local_Cdt (#PCDATA)>
+<!ELEMENT Local_NSAP (#PCDATA)>
+<!ELEMENT Max_Calling_Connections (#PCDATA)>
+<!ELEMENT Max_Called_Connections (#PCDATA)>
+<!ELEMENT Max_Mms_Pdu_Length (#PCDATA)>
+<!ELEMENT Max_Num_Connections (#PCDATA)>
+<!ELEMENT Max_Remote_Cdt (#PCDATA)>
+<!ELEMENT Max_Spdu_Outstanding (#PCDATA)>
+<!ELEMENT Max_Tpdu_Length (#PCDATA)>
+<!ELEMENT Max_Transmissions (#PCDATA)>
+<!ELEMENT AR_Name (#PCDATA)>
+<!ELEMENT NetAddr (#PCDATA)>
+<!ELEMENT Port (#PCDATA)>
+<!ELEMENT Retransmission_Time (#PCDATA)>
+<!ELEMENT Rfc1006_Listen_Port (#PCDATA)>
+<!ELEMENT Rfc1006_Max_Num_Conns (#PCDATA)>
+<!ELEMENT Rfc1006_Max_Tpdu_Len (#PCDATA)>
+<!ELEMENT Rfc1006_Max_Spdu_Outstanding (#PCDATA)>
+<!ELEMENT Ssel (#PCDATA)>
+<!ELEMENT Tsel (#PCDATA)>
+<!ELEMENT Window_Time (#PCDATA)>
+<!ELEMENT TransportType (#PCDATA)>
+<!ELEMENT Psel (#PCDATA)>

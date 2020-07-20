@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SysSetting>
+	<!-- 104服务端模拟 -->
+	<Module name="sim_104_server" module="104服务端模拟模块">
+		<func idx="1" name="start" desc="启动服务" argc="" />
+		<func idx="2" name="stop" desc="停止服务" argc="" />
+		<server ip="193.100.100.201" port="6000"/><!--该节点供模块连接智能告警测试模拟工具使用-->
+	</Module>
+	
+	<!-- 104客户端模拟 -->
+	<Module name="sim_104_client" module="104客户端模拟模块">
+		<func idx="1" name="start" desc="启动服务" arg_name="" />
+		<func idx="2" name="stop" desc="停止服务" arg_name="" />
+		<!--func idx="3" name="func_info" desc="功能信息介绍" arg_name="" /-->
+		<!--subNo=""  
+		YDno="" //远动设备号，在ip.ini配置文件中有关设备的信息 
+		iedname="" //设备名称 对应 远动e文件中的equipName
+		ykNO=""    //遥控点号 可以计算出遥控序号
+		selExec=""  ////1:选择, 2:执行, 3:取消
+		scoDco=""   //1：单点，2：双点
+		statuc="" //操作状态 //单点 0：分，1：合；双点 1：分，2：合
+		-->
+		<func idx="3" name="104_YK_Contrl" desc="遥控操作" arg_name="ied_name;ykNO;selExec;scoDco;statuc;" argc_fmt="string;int;int;int;int;" />
+		<server ip="172.18.44.187" port="6000"/><!--该节点供模块连接智能告警测试模拟工具使用-->
+	</Module>
+	
+	<!-- IEC61850服务端模拟模块 -->
+	<Module name="sim_iec61850_server" module="IEC61850服务端模拟模块">
+		<func idx="1" name="start" desc="启动服务" arg_name="" />
+		<func idx="2" name="stop" desc="停止服务" arg_name="" />
+		<func idx="3" name="func_info" desc="功能信息介绍" arg_name="" />
+		<!-- ied_name表示设备名称对应t_oe_ied中的mms_path字段，signal_mms_path对应信号点的mms_path；val表示修改的值-->
+		<func idx="4" name="61850_Ied_Param_Change" desc="设备信号点值修改" arg_name="ied_name;signal_mms_path;val" argc_fmt="string;string;string;" />
+		<server ip="172.18.44.187" port="6000"/><!--该节点供模块连接智能告警测试模拟工具使用-->
+	</Module>
+	
+	<!-- IEC61850客户端模拟模块 -->
+	<Module name="sim_iec61850_client" module="IEC61850客户端模拟模块">
+		<func idx="1" name="start" desc="启动服务" arg_name="" />
+		<func idx="2" name="stop" desc="停止服务" arg_name="" />
+		<server ip="" port=""/><!--该节点供模块连接智能告警测试模拟工具使用-->
+	</Module>
+	
+	<Hosts>
+		<Host ip="192.168.1.1" desc="主机1" >
+			<Module name="sim_104_server" />
+			<Module name="sim_104_client" />
+			<Module name="sim_iec61850_server" />
+			<Module name="sim_iec61850_client" />
+		</Host>
+		<Host ip="192.168.1.2" desc="主机2" >
+			<Module name="sim_104_server" />
+			<Module name="sim_104_client" />
+			<Module name="sim_iec61850_server" />
+			<Module name="sim_iec61850_client" />
+		</Host>
+	</Hosts>
+</SysSetting>

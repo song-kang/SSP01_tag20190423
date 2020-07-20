@@ -1,0 +1,4 @@
+<Leafmap>
+	<!-- Need at least one entry so the function pointer table generated is not empty. -->
+	<Leaf Name="$dynamic" RdIndFun="mvlu_null_rd_ind" WrIndFun="mvlu_null_wr_ind" Ref=""/>
+</Leafmap>

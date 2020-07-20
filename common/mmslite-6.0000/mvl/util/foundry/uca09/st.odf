@@ -1,0 +1,35 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+
+#############################################################
+#The following is from Section 6.4 of GOMSFE  0.7
+#############################################################
+
+
+#                                                   m/o
+":T","SI",
+   "{
+    (b1)                    <BSTR1>,                #m
+    (q)                     <BSTR16>,               #o
+    (t)                     <BTIME6>               #o
+    }","SI"
+
+#                                                   m/o
+":T","SIT",
+   "{
+    (b2)                    <BSTR2>,                #m
+    (q)                     <BSTR16>,               #o
+    (t)                     <BTIME6>               #o
+    }","Doublebitstatus"
+
+#                                                   m/o
+":T","SIG",
+   "{
+    (b16)                   <BSTR16>,               #m
+    (q)                     <BSTR16>,               #o
+    (t)                     <BTIME6>               #o
+    }","statusgroup"

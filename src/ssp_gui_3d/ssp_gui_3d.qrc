@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/ssp_gui_3d">
+        <file alias="help">Resources/help.png</file>
+        <file alias="reload">Resources/reload.png</file>
+        <file alias="scene">Resources/scene.png</file>
+        <file alias="setting">Resources/setting.png</file>
+        <file alias="cancel">Resources/cancel.png</file>
+        <file alias="ok">Resources/ok.png</file>
+        <file alias="eye">Resources/eye.png</file>
+        <file alias="save">Resources/save.png</file>
+        <file alias="increaseLig">Resources/increaseLig.png</file>
+        <file alias="reduceLig">Resources/reduceLig.png</file>
+        <file alias="skybox">Resources/skybox.png</file>
+        <file alias="bug">Resources/bug.png</file>
+        <file alias="device">Resources/device.png</file>
+        <file alias="draw">Resources/draw.png</file>
+        <file alias="link">Resources/link.png</file>
+    </qresource>
+</RCC>

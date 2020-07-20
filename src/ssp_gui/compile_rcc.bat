@@ -1,0 +1,1 @@
+rcc -binary ssp_gui.qrc -o ssp_gui.rcc

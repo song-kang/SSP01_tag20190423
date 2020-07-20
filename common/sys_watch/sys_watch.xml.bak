@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--
+cmdline在linux下"./程序",在windows下"程序"
+-->
+<watch-config>
+    <watch-list>
+	      <process module="rms_hmi" cmdline="rms_hmi" arg="" />
+	      <process module="rms_msgcenter" cmdline="rms_msgcenter" arg="" />
+	      <process module="rms_agent" cmdline="rms_agent" arg="" />
+	      <process module="rms_mw" cmdline="rms_mw" arg="" />
+    </watch-list>
+</watch-config>

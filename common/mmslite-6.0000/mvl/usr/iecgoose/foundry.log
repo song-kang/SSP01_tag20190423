@@ -1,0 +1,14 @@
+
+
+***********************************************************
+          LOGGING STARTED Mon Jul 10 10:32:03 2017
+***********************************************************
+
+2017-07-10  10:32:03.469 SLOGALWAYS (fo_main.c 268 ThreadId=0x4019D6C0 (1075435200)) 
+  Executing '../../bin/foundry_ld'
+  Input TDL file         : '../../mvl/usr/iecgoose/uca_obj.odf'
+  Configuration file     : '../../mvl/util/foundry/linux/align.cfg'
+  Output 'C' file        : '../../mvl/usr/iecgoose/uca_obj.c'
+  Output 'H' file        : '../../mvl/usr/iecgoose/uca_obj.h'
+  Output 'LAP XML' file  : '../../mvl/usr/iecgoose/lap_out.xml'
+  Output 'Lefttodo' file : '../../mvl/usr/iecgoose/lefttodo.txt'

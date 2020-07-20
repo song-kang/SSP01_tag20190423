@@ -1,0 +1,52 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+
+#############################################################
+#The following is from Section 6.8 of GOMSFE 0.7
+#############################################################
+
+
+#The definition for 'D' is found in gentypes.odf
+
+#                                                   m/o
+":T","d",
+   "{
+    (d)                     <VSTR32>               #m
+    }","AnalogDescription"
+
+
+#                                                   m/o
+":T","EqRtg",
+   "{
+    (V)                     <VSTR16>,               #o
+    (ContCur)               <VSTR16>,               #o
+    (Hz)                    <VSTR16>,               #o
+    (Temp)                  <VSTR16>,               #o
+    (FltCur)                <VSTR16>,               #o
+    (FltDur)                <INT16U>,               #o
+    (VA)                    <VSTR16>,               #o
+    (VAr)                   <VSTR16>,               #o
+    (UnitVAr)               <VSTR16>,               #o
+    (NumUnit)               <VSTR16>,               #o
+    (VTPhs)                 <CKTPHS>,               #o
+    (CTPhs)                 <CKTPHS>               #o
+    }","EquipmentRating"
+
+
+#                                                   m/o
+":T","ConCkt",
+   "{
+    (CktID)                 <VSTR32>,               #m
+    (CktPhs)                <CKTPHS>,                #m
+    (LinLenm)               <FLT32>,                #o
+    (ContCur)               <VSTR16>,               #o
+    (VRtg)                  <VSTR16>,               #o
+    (PosiSqZ)               <FLT32>,                #o
+    (NegSqZ)                <FLT32>,                #o
+    (ZeroSqZ)               <FLT32>,                #o
+    (Ko)                    <FLT32>                 #o
+    }","ConnectedCircuit"

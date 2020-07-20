@@ -1,0 +1,174 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+
+#############################################################
+#The following is from Section 6.5 of GOMSFE 0.7
+#############################################################
+#%%Look at 6.5.11
+#%%Look at 6.5.12
+#%%Look at 6.5.13
+#%%Look at 6.5.14-6.5.16
+
+#                                                   m/o
+":T","AO",
+   "{
+    (i)                     <INT16S>,               #o
+    (f)                     <FLT32>,                #o
+    (SBO)                   <IDENT>                #o
+    }","AnalogOutput"
+
+#                                                   m/o
+":T","AISP",
+   "{
+    (hhl)                   <INT16S>,               #o
+    (hl)                    <INT16S>,               #o
+    (ll)                    <INT16S>,               #o
+    (lll)                   <INT16S>,               #o
+    (db)                    <INT16U>               #o
+    }","AnalogInpustSetPoints"
+
+
+#                                                   m/o
+# SHOTS
+":T","SHOTS",
+   "{
+    (TmR1)                  <INT16S>,               #o
+    (TmR2)                  <INT16S>,               #o
+    (TmR3)                  <INT16S>,               #o
+    (TmR4)                  <INT16S>,               #o
+    (TmR5)                  <INT16S>,               #o
+    (RsTmr)                 <INT16S>               #o
+    }","RecloserShots"
+
+
+#                                                   m/o
+":T","PUG",
+   "{
+    (Phsi)                  <INT16S>,               #o
+    (Phsf)                  <FLT32>,                #o
+    (Neuti)                 <INT16S>,               #o
+    (Neutf)                 <FLT32>,                #o
+    (CldLodi)               <INT16S>,               #o
+    (CldLodf)               <FLT32>,                #o
+    (Hzi)                   <INT16S>,               #o
+    (Hzf)                   <FLT32>                #o
+    }","PickupGroup"
+
+
+#
+":T","CBPUG",
+   "{
+    (Maxi)                  <INT16S>,               #m
+    (Maxf)                  <FLT32>,                #o
+    (Mini)                  <INT16S>,               #m
+    (Minf)                  <FLT32>,                #o
+    (TimLmt)                <INT16U>                #m
+    }","CapacitorBankPickupGroup"
+
+
+#                                                   m/o
+":T","CBTim",
+   "{
+    (SunSch)                [6:<BTIME4>],            #o
+    (MonSch)                [6:<BTIME4>],            #o
+    (TueSch)                [6:<BTIME4>],            #o
+    (WedSch)                [6:<BTIME4>],            #o
+    (ThuSch)                [6:<BTIME4>],            #o
+    (FriSch)                [6:<BTIME4>],            #o
+    (SatSch)                [6:<BTIME4>]            #o
+    }","CapacitorBankTimeSchedule"
+
+
+#                                                    m/o
+":T","XY",
+   "{
+    (Xi)                    <INT16S>,                #o
+    (Xf)                    <FLT32>,                 #o
+    (Yi)                    <INT16S>,                #o
+    (Yf)                    <FLT32>                 #o
+    }","RetanglerCoordinates"
+
+
+#                                                    m/o
+":T","VEC",
+   "{
+    (Magi)                  <INT16S>,                #o
+    (Magf)                  <FLT32>,                 #o
+    (Angi)                  <INT16S>,                #o
+    (Angf)                  <FLT32>                 #o
+    }","PolarCoordinates"
+
+
+#                                                    m/o
+":T","RectZ", 
+   "{ 
+    (PosiZ)                 <XY>,                    #o
+    (NegZ)                  <XY>,                    #o
+    (ZeroZ)                 <XY>,                    #o
+    (q)                     <BSTR16>,                #o
+    (t)                     <BTIME6>                #o
+    }","RectangularCoordinateImpedance"
+
+
+#                                                    m/o
+":T","PoZ",
+   "{
+    (PosiZ)                 <VEC>,                   #o
+    (NegZ)                  <VEC>,                   #o
+    (ZeroZ)                 <VEC>,                   #o
+    (q)                     <BSTR16>,                #o
+    (t)                     <BTIME6>                 #o
+    }","PolarCoordinateImpedence"
+
+
+#                                                    m/o
+":T","PoB",
+   "{
+    (Angi)                    <INT16S>,              #m
+    (XOfsi)                   <INT16S>,              #o
+    (YOfsi)                   <INT16S>              #o
+    }","PolarBlinder"
+
+
+#                                                    m/o
+":T","RectB",
+   "{
+    (XY1)                     <XY>,                  #o
+    (XY2)                     <XY>                  #o
+    }","RectangularBlinder"
+
+
+#                                                    m/o
+":T","PQuad",
+   "{
+    (UReact)                  <PoB>,                 #m
+    (LReact)                  <PoB>,                 #m
+    (LtRest)                  <PoB>,                 #m
+    (RtRest)                  <PoB>                  #m
+    }","PolarQuadrilateral"
+
+#                                                    m/o
+":T","RQuad",
+   "{
+    (ULXY)                   <RectB>,                #m
+    (LLXY)                   <RectB>,                #m
+    (URXY)                   <RectB>,                #m
+    (LRXY)                   <RectB>                #m
+    }","RectangularQuadrilateral"
+
+
+#                                                    m/o
+":T","CURVE",
+   "{
+    (CoefA)                  <FLT32>,                #o
+    (CoefB)                  <FLT32>,                #o
+    (CoefC)                  <FLT32>,                #o
+    (CoefD)                  <FLT32>                #o
+    }","Curve"
+
+
+

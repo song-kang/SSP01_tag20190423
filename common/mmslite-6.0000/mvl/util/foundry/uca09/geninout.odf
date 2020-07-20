@@ -1,0 +1,389 @@
+#############################################################
+#Copyright 1998-1999, Systems Integration Specialists Company, Inc.
+#               All Rights Reserved
+#############################################################
+
+":CI", "gentypes.odf"
+":CI", "mx.odf"
+":CI", "st.odf"
+":CI", "sp.odf"
+":CI", "co.odf"
+":CI", "cf.odf"
+":CI", "cb.odf"
+":CI", "ax.odf"
+":CI", "dc.odf"
+
+#############################################################
+#The following is from Section 7.3 of GOMSFE 0.7
+#############################################################
+
+
+
+
+#                                                   #m/o
+":T","GAIN",
+   "{
+    (MX) {
+         (In01)             <AI>,                  #m
+         (In02)             <AI>,                  #m
+         (In03)             <AI>,                  #m
+         (In04)             <AI>,                  #m
+         (In05)             <AI>,                  #m
+         (In06)             <AI>,                  #m
+         (In07)             <AI>,                  #m
+         (In08)             <AI>,                  #m
+         (In09)             <AI>,                  #m
+         (In10)             <AI>,                  #m
+         (In11)             <AI>,                  #m
+         (In12)             <AI>,                  #m
+         (In13)             <AI>,                  #m
+         (In14)             <AI>,                  #m
+         (In15)             <AI>,                  #m
+         (In16)             <AI>                  #m
+         },
+    (CF) {
+         (In01)             <ACF>,                  #m
+         (In02)             <ACF>,                  #m
+         (In03)             <ACF>,                  #m
+         (In04)             <ACF>,                  #m
+         (In05)             <ACF>,                  #m
+         (In06)             <ACF>,                  #m
+         (In07)             <ACF>,                  #m
+         (In08)             <ACF>,                  #m
+         (In09)             <ACF>,                  #m
+         (In10)             <ACF>,                  #m
+         (In11)             <ACF>,                  #m
+         (In12)             <ACF>,                  #m
+         (In13)             <ACF>,                  #m
+         (In14)             <ACF>,                  #m
+         (In15)             <ACF>,                  #m
+         (In16)             <ACF>                  #m
+         },
+    (DC) {
+         (In01)             <d>,                  #m
+         (In02)             <d>,                  #m
+         (In03)             <d>,                  #m
+         (In04)             <d>,                  #m
+         (In05)             <d>,                  #m
+         (In06)             <d>,                  #m
+         (In07)             <d>,                  #m
+         (In08)             <d>,                  #m
+         (In09)             <d>,                  #m
+         (In10)             <d>,                  #m
+         (In11)             <d>,                  #m
+         (In12)             <d>,                  #m
+         (In13)             <d>,                  #m
+         (In14)             <d>,                  #m
+         (In15)             <d>,                  #m
+         (In16)             <d>                  #m
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>               #m
+         },
+    }","GenericAnalogInput"
+
+
+#
+":T","GSPT",
+   "{
+    (ST) {
+         (BO01)            <SI>,                   #o
+         (BO02)            <SI>,                   #o
+         (BO03)            <SI>,                   #o
+         (BO04)            <SI>,                   #o
+         (BO05)            <SI>,                   #o
+         (BO06)            <SI>,                   #o
+         (BO07)            <SI>,                   #o
+         (BO08)            <SI>,                   #o
+         (BO09)            <SI>,                   #o
+         (BO10)            <SI>,                   #o
+         (BO11)            <SI>,                   #o
+         (BO12)            <SI>,                   #o
+         (BO13)            <SI>,                   #o
+         (BO14)            <SI>,                   #o
+         (BO15)            <SI>,                   #o
+         (BO16)            <SI>,                   #o
+         (OD01)            <SIT>,                  #o
+         (AuxOut01)        <SIG>                  #o
+         },
+    (SP) {
+         (Out01)           <AO>,                   #o
+         (Out02)           <AO>,                   #o
+         (Out03)           <AO>,                   #o
+         (Out04)           <AO>,                   #o
+         (Out05)           <AO>,                   #o
+         (Out06)           <AO>,                   #o
+         (Out07)           <AO>,                   #o
+         (Out08)           <AO>,                   #o
+         (Out09)           <AO>,                   #o
+         (Out10)           <AO>,                   #o
+         (Out11)           <AO>,                   #o
+         (Out12)           <AO>,                   #o
+         (Out13)           <AO>,                   #o
+         (Out14)           <AO>,                   #o
+         (Out15)           <AO>,                   #o
+         (Out16)           <AO>                   #o
+         },
+    (CF) {
+         (Out01)           <ACF>,                   #o
+         (Out02)           <ACF>,                   #o
+         (Out03)           <ACF>,                   #o
+         (Out04)           <ACF>,                   #o
+         (Out05)           <ACF>,                   #o
+         (Out06)           <ACF>,                   #o
+         (Out07)           <ACF>,                   #o
+         (Out08)           <ACF>,                   #o
+         (Out09)           <ACF>,                   #o
+         (Out10)           <ACF>,                   #o
+         (Out11)           <ACF>,                   #o
+         (Out12)           <ACF>,                   #o
+         (Out13)           <ACF>,                   #o
+         (Out14)           <ACF>,                   #o
+         (Out15)           <ACF>,                   #o
+         (Out16)           <ACF>                   #o
+         },
+    (DC) {
+         (Out01)           <d>,                   #o
+         (Out02)           <d>,                   #o
+         (Out03)           <d>,                   #o
+         (Out04)           <d>,                   #o
+         (Out05)           <d>,                   #o
+         (Out06)           <d>,                   #o
+         (Out07)           <d>,                   #o
+         (Out08)           <d>,                   #o
+         (Out09)           <d>,                   #o
+         (Out10)           <d>,                   #o
+         (Out11)           <d>,                   #o
+         (Out12)           <d>,                   #o
+         (Out13)           <d>,                   #o
+         (Out14)           <d>,                   #o
+         (Out15)           <d>,                   #o
+         (Out16)           <d>                   #o
+         },
+    (RP) {
+         (brcbMX)           <BASRCB>               #o
+         },
+    }","GenericSetPoint"
+
+
+#
+":T","GACC",
+   "{
+    (MX) {
+         (Cnt01)           <ACCI>,                 #o
+         (Cnt02)           <ACCI>,                 #o
+         (Cnt03)           <ACCI>,                 #o
+         (Cnt04)           <ACCI>,                 #o
+         (Cnt05)           <ACCI>,                 #o
+         (Cnt06)           <ACCI>,                 #o
+         (Cnt07)           <ACCI>,                 #o
+         (Cnt08)           <ACCI>,                 #o
+         (Cnt09)           <ACCI>,                 #o
+         (Cnt10)           <ACCI>,                 #o
+         (Cnt11)           <ACCI>,                 #o
+         (Cnt12)           <ACCI>,                 #o
+         (Cnt13)           <ACCI>,                 #o
+         (Cnt14)           <ACCI>,                 #o
+         (Cnt15)           <ACCI>,                 #o
+         (Cnt16)           <ACCI>                 #o
+         },
+    (CF) {
+         (Cnt01)           <ACF>,                 #o
+         (Cnt02)           <ACF>,                 #o
+         (Cnt03)           <ACF>,                 #o
+         (Cnt04)           <ACF>,                 #o
+         (Cnt05)           <ACF>,                 #o
+         (Cnt06)           <ACF>,                 #o
+         (Cnt07)           <ACF>,                 #o
+         (Cnt08)           <ACF>,                 #o
+         (Cnt09)           <ACF>,                 #o
+         (Cnt10)           <ACF>,                 #o
+         (Cnt11)           <ACF>,                 #o
+         (Cnt12)           <ACF>,                 #o
+         (Cnt13)           <ACF>,                 #o
+         (Cnt14)           <ACF>,                 #o
+         (Cnt15)           <ACF>,                 #o
+         (Cnt16)           <ACF>                 #o
+         },
+    (DC) {
+         (Cnt01)           <d>,                 #o
+         (Cnt02)           <d>,                 #o
+         (Cnt03)           <d>,                 #o
+         (Cnt04)           <d>,                 #o
+         (Cnt05)           <d>,                 #o
+         (Cnt06)           <d>,                 #o
+         (Cnt07)           <d>,                 #o
+         (Cnt08)           <d>,                 #o
+         (Cnt09)           <d>,                 #o
+         (Cnt10)           <d>,                 #o
+         (Cnt11)           <d>,                 #o
+         (Cnt12)           <d>,                 #o
+         (Cnt13)           <d>,                 #o
+         (Cnt14)           <d>,                 #o
+         (Cnt15)           <d>,                 #o
+         (Cnt16)           <d>                 #o
+         },
+    (RP) {
+         (fcbMX)            <ACCFCB>,               #o
+         (brcbMX)           <BASRCB>,               #o
+         },
+    }","GenericAccumulator"
+
+
+#
+":T","GIND",
+   "{
+    (ST) {
+         (SI01)            <SI>,                   #o
+         (SI02)            <SI>,                   #o
+         (SI03)            <SI>,                   #o
+         (SI04)            <SI>,                   #o
+         (SI05)            <SI>,                   #o
+         (SI06)            <SI>,                   #o
+         (SI07)            <SI>,                   #o
+         (SI08)            <SI>,                   #o
+         (SI09)            <SI>,                   #o
+         (SI10)            <SI>,                   #o
+         (SI11)            <SI>,                   #o
+         (SI12)            <SI>,                   #o
+         (SI13)            <SI>,                   #o
+         (SI14)            <SI>,                   #o
+         (SI15)            <SI>,                   #o
+         (SI16)            <SI>,                   #o
+         (DPI01)           <SIT>,                  #o
+         (DPI02)           <SIT>,                  #o
+         (DPI03)           <SIT>,                  #o
+         (DPI04)           <SIT>,                  #o
+         (DPI05)           <SIT>,                  #o
+         (DPI06)           <SIT>,                  #o
+         (DPI07)           <SIT>,                  #o
+         (DPI08)           <SIT>,                  #o
+         (SIG01)           <SIG>                  #o
+         },
+    (DC) {
+         (SI01)            <d>,                   #o
+         (SI02)            <d>,                   #o
+         (SI03)            <d>,                   #o
+         (SI04)            <d>,                   #o
+         (SI05)            <d>,                   #o
+         (SI06)            <d>,                   #o
+         (SI07)            <d>,                   #o
+         (SI08)            <d>,                   #o
+         (SI09)            <d>,                   #o
+         (SI10)            <d>,                   #o
+         (SI11)            <d>,                   #o
+         (SI12)            <d>,                   #o
+         (SI13)            <d>,                   #o
+         (SI14)            <d>,                   #o
+         (SI15)            <d>,                   #o
+         (SI16)            <d>,                   #o
+         (DPI01)           <d>,                  #o
+         (DPI02)           <d>,                  #o
+         (DPI03)           <d>,                  #o
+         (DPI04)           <d>,                  #o
+         (DPI05)           <d>,                  #o
+         (DPI06)           <d>,                  #o
+         (DPI07)           <d>,                  #o
+         (DPI08)           <d>,                  #o
+         (SIG01)           <d>                  #o
+         },
+    (LG) {
+         (lcbSOE)           <LCB>,                  #o
+         },
+    (RP) {
+         (brcbST)           <BASRCB>,               #m
+         (brcbSOE)          <BASRCB>,               #m
+         },
+    }","GenericIndicator"
+
+
+#
+":T","GCTL",
+   "{
+    (ST) {
+         (BO01)            <SI>,                   #o
+         (BO02)            <SI>,                   #o
+         (BO03)            <SI>,                   #o
+         (BO04)            <SI>,                   #o
+         (BO05)            <SI>,                   #o
+         (BO06)            <SI>,                   #o
+         (BO07)            <SI>,                   #o
+         (BO08)            <SI>,                   #o
+         (BO09)            <SI>,                   #o
+         (BO10)            <SI>,                   #o
+         (BO11)            <SI>,                   #o
+         (BO12)            <SI>,                   #o
+         (BO13)            <SI>,                   #o
+         (BO14)            <SI>,                   #o
+         (BO15)            <SI>,                   #o
+         (BO16)            <SI>,                   #o
+         (OD01)            <SIT>,                  #o
+         (AuxOut01)        <SIG>                  #o
+         },
+    (CO) {
+         (BO01)            <BO>,                   #o
+         (BO02)            <BO>,                   #o
+         (BO03)            <BO>,                   #o
+         (BO04)            <BO>,                   #o
+         (BO05)            <BO>,                   #o
+         (BO06)            <BO>,                   #o
+         (BO07)            <BO>,                   #o
+         (BO08)            <BO>,                   #o
+         (BO09)            <BO>,                   #o
+         (BO10)            <BO>,                   #o
+         (BO11)            <BO>,                   #o
+         (BO12)            <BO>,                   #o
+         (BO13)            <BO>,                   #o
+         (BO14)            <BO>,                   #o
+         (BO15)            <BO>,                   #o
+         (BO16)            <BO>,                   #o
+         (OD01)            <DCO>,                  #o
+         (AuxOut01)        [16:<BOOL>]             #o
+         },
+    (CF) {
+         (BO01)            <CCF>,                   #o
+         (BO02)            <CCF>,                   #o
+         (BO03)            <CCF>,                   #o
+         (BO04)            <CCF>,                   #o
+         (BO05)            <CCF>,                   #o
+         (BO06)            <CCF>,                   #o
+         (BO07)            <CCF>,                   #o
+         (BO08)            <CCF>,                   #o
+         (BO09)            <CCF>,                   #o
+         (BO10)            <CCF>,                   #o
+         (BO11)            <CCF>,                   #o
+         (BO12)            <CCF>,                   #o
+         (BO13)            <CCF>,                   #o
+         (BO14)            <CCF>,                   #o
+         (BO15)            <CCF>,                   #o
+         (BO16)            <CCF>,                   #o
+         (OD01)            <CCF>,                  #o
+         (AuxOut01)        <CCF>                  #o
+         },
+    (DC) {
+         (BO01)            <d>,                   #o
+         (BO02)            <d>,                   #o
+         (BO03)            <d>,                   #o
+         (BO04)            <d>,                   #o
+         (BO05)            <d>,                   #o
+         (BO06)            <d>,                   #o
+         (BO07)            <d>,                   #o
+         (BO08)            <d>,                   #o
+         (BO09)            <d>,                   #o
+         (BO10)            <d>,                   #o
+         (BO11)            <d>,                   #o
+         (BO12)            <d>,                   #o
+         (BO13)            <d>,                   #o
+         (BO14)            <d>,                   #o
+         (BO15)            <d>,                   #o
+         (BO16)            <d>,                   #o
+         (OD01)            <d>,                  #o
+         (AuxOut01)        <d>                  #o
+         },
+    (LG) {
+         (LCB)              <LCB>                  #o
+         },
+    (RP) {
+         (brcbSOE)         <BASRCB>               #o
+         },
+    }","GenericControl"

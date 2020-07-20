@@ -1,0 +1,41 @@
+
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 10:19:47 2015
+***********************************************************
+
+2015-09-22 10:19:47.511 LOGCFG_ERR (logcfgx.c 688 ThreadId=0x570 (1392)) 
+  ERROR Parsing Logging Configuration File: Trying again w/debug on ... 
+
+2015-09-22 10:19:47.511 SX_LOG_FLOW (sx_dec.c 162 ThreadId=0x570 (1392)) 
+  XML File (logcfg.xml) Open Error (errno=2)
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 10:30:09 2015
+***********************************************************
+
+2015-09-22 10:30:09.371 LOGCFG_ERR (logcfgx.c 688 ThreadId=0x3F0 (1008)) 
+  ERROR Parsing Logging Configuration File: Trying again w/debug on ... 
+
+2015-09-22 10:30:09.371 SX_LOG_FLOW (sx_dec.c 162 ThreadId=0x3F0 (1008)) 
+  XML File (logcfg.xml) Open Error (errno=2)
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 10:32:10 2015
+***********************************************************
+
+2015-09-22 10:32:10.230 LOGCFG_ERR (logcfgx.c 688 ThreadId=0xFB4 (4020)) 
+  ERROR Parsing Logging Configuration File: Trying again w/debug on ... 
+
+2015-09-22 10:32:10.230 SX_LOG_FLOW (sx_dec.c 162 ThreadId=0xFB4 (4020)) 
+  XML File (logcfg.xml) Open Error (errno=2)
+
+***********************************************************
+          LOGGING STARTED Tue Sep 22 10:32:30 2015
+***********************************************************
+
+2015-09-22 10:32:30.261 LOGCFG_ERR (logcfgx.c 688 ThreadId=0xDB0 (3504)) 
+  ERROR Parsing Logging Configuration File: Trying again w/debug on ... 
+
+2015-09-22 10:32:30.261 SX_LOG_FLOW (sx_dec.c 162 ThreadId=0xDB0 (3504)) 
+  XML File (logcfg.xml) Open Error (errno=2)

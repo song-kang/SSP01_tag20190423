@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ssnmp", "ssnmp.vcxproj", "{0545E71E-ED4C-48B8-999A-34DC97206DAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_snmp", "test_snmp\test_snmp.vcxproj", "{E70FD301-B159-42F6-B896-9FDA5E955AD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0545E71E-ED4C-48B8-999A-34DC97206DAC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0545E71E-ED4C-48B8-999A-34DC97206DAC}.Debug|Win32.Build.0 = Debug|Win32
+		{0545E71E-ED4C-48B8-999A-34DC97206DAC}.Release|Win32.ActiveCfg = Release|Win32
+		{0545E71E-ED4C-48B8-999A-34DC97206DAC}.Release|Win32.Build.0 = Release|Win32
+		{E70FD301-B159-42F6-B896-9FDA5E955AD5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E70FD301-B159-42F6-B896-9FDA5E955AD5}.Debug|Win32.Build.0 = Debug|Win32
+		{E70FD301-B159-42F6-B896-9FDA5E955AD5}.Release|Win32.ActiveCfg = Release|Win32
+		{E70FD301-B159-42F6-B896-9FDA5E955AD5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>panel_sim_mmssvr</class>
+ <widget class="QWidget" name="panel_sim_mmssvr">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>738</width>
+    <height>610</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>panel_sim_mmssvr</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>MMS配置</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="7" column="1">
+        <widget class="QCheckBox" name="chkGlobalCtrl_Select">
+         <property name="text">
+          <string>允许选择</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>每秒允许状态量变化次数:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1" rowspan="2">
+        <widget class="QLineEdit" name="edtStTimes"/>
+       </item>
+       <item row="2" column="0" rowspan="2">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>每秒允许量测量变化次数:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="edtMxTimes"/>
+       </item>
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="chkMmsUsed">
+         <property name="text">
+          <string>启用MMS服务</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="btnSave">
+         <property name="text">
+          <string>保存配置(&amp;S)</string>
+         </property>
+         <property name="icon">
+          <iconset resource="sim_iec61850.qrc">
+           <normaloff>:/sim_iec61850/Resources/save.gif</normaloff>:/sim_iec61850/Resources/save.gif</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>扩展属性配置:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>全局控制使能:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QCheckBox" name="chkGlobalCtrl_Oper">
+         <property name="text">
+          <string>允许执行</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="3">
+        <widget class="QCheckBox" name="chkGlobalCtrl_Cancel">
+         <property name="text">
+          <string>允许取消</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" colspan="2">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="1" colspan="3">
+        <widget class="QLineEdit" name="edtExtAttr"/>
+       </item>
+       <item row="8" column="0" colspan="4">
+        <widget class="QTableWidget" name="twSubnet"/>
+       </item>
+       <item row="5" column="1" colspan="2">
+        <widget class="QCheckBox" name="chkSimIpAddr">
+         <property name="text">
+          <string>模拟各IED装置的IP地址</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="title">
+       <string>Mms服务日志</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QTableWidget" name="twLog"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="sim_iec61850.qrc"/>
+ </resources>
+ <connections/>
+</ui>

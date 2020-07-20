@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CViewModuleInfo</class>
+ <widget class="QWidget" name="CViewModuleInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>529</width>
+    <height>390</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CViewModuleInfo</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButtonQuery">
+         <property name="text">
+          <string>刷新(&amp;R)</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ssp_gui.qrc">
+           <normaloff>:/ssp_gui/Resources/hujiaozhuanyi.gif</normaloff>:/ssp_gui/Resources/hujiaozhuanyi.gif</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonSave">
+         <property name="text">
+          <string>导出(&amp;E)...</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ssp_gui.qrc">
+           <normaloff>:/ssp_gui/Resources/export2.gif</normaloff>:/ssp_gui/Resources/export2.gif</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonPrint">
+         <property name="text">
+          <string>打印(&amp;P)</string>
+         </property>
+         <property name="icon">
+          <iconset resource="ssp_gui.qrc">
+           <normaloff>:/ssp_gui/Resources/print.gif</normaloff>:/ssp_gui/Resources/print.gif</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ssp_gui.qrc"/>
+ </resources>
+ <connections/>
+</ui>
