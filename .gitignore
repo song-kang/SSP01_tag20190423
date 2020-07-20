@@ -6,6 +6,15 @@
 *.lo
 *.o
 *.obj
+*.pdb
+*.exp
+*.ilk
+*.sdf
+*.suo
+*.user
+*.ipch
+Debug
+Release
 
 # Precompiled Headers
 *.gch
