@@ -94,8 +94,8 @@ CSsp_Database::~CSsp_Database()
 		delete m_pMdbDbPools;
 }
 
-#define UKDB_PWD_MASK "iuiqbaio2947ngf2"
-
+//#define UKDB_PWD_MASK "iuiqbaio2947ngf2"
+#define UKDB_PWD_MASK "yqqlm^gsycl.1978"
 //////////////////////////////////////////////////////////////////////////
 // 描    述:  加载指定的配置文件
 // 作    者:  邵凯田
